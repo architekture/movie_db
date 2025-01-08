@@ -1,2 +1,3 @@
 archives/movies.csv.*
 mvdb/__pycache__
+nornir.log
