@@ -1,0 +1,15 @@
+---
+data:
+  color: true
+  animation: false
+  hdr: false
+  commentary: false
+  boutique_release: false
+  slipcover: false
+  steelbook: false
+  needs_case_replacement: false
+  mpaa:
+    rating: null
+    reason: null
+    distributor: null
+    alt_title: null

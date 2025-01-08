@@ -1,0 +1,11 @@
+---
+inventory:
+  plugin: SimpleInventory
+  options:
+    host_file: "archives/movies.yml"
+    group_file: "archives/groups.yml"
+    defaults_file: "archives/defaults.yml"
+runner:
+  plugin: threaded
+  options:
+    num_workers: 32

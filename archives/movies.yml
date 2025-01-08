@@ -1,0 +1,4052 @@
+---
+2001-a_space_odyssey:
+  groups:
+    - blu-ray
+  data:
+    title: '2001: A Space Odyssey'
+    year: 1968
+    runtime: 149
+    director: Stanley Kubrick
+    crew:
+      writer:
+        - Stanley Kubrick
+        - Arthur C. Clarke
+      cinematographer: Geoffrey Unsworth
+      composer: ''
+      editor: Ray Lovejoy
+    aspect_ratio: 2.2
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: G
+      reason: null
+      distributor: MGM Film Company
+      alt_title: null
+
+akira:
+  groups:
+    - 4k_uhd
+    - animation
+    - hdr10
+  data:
+    title: Akira
+    year: 1988
+    runtime: 124
+    director: Katsuhiro Otomo
+    crew:
+      writer:
+        - Katsuhiro Otomo
+        - Izo Hashimoto
+      cinematographer: Katsuji Misawa
+      composer: Shoji Yamashiro
+      editor: Takeshi Seyama
+    aspect_ratio: 1.85
+    publisher: FUNimation
+    discs: 2
+
+alien:
+  groups:
+    - blu-ray
+    - slipcover
+  data:
+    title: Alien
+    year: 1979
+    runtime: 116
+    director: Ridley Scott
+    crew:
+      writer: Dan O'Bannon
+      cinematographer: Derek Vanlint
+      composer: Jerry Goldsmith
+      editor:
+        - David Crowther
+        - Terry Rawlings
+        - Peter Weatherley
+    aspect_ratio: 2.35
+    publisher: Twentieth Century Fox Home Entertainment LLC
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: null
+
+aliens:
+  groups:
+    - blu-ray
+    - slipcover
+  data:
+    title: Aliens
+    year: 1986
+    runtime: 137
+    director: James Cameron
+    crew:
+      writer: James Cameron
+      cinematographer: Adrian Biddle
+      composer: James Horner
+      editor: Ray Lovejoy
+    aspect_ratio: 1.85
+    publisher: Twentieth Century Fox Home Entertainment LLC
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: Alien 2
+
+alphaville:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10_dv
+    - boutique
+    - slipcover
+  data:
+    title: Alphaville
+    year: 1965
+    runtime: 99
+    director: Jean-Luc Godard
+    crew:
+      writer: Jean-Luc Godard
+      cinematographer: Raoul Coutard
+      composer: Paul Misraki
+      editor: "Agn\xE8s Guillemot"
+    aspect_ratio: 1.37
+    publisher: Kino Lorber Studio Classics
+    discs: 2
+
+amelie:
+  groups:
+    - blu-ray
+    - steelbook
+  data:
+    title: Amelie
+    year: 2001
+    runtime: 122
+    director: Jean-Pierre Jeunet
+    crew:
+      writer: Guillaume Laurant
+      cinematographer: Bruno Delbonnel
+      composer: Yann Tiersen
+      editor: Herve Schneid
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 1
+    mpaa:
+      rating: R
+      reason: sexual content
+      distributor: Sony Pictures Classics
+      alt_title:
+        - Amelie From Montmartre
+        - Amelie In Montmartre
+        - Le Fabuleux Destin D'Amelie Poulain
+
+the_american:
+  groups:
+    - blu-ray
+  data:
+    title: The American
+    year: 2010
+    runtime: 105
+    director: Anton Corbijn
+    crew:
+      writer: Rowan Joffe
+      cinematographer: Martin Ruhe
+      composer: "Herbert Gr\xF6nemeyer"
+      editor: Andrew Hulme
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - sexual content
+        - nudity
+      distributor: Focus Features LLC
+      alt_title: null
+
+american_gangster:
+  groups:
+    - blu-ray
+  data:
+    title: American Gangster
+    year: 2007
+    runtime: 158
+    director: Ridley Scott
+    crew:
+      writer: Steven Zaillian
+      cinematographer: Harris Savides
+      composer: Marc Streitenfeld
+      editor: Pietro Scalia
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - pervasive drug content and language
+        - nudity
+        - sexuality
+      distributor: Universal Studios
+      alt_title: null
+
+american_movie:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: American Movie
+    year: 1999
+    runtime: 105
+    director: Chris Smith
+    crew:
+      writer: ''
+      cinematographer: Chris Smith
+      composer: Mike Schank
+      editor:
+        - Barry Poltermann
+        - Jun Diaz
+    aspect_ratio: 1.33
+    publisher: Sony Pictures Home Entertainment
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - some drug content
+      distributor: Sony Pictures Classics
+      alt_title: null
+
+annihiliation:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Annihiliation
+    year: 2018
+    runtime: 115
+    director: Alex Garland
+    crew:
+      writer: Alex Garland
+      cinematographer: Rob Hardy
+      composer:
+        - Ben Salisbury
+        - Geoff Barrow
+      editor: Barney Pilling
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - bloody images
+        - language
+        - some sexuality
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+
+apollo_13:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Apollo 13
+    year: 1995
+    runtime: 140
+    director: Ron Howard
+    crew:
+      writer:
+        - William Broyles Jr.
+        - Al Reinert
+      cinematographer: Dean Cundey
+      composer: James Horner
+      editor:
+        - Mike Hill
+        - Dan Hanley
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: PG
+      reason:
+        - language
+        - emotional intensity
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+army_of_shadows:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Army of Shadows
+    year: 1969
+    runtime: 145
+    director: Jean-Pierre Melville
+    crew:
+      writer: Joseph Kessel
+      cinematographer: Pierre Lhomme
+      composer: ''
+      editor: "Fran\xE7oise Bonnot"
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+
+the_batman:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: The Batman
+    year: 2022
+    runtime: 176
+    director: Matt Reeves
+    crew:
+      writer:
+        - Matt Reeves
+        - Peter Craig
+      cinematographer: Greig Fraser
+      composer: Michael Giacchino
+      editor:
+        - William Hoy
+        - Tyler Nelson
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 3
+    mpaa:
+      rating: PG-13
+      reason:
+        - strong violent and disturbing content
+        - drug content
+        - strong language
+        - some suggestive material
+      distributor: Warner Bros. Pictures
+      alt_title: null
+
+batman_begins:
+  groups:
+    - blu-ray
+  data:
+    title: Batman Begins
+    year: 2005
+    runtime: 140
+    director: Christopher Nolan
+    crew:
+      writer:
+        - Christopher Nolan
+        - David S. Goyer
+      cinematographer: Wally Pfister
+      composer:
+        - Hans Zimmer
+        - James Newton Howard
+      editor: Lee Smith
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason:
+        - intense action violence
+        - disturbing images
+        - some thematic elements
+      distributor: Warner Bros. Pictures Inc.
+      alt_title: null
+
+berry_gordy's_the_last_dragon:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Berry Gordy's The Last Dragon
+    year: 1985
+    runtime: 108
+    director: Michael Schultz
+    crew:
+      writer: Louis Venosta
+      cinematographer: James A. Contner
+      composer: Misha Segal
+      editor: Christopher Holmes
+    aspect_ratio: 1.85
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: null
+      distributor: Tri-Star Pictures
+      alt_title: Last Dragon, The
+
+big_trouble_in_little_china:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Big Trouble in Little China
+    year: 1986
+    runtime: 100
+    director: John Carpenter
+    crew:
+      writer: W.D. Richter
+      cinematographer: Dean Cundey
+      composer:
+        - John Carpenter
+        - Alan Howarth
+      editor:
+        - Mark Warner
+        - Steve Mirkovich
+        - Edward A. Warschilka
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: null
+      distributor: Twentieth Century Fox Film
+      alt_title: null
+
+bill_&_ted's_excellent_adventure:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Bill & Ted's Excellent Adventure
+    year: 1989
+    runtime: 91
+    director: Stephen Herek
+    crew:
+      writer:
+        - Chris Matheson
+        - Ed Solomon
+      cinematographer: Timothy Suhrstedt
+      composer: David Newman
+      editor: ''
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 1
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Orion Pictures Corp.
+      alt_title: null
+
+blackhat:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - slipcover
+  data:
+    title: Blackhat
+    year: 2015
+    runtime: 134
+    director: Michael Mann
+    crew:
+      writer: Morgan Davis Foehl
+      cinematographer: Stuart Dryburgh
+      composer:
+        - Harry Gregson-Williams
+        - Atticus Ross
+      editor:
+        - Joe Walker
+        - Stephen Rivkin
+        - Jeremiah O'Driscoll
+        - Mako Kamitsuna
+    aspect_ratio: 2.39
+    publisher: Arrow Video
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - some language
+      distributor: Universal Studios
+      alt_title: null
+
+blade_runner:
+  groups:
+    - blu-ray
+  data:
+    title: Blade Runner
+    year: 1982
+    runtime: 117
+    director: Ridley Scott
+    crew:
+      writer:
+        - Hampton Fancher
+        - David Peoples
+      cinematographer: Jordan Cronenweth
+      composer: Vangelis
+      editor: Marsha Nakashima
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 5
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Ladd Company Thru Warner Bros.
+      alt_title: null
+
+blade_runner_2049:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Blade Runner 2049
+    year: 2017
+    runtime: 164
+    director: Denis Villeneuve
+    crew:
+      writer:
+        - Hampton Fancher
+        - Michael Green
+      cinematographer: Roger A. Deakins
+      composer:
+        - Benjamin Wallfisch
+        - Hans Zimmer
+      editor: Joe Walker
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - some sexuality
+        - nudity
+        - language
+      distributor: Warner Bros. Pictures
+      alt_title: null
+
+blood_simple:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Blood Simple
+    year: 1984
+    runtime: 95
+    director:
+      - Joel Coen
+      - Ethan Coen
+    crew:
+      writer:
+        - Joel Coen
+        - Ethan Coen
+      cinematographer: Barry Sonnenfeld
+      composer: Carter Burwell
+      editor: Roderick Jaynes
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Circle Releasing Corp.
+      alt_title: null
+
+blue_velvet:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Blue Velvet
+    year: 1986
+    runtime: 120
+    director: David Lynch
+    crew:
+      writer: David Lynch
+      cinematographer: Frederick Elmes
+      composer: Angelo Badalamenti
+      editor: Duwayne Dunham
+    aspect_ratio: 2.35
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: De Laurentiis Entertainment Group
+      alt_title: null
+
+bob_le_flambeur:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+    - slipcover
+  data:
+    title: Bob Le Flambeur
+    year: 1956
+    runtime: 102
+    director: Jean-Pierre Melville
+    crew:
+      writer:
+        - Jean-Pierre Melville
+        - Auguste Le Breton
+      cinematographer: Henri Decae
+      composer:
+        - Eddie Barclay
+        - Jo Boyer
+      editor: Monique Bonnot
+    aspect_ratio: 1.37
+    publisher: Kino Lorber Studio Classics
+    discs: 2
+
+bottle_rocket:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Bottle Rocket
+    year: 1996
+    runtime: 91
+    director: Wes Anderson
+    crew:
+      writer:
+        - Owen Wilson
+        - Wes Anderson
+      cinematographer: Robert Yeoman
+      composer: Mark Mothersbaugh
+      editor: David Moritz
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason: language
+      distributor: Columbia Pictures
+      alt_title: null
+
+bound:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Bound
+    year: 1996
+    runtime: 108
+    director:
+      - Lana Wachowski
+      - Lilly Wachowski
+    crew:
+      writer:
+        - Lana Wachowski
+        - Lilly Wachowski
+      cinematographer: Bill Pope
+      composer: Don Davis
+      editor: Zach Staenberg
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong sexuality
+        - violence
+        - language
+      distributor: Gramercy Pictures
+      alt_title: null
+
+bram_stoker's_dracula:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Bram Stoker's Dracula
+    year: 1992
+    runtime: 127
+    director: Francis Ford Coppola
+    crew:
+      writer: James V. Hart
+      cinematographer: Michael Ballhaus
+      composer: Wojciech Kilar
+      editor:
+        - Nicholas C. Smith
+        - Glen Scantlebury
+        - Anne Goursaud
+    aspect_ratio: 1.85
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - sexuality
+        - horror violence
+      distributor: Columbia Pictures
+      alt_title: Dracula, The Untold Story
+
+burn_after_reading:
+  groups:
+    - blu-ray
+  data:
+    title: Burn After Reading
+    year: 2008
+    runtime: 96
+    director:
+      - Joel Coen
+      - Ethan Coen
+    crew:
+      writer:
+        - Joel Coen
+        - Ethan Coen
+      cinematographer: Emmanuel Lubezki
+      composer: Carter Burwell
+      editor: Roderick Jaynes
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - pervasive language
+        - some sexual content
+        - violence
+      distributor: Focus Features LLC
+      alt_title: null
+
+captain_america-the_first_avenger:
+  groups:
+    - blu-ray
+  data:
+    title: 'Captain America: The First Avenger'
+    year: 2011
+    runtime: 123
+    director: Joe Johnston
+    crew:
+      writer:
+        - Christopher Markus
+        - Stephen McFeely
+      cinematographer: Shelly Johnson
+      composer: Alan Silvestri
+      editor:
+        - Robert Dalva
+        - Jeffrey Ford
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: intense sequences of sci-fi violence and action
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+
+casino_royale:
+  groups:
+    - blu-ray
+    - slipcover
+  data:
+    title: Casino Royale
+    year: 2006
+    runtime: 144
+    director: Martin Campbell
+    crew:
+      writer:
+        - Neal Purvis
+        - Robert Wade
+        - Paul Haggis
+      cinematographer: "Phil M\xE9heux"
+      composer: David Arnold
+      editor: Stuart Baird
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - intense sequences of violent action
+        - a scene of torture
+        - sexual content
+        - nudity
+      distributor: Columbia Pictures
+      alt_title: null
+
+children_of_men:
+  groups:
+    - blu-ray
+  data:
+    title: Children of Men
+    year: 2006
+    runtime: 110
+    director: "Alfonso Cuar\xF3n"
+    crew:
+      writer:
+        - "Alfonso Cuar\xF3n"
+        - Timothy J. Sexton
+        - David Arata
+        - Mark Fergus
+        - Hawk Ostby
+      cinematographer: Emmanuel Lubezki
+      composer: John Tavener
+      editor:
+        - Alex Rodriguez
+        - "Alfonso Cuar\xF3n"
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - strong violence
+        - language
+        - some drug use
+        - brief nudity
+      distributor: Universal Studios
+      alt_title: null
+
+citizen_kane:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10_dv
+    - boutique
+  data:
+    title: Citizen Kane
+    year: 1941
+    runtime: 119
+    director: Orson Welles
+    crew:
+      writer:
+        - Herman J. Mankiewicz
+        - Orson Welles
+      cinematographer: Gregg Toland
+      composer: Bernard Herrmann
+      editor: Robert Wise
+    aspect_ratio: 1.37
+    publisher: The Criterion Collection
+    discs: 4
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+close_encounters_of_the_third_kind:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Close Encounters of the Third Kind
+    year: 1977
+    runtime: 135
+    director: Steven Spielberg
+    crew:
+      writer: Steven Spielberg
+      cinematographer: Vilmos Zsigmond
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Columbia Pictures Industries
+      alt_title: null
+
+colossus-the_forbin_project:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: 'Colossus: The Forbin Project'
+    year: 1970
+    runtime: 100
+    director: Joseph Sargent
+    crew:
+      writer: James Bridges
+      cinematographer: Gene Polito
+      composer: Michel Colombier
+      editor: Folmar Blangsted
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 1
+
+the_conversation:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: The Conversation
+    year: 1974
+    runtime: 114
+    director: Francis Ford Coppola
+    crew:
+      writer: Francis Ford Coppola
+      cinematographer: Bill Butler
+      composer: David Shire
+      editor: Richard Chew
+    aspect_ratio: 1.85
+    publisher: Studiocanal Limited
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+crimson_tide:
+  groups:
+    - blu-ray
+  data:
+    title: Crimson Tide
+    year: 1995
+    runtime: 116
+    director: Tony Scott
+    crew:
+      writer: Michael Schiffer
+      cinematographer: Dariusz Wolski
+      composer: Hans Zimmer
+      editor: Chris Lebenzon
+    aspect_ratio: 2.4
+    publisher: Buena Vista Home Entertainment, Inc.
+    discs: 1
+    mpaa:
+      rating: R
+      reason: strong language
+      distributor: Buena Vista Pictures Distribution, Inc.
+      alt_title: null
+
+crouching_tiger,_hidden_dragon:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - steelbook
+  data:
+    title: Crouching Tiger, Hidden Dragon
+    year: 2000
+    runtime: 120
+    director: Ang Lee
+    crew:
+      writer:
+        - Hui-Ling Wang
+        - James Schamus
+        - Kuo Jung Tsai
+      cinematographer: Peter Pau
+      composer: Tan Dun
+      editor: Tim Squyres
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - martial arts violence
+        - some sexuality
+      distributor: Sony Pictures Classics
+      alt_title: null
+
+dark_city:
+  groups:
+    - blu-ray
+  data:
+    title: Dark City
+    year: 1998
+    runtime: 111
+    director: Alex Proyas
+    crew:
+      writer:
+        - Alex Proyas
+        - Lem Dobbs
+        - David S. Goyer
+      cinematographer: Dariusz Wolski
+      composer: Trevor Jones
+      editor: Dov Hoenig
+    aspect_ratio: 2.35
+    publisher: New Line Cinema
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violent images
+        - some sexuality
+      distributor: New Line Cinema
+      alt_title: null
+
+the_dark_knight:
+  groups:
+    - blu-ray
+  data:
+    title: The Dark Knight
+    year: 2008
+    runtime: 153
+    director: Christopher Nolan
+    crew:
+      writer:
+        - Jonathan Nolan
+        - Christopher Nolan
+      cinematographer: Wally Pfister
+      composer:
+        - Hans Zimmer
+        - James Newton Howard
+      editor: Lee Smith
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - intense sequences of violence
+        - some menace
+      distributor: Warner Bros. Pictures Inc.
+      alt_title: "Rory's First Kiss\_"
+
+days_of_heaven:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Days of Heaven
+    year: 1978
+    runtime: 97
+    director: Terrence Malick
+    crew:
+      writer: Terrence Malick
+      cinematographer: Nestor Almendros
+      composer: Ennio Morricone
+      editor: Bill Weber
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+dazed_and_confused:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Dazed and Confused
+    year: 1993
+    runtime: 102
+    director: Richard Linklater
+    crew:
+      writer: Richard Linklater
+      cinematographer: Lee Daniel
+      composer: ''
+      editor: Sandra Adair
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - pervasive continuous teen drug and alcohol use
+        - very strong language
+      distributor: Gramercy Pictures
+      alt_title: null
+
+deep_cover:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Deep Cover
+    year: 1992
+    runtime: 107
+    director: Bill Dukes
+    crew:
+      writer:
+        - Michael Tolkin
+        - Henry Bean
+      cinematographer: Bojan Bazelli
+      composer: Michel Colombier
+      editor: John Carter
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - language
+        - drug use
+        - sensuality
+      distributor: New Line Cinema
+      alt_title: null
+
+double_indemnity:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10_dv
+    - boutique
+  data:
+    title: Double Indemnity
+    year: 1944
+    runtime: 108
+    director: Billy Wilder
+    crew:
+      writer:
+        - Billy Wilder
+        - Raymond Chandler
+      cinematographer: John F. Seitz
+      composer: "Mikl\xF3s R\xF3zsa"
+      editor: Doane Harrison
+    aspect_ratio: 1.37
+    publisher: The Criterion Collection
+    discs: 3
+
+drive:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Drive
+    year: 2011
+    runtime: 100
+    director: Nicholas Winding Refn
+    crew:
+      writer: Hossein Amini
+      cinematographer: Newton Thomas Siegel
+      composer: Cliff Martinez
+      editor: Mat Newman
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong brutal bloody violence
+        - language
+        - some nudity
+      distributor: FilmDistrict Distribution, LLC
+      alt_title: null
+
+dune:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: Dune
+    year: 2021
+    runtime: 155
+    director: Denis Villeneuve
+    crew:
+      writer:
+        - Jon Spaihts
+        - Denis Villeneuve
+        - Eric Roth
+      cinematographer: Greig Fraser
+      composer: Hans Zimmer
+      editor: Joe Walker
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - sequences of strong violence
+        - some disturbing images
+        - suggestive material
+      distributor: Warner Bros. Pictures
+      alt_title: null
+
+dune-part_two:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: 'Dune: Part Two'
+    year: 2024
+    runtime: 166
+    director: Denis Villeneuve
+    crew:
+      writer:
+        - Denis Villeneuve
+        - Jon Spaihts
+      cinematographer: Greig Fraser
+      composer: Hans Zimmer
+      editor: Joe Walker
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason:
+        - sequences of strong violence
+        - some suggestive material
+        - brief strong language
+      distributor: Legendary Features Productions US LLC & Warner Bros. Pictures
+      alt_title: null
+
+ed_wood:
+  groups:
+    - blu-ray
+    - black_white
+  data:
+    title: Ed Wood
+    year: 1993
+    runtime: 127
+    director: Tim Burton
+    crew:
+      writer:
+        - Scott Alexander
+        - Larry Karaszewski
+      cinematographer: Stefan Czapsky
+      composer: Howard Shore
+      editor: Chris Lebenzon
+    aspect_ratio: 1.85
+    publisher: Buena Vista Home Entertainment, Inc.
+    discs: 1
+    mpaa:
+      rating: R
+      reason: some strong language
+      distributor: Buena Vista Pictures Distribution, Inc.
+      alt_title: null
+
+election:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: Election
+    year: 1999
+    runtime: 102
+    director: Alexander Payne
+    crew:
+      writer:
+        - Alexander Payne
+        - Jim Taylor
+      cinematographer: James Glennon
+      composer: Rolfe Kent
+      editor: Kevin Tent
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong sexuality
+        - sex-related dialogue and language
+        - a scene of drug use
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+
+enter_the_dragon:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - slipcover
+  data:
+    title: Enter the Dragon
+    year: 1973
+    runtime: 99
+    director: Robert Clouse
+    crew:
+      writer: Michael Allin
+      cinematographer: Gilbert Hubbs
+      composer: Lalo Schifrin
+      editor:
+        - Kurt Hirschler
+        - George Watters
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Warner Bros. Inc.
+      alt_title: Deadly Three, The
+
+escape_from_new_york:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - steelbook
+  data:
+    title: Escape From New York
+    year: 1981
+    runtime: 98
+    director: John Carpenter
+    crew:
+      writer:
+        - John Carpenter
+        - Nick Castle
+      cinematographer: Dean Cundey
+      composer:
+        - John Carpenter
+        - Alan Howarth
+      editor: Todd Ramsay
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 3
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Avco Embassy Pictures
+      alt_title: null
+
+e.t._the_extra-terrestrial:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: E.T. The Extra-Terrestrial
+    year: 1982
+    runtime: 115
+    director: Steven Spielberg
+    crew:
+      writer: Melissa Mathison
+      cinematographer: Allen Daviau
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+ex_machina:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Ex Machina
+    year: 2014
+    runtime: 108
+    director: Alex Garland
+    crew:
+      writer: Alex Garland
+      cinematographer: Rob Hardy
+      composer:
+        - Ben Salisbury
+        - Geoff Barrow
+      editor: Mark Day
+    aspect_ratio: 2.4
+    publisher: Lions Gate Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - graphic nudity
+        - language
+        - sexual references
+        - some violence
+      distributor: A24
+      alt_title: Ex-Machina
+
+fargo:
+  groups:
+    - blu-ray
+  data:
+    title: Fargo
+    year: 1996
+    runtime: 98
+    director:
+      - Joel Coen
+      - Ethan Coen
+    crew:
+      writer:
+        - Joel Coen
+        - Ethan Coen
+      cinematographer: Roger A. Deakins
+      composer: Carter Burwell
+      editor: Roderick Jaynes
+    aspect_ratio: 1.85
+    publisher: Twentieth Century Fox Home Entertainment LLC
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong violence
+        - language
+        - sexuality
+      distributor: Gramercy Pictures
+      alt_title: null
+
+ferrari:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - slipcover
+  data:
+    title: Ferrari
+    year: 2023
+    runtime: 130
+    director: Michael Mann
+    crew:
+      writer: Troy Kennedy Martin
+      cinematographer: Erik Messerschmidt
+      composer: Daniel Pemberton
+      editor: Pietro Scalia
+    aspect_ratio: 2.39
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - some violent content/graphic images
+        - sexual content
+        - language
+      distributor: NEON
+      alt_title: null
+
+the_fifth_element:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: The Fifth Element
+    year: 1997
+    runtime: 126
+    director: Luc Besson
+    crew:
+      writer:
+        - Luc Besson
+        - Robert Mark Kamen
+      cinematographer: Thierry Arbogast
+      composer: Eric Serra
+      editor: Sylvie Landra
+    aspect_ratio: 2.39
+    publisher: Studiocanal Limited
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - intense sci-fi violence
+        - some sexuality
+        - brief nudity
+      distributor: Columbia Pictures
+      alt_title: null
+
+forgetting_sarah_marshall:
+  groups:
+    - blu-ray
+  data:
+    title: Forgetting Sarah Marshall
+    year: 2008
+    runtime: 111
+    director: Nicholas Stoller
+    crew:
+      writer: Jason Segel
+      cinematographer: Russ T. Alsobrook
+      composer: Lyle Workman
+      editor: William Kerr
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - sexual content
+        - language
+        - some graphic nudity
+      distributor: Universal Studios
+      alt_title: null
+
+friday_night_lights:
+  groups:
+    - blu-ray
+  data:
+    title: Friday Night Lights
+    year: 2004
+    runtime: 118
+    director: Peter Berg
+    crew:
+      writer:
+        - David Aaron Cohen
+        - Peter Berg
+      cinematographer: Tobias Schliessler
+      composer: ''
+      editor: David Rosenbloom
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason:
+        - thematic issues
+        - sexual content
+        - language
+        - some teen drinking
+        - rough sports action
+      distributor: Universal Studios
+      alt_title: null
+
+funny_people:
+  groups:
+    - blu-ray
+  data:
+    title: Funny People
+    year: 2009
+    runtime: 146
+    director: Judd Apatow
+    crew:
+      writer: Judd Apatow
+      cinematographer: Janusz Kaminski
+      composer:
+        - Jason Schwartzman
+        - Michael Andrews
+      editor:
+        - Brent White
+        - Craig Alpert
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - language and crude sexual humor throughout
+        - some sexuality
+      distributor: Universal Studios
+      alt_title: null
+
+furiosa-a_mad_max_saga:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: 'Furiosa: A Mad Max Saga'
+    year: 2024
+    runtime: 148
+    director: George Miller
+    crew:
+      writer:
+        - George Miller
+        - Nick Lathouris
+      cinematographer: Simon Duggan
+      composer: Tom Holkenborg
+      editor:
+        - Eliot Knapman
+        - Margaret Sixel
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - sequences of strong violence
+        - grisly images
+      distributor: Warner Bros. Pictures
+      alt_title: null
+
+the_game:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The Game
+    year: 1997
+    runtime: 128
+    director: David Fincher
+    crew:
+      writer:
+        - John Brancato
+        - Michael Ferris
+      cinematographer: Harris Savides
+      composer: Howard Shore
+      editor: James Haygood
+    aspect_ratio: 2.4
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - some violence and sexuality
+      distributor: Polygram Films
+      alt_title: null
+
+gattaca:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - steelbook
+  data:
+    title: Gattaca
+    year: 1997
+    runtime: 106
+    director: Andrew Niccol
+    crew:
+      writer: Andrew Niccol
+      cinematographer: Slawomir Idziak
+      composer: Michael Nyman
+      editor: Lisa Zeno Churgin
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - brief violent images
+        - language
+        - some sexuality
+      distributor: Columbia Pictures
+      alt_title: null
+
+ghost_dog-the_way_of_the_samurai:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: 'Ghost Dog: The Way of the Samurai'
+    year: 1999
+    runtime: 116
+    director: Jim Jarmusch
+    crew:
+      writer: Jim Jarmusch
+      cinematographer: "Robby M\xFCller"
+      composer: RZA
+      editor: Jay Rabinowitz
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - strong violence
+        - language
+      distributor: Artisan Pictures Inc.
+      alt_title: Ghost Dog
+
+ghost_in_the_shell:
+  groups:
+    - 4k_uhd
+    - animation
+    - hdr10_dv
+  data:
+    title: Ghost in the Shell
+    year: 1995
+    runtime: 83
+    director: Mamorou Oshii
+    crew:
+      writer: Kazunori Ito
+      cinematographer: Toshihiko Nishikubo
+      composer: Kenji Kawai
+      editor: Shuichi Kakesu
+    aspect_ratio: 1.85
+    publisher: Lions Gate Entertainment Inc
+    discs: 2
+
+the_girl_with_the_dragon_tattoo:
+  groups:
+    - blu-ray
+  data:
+    title: The Girl with the Dragon Tattoo
+    year: 2011
+    runtime: 158
+    director: David Fincher
+    crew:
+      writer: Steve Zaillian
+      cinematographer: Jeff Cronenweth
+      composer:
+        - Trent Reznor
+        - Atticus Ross
+      editor:
+        - Kirk Baxter
+        - Angus Wall
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - brutal violent content including rape and torture
+        - strong sexuality
+        - graphic nudity
+        - language
+      distributor: Columbia Pictures
+      alt_title: null
+
+gladiator:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: Gladiator
+    year: 2000
+    runtime: 155
+    director: Ridley Scott
+    crew:
+      writer:
+        - David Franzoni
+        - John Logan
+        - William Nicholson
+      cinematographer: John Mathieson
+      composer:
+        - Hans Zimmer
+        - Lisa Gerard
+      editor: Pietro Scalia
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: R
+      reason: intense graphic combat
+      distributor: Dreamworks Distribution L.L.C.
+      alt_title: null
+
+the_guyver:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - boutique
+    - slipcover
+  data:
+    title: The Guyver
+    year: 1991
+    runtime: 93
+    director:
+      - Screaming Mad George
+      - Steve Wang
+    crew:
+      writer: Jon Purdy
+      cinematographer: Levie Isaacks
+      composer: Matthew Morse
+      editor: Andy Horvitch
+    aspect_ratio: 1.85
+    publisher: Unearthed Films
+    discs: 3
+    mpaa:
+      rating: R
+      reason: null
+      distributor: ''
+      alt_title: null
+
+heat:
+  groups:
+    - blu-ray
+  data:
+    title: Heat
+    year: 1995
+    runtime: 170
+    director: Michael Mann
+    crew:
+      writer: Michael Mann
+      cinematographer: Dante Spinotti
+      composer: Elliot Goldenthal
+      editor:
+        - Dov Hoenig
+        - Pasquale Buba
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - language
+      distributor: Warner Bros., A Division Of Time Warner Entertainment Company
+      alt_title: null
+
+in_the_mouth_of_madness:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: In the Mouth of Madness
+    year: 1995
+    runtime: 95
+    director: John Carpenter
+    crew:
+      writer: Michael De Luca
+      cinematographer: Gary B. Kibbe
+      composer:
+        - John Carpenter
+        - Jim Lang
+      editor: Edward A. Warschilka
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - images of horror
+        - language
+      distributor: New Line Cinema
+      alt_title: null
+
+inception:
+  groups:
+    - blu-ray
+  data:
+    title: Inception
+    year: 2010
+    runtime: 148
+    director: Christopher Nolan
+    crew:
+      writer: Christopher Nolan
+      cinematographer: Wally Pfister
+      composer: Hans Zimmer
+      editor: Lee Smith
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason: sequences of violence and action throughout
+      distributor: Warner Bros. Pictures
+      alt_title: Oliver's Arrow
+
+indiana_jones_and_the_temple_of_doom:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Indiana Jones and the Temple of Doom
+    year: 1984
+    runtime: 118
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Willard Huyck
+        - Gloria Katz
+      cinematographer: Douglas Slocombe
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 1
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+invasion_of_the_body_snatchers:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Invasion of the Body Snatchers
+    year: 1978
+    runtime: 115
+    director: Philip Kaufman
+    crew:
+      writer: W.D. Richter
+      cinematographer: Michael Chapman
+      composer: Denny Zeitlin
+      editor: Douglas Stewart
+    aspect_ratio: 1.85
+    publisher: Kino Lorber Studio Classics
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: United Artists
+      alt_title: null
+
+jurassic_park:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Jurassic Park
+    year: 1993
+    runtime: 127
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Michael Crichton
+        - David Koepp
+      cinematographer: Dean Cundey
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: intense science fiction terror
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+the_kingdom:
+  groups:
+    - blu-ray
+  data:
+    title: The Kingdom
+    year: 2007
+    runtime: 111
+    director: Peter Berg
+    crew:
+      writer: Matthew Michael Carnahan
+      cinematographer: Maurio Fiore
+      composer: Danny Elfman
+      editor:
+        - Kevin Stitt
+        - Colby Parker Jr.
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - intense sequences of graphic brutal violence
+        - language
+      distributor: Universal Studios
+      alt_title:
+        - Kingdom
+        - Top Dog
+
+l.a._confidential:
+  groups:
+    - blu-ray
+  data:
+    title: L.A. Confidential
+    year: 1997
+    runtime: 138
+    director: Curtis Hanson
+    crew:
+      writer:
+        - Brian Helgeland
+        - Curtis Hanson
+      cinematographer: Dante Spinotti
+      composer: Jerry Goldsmith
+      editor: Peter Honess
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong violence
+        - language
+        - sexuality
+      distributor: Warner Bros., A Division Of Time Warner Entertainment Company
+      alt_title: null
+
+last_action_hero:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - steelbook
+  data:
+    title: Last Action Hero
+    year: 1993
+    runtime: 130
+    director: John McTiernan
+    crew:
+      writer:
+        - Shane Black
+        - David Arnott
+      cinematographer: Dean Semler
+      composer: Michael Kamen
+      editor:
+        - Richard A. Harris
+        - John Wright
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: strong action sequences
+      distributor: Columbia Pictures
+      alt_title: null
+
+the_last_picture_show:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10_dv
+    - boutique
+  data:
+    title: The Last Picture Show
+    year: 1971
+    runtime: 126
+    director: Peter Bogdanovich
+    crew:
+      writer:
+        - Larry McMurtry
+        - Peter Bogdanovich
+      cinematographer: Robert Surtees
+      composer: ''
+      editor: Don Cambern
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 3
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Columbia Pictures Industries
+      alt_title: null
+
+the_lawnmower_man:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The Lawnmower Man
+    year: 1992
+    runtime: 108
+    director: Brett Leonard
+    crew:
+      writer:
+        - Brett Leonard
+        - Gimel Everett
+      cinematographer: Russell Carpenter
+      composer: Dan Wyman
+      editor: Alan Baumgarten
+    aspect_ratio: 1.85
+    publisher: Shout! Factory LLC
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - sensuality
+        - a scene of violence
+      distributor: New Line Cinema
+      alt_title: null
+
+le_cercle_rouge:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Le Cercle Rouge
+    year: 1970
+    runtime: 140
+    director: Jean-Pierre Melville
+    crew:
+      writer: Jean-Pierre Melville
+      cinematographer: Henri Decae
+      composer: Eric Demarsan
+      editor: Marie-Sophie Dubus
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+
+le_doulos:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+    - slipcover
+  data:
+    title: Le Doulos
+    year: 1962
+    runtime: 108
+    director: Jean-Pierre Melville
+    crew:
+      writer: Jean-Pierre Melville
+      cinematographer: Nicolas Hayer
+      composer: Paul Misraki
+      editor: Monique Bonnot
+    aspect_ratio: 1.66
+    publisher: Kino Lorber Studio Classics
+    discs: 2
+
+le_samourai:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - boutique
+  data:
+    title: Le Samourai
+    year: 1967
+    runtime: 105
+    director: Jean-Pierre Melville
+    crew:
+      writer: Jean-Pierre Melville
+      cinematographer: Henri Decae
+      composer: "Fran\xE7ois de Roubaix"
+      editor:
+        - Monique Bonnot
+        - Yo Maurette
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+
+legend:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Legend
+    year: 1985
+    runtime: 90
+    director: Ridley Scott
+    crew:
+      writer: William Hjortsberg
+      cinematographer: Alex Thomson
+      composer: Tangerine Dream
+      editor: Terry Rawlings
+    aspect_ratio: 2.35
+    publisher: Arrow Video
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+licorice_pizza:
+  groups:
+    - blu-ray
+  data:
+    title: Licorice Pizza
+    year: 2021
+    runtime: 134
+    director: Paul Thomas Anderson
+    crew:
+      writer: Paul Thomas Anderson
+      cinematographer: Michael Bauman
+      composer: Jonny Greenwood
+      editor: Andy Jurgensen
+    aspect_ratio: 2.39
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - sexual material
+        - some drug use
+      distributor: Metro-Goldwyn-Mayer Pictures Inc.
+      alt_title: Untitled PTA
+
+lone_star:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Lone Star
+    year: 1996
+    runtime: 135
+    director: John Sayles
+    crew:
+      writer: John Sayles
+      cinematographer: Stuart Dryburgh
+      composer: Mason Daring
+      editor: John Sayles
+    aspect_ratio: 2.39
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - brief language
+        - sex
+        - violence
+      distributor: Columbia Pictures
+      alt_title: null
+
+the_long_good_friday:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: The Long Good Friday
+    year: 1980
+    runtime: 114
+    director: John Mackenzie
+    crew:
+      writer: Barrie Keeffe
+      cinematographer: "Phil M\xE9heux"
+      composer: Francis Monkman
+      editor: Mike Taylor
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 3
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Avco Embassy Pictures
+      alt_title: null
+
+lost_highway:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Lost Highway
+    year: 1997
+    runtime: 134
+    director: David Lynch
+    crew:
+      writer:
+        - David Lynch
+        - Barry Gifford
+      cinematographer: Peter Deming
+      composer: Angelo Badalamenti
+      editor: Mary Sweeney
+    aspect_ratio: 2.39
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - bizarre violent and sexual content
+        - strong langauge
+      distributor: October Films
+      alt_title: null
+
+mad_max-fury_road:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: 'Mad Max: Fury Road'
+    year: 2015
+    runtime: 120
+    director: George Miller
+    crew:
+      writer:
+        - George Miller
+        - Brendan McCarthy
+        - Nico Lathouris
+      cinematographer: John Seale
+      composer: Junkie XL
+      editor: Margaret Sixel
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - intense sequences of violence throughout
+        - disturbing images
+      distributor: Warner Bros. Pictures
+      alt_title: null
+
+mallrats:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - slipcover
+  data:
+    title: Mallrats
+    year: 1995
+    runtime: 95
+    director: Kevin Smith
+    crew:
+      writer: Kevin Smith
+      cinematographer: David Klein
+      composer: Ira Newborn
+      editor: Paul Dixon
+    aspect_ratio: 1.85
+    publisher: Arrow Video
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong language including sexual dialogue
+        - some scenes of sexuality
+        - drug content
+      distributor: Gramercy Pictures
+      alt_title: null
+
+the_maltese_falcon:
+  groups:
+    - 4k_uhd
+    - black_white
+    - slipcover
+  data:
+    title: The Maltese Falcon
+    year: 1941
+    runtime: 100
+    director: John Huston
+    crew:
+      writer: John Huston
+      cinematographer: Arthur Edeson
+      composer: Adolph Deutsch
+      editor: Thomas Richards
+    aspect_ratio: 1.37
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+
+margin_call:
+  groups:
+    - blu-ray
+  data:
+    title: Margin Call
+    year: 2011
+    runtime: 107
+    director: J.C. Chandor
+    crew:
+      writer: J.C. Chandor
+      cinematographer: Frank DeMarco
+      composer: Nathan Larson
+      editor: Pete Beaudreau
+    aspect_ratio: 1.78
+    publisher: Lions Gate Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: R
+      reason: language
+      distributor: Roadside Attractions LLC
+      alt_title: null
+
+the_matrix:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: The Matrix
+    year: 1999
+    runtime: 136
+    director:
+      - Lana Wachowski
+      - Lilly Wachowski
+    crew:
+      writer:
+        - Lana Wachowski
+        - Lilly Wachowski
+      cinematographer: Bill Pope
+      composer: Don Davis
+      editor: Zach Staenberg
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 3
+    mpaa:
+      rating: R
+      reason:
+        - sci-fi violence
+        - brief language
+      distributor: Warner Bros., A Division Of Time Warner Entertainment Company
+      alt_title: null
+
+the_matrix_reloaded:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: The Matrix Reloaded
+    year: 2003
+    runtime: 138
+    director:
+      - Lana Wachowski
+      - Lilly Wachowski
+    crew:
+      writer:
+        - Lana Wachowski
+        - Lilly Wachowski
+      cinematographer: Bill Pope
+      composer: Don Davis
+      editor: Zach Staenberg
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 3
+    mpaa:
+      rating: R
+      reason:
+        - sci-fi violence
+        - some sexuality
+      distributor: Warner Bros. Pictures An AOL Time Warner Company
+      alt_title: Matrix 2
+
+the_matrix_revolutions:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: The Matrix Revolutions
+    year: 2003
+    runtime: 129
+    director:
+      - Lana Wachowski
+      - Lilly Wachowski
+    crew:
+      writer:
+        - Lana Wachowski
+        - Lilly Wachowski
+      cinematographer: Bill Pope
+      composer: Don Davis
+      editor: Zach Staenberg
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 3
+    mpaa:
+      rating: R
+      reason:
+        - sci-fi violence
+        - brief sexual content
+      distributor: Warner Bros. Pictures Inc.
+      alt_title: null
+
+mean_streets:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Mean Streets
+    year: 1973
+    runtime: 112
+    director: Martin Scorsese
+    crew:
+      writer:
+        - Martin Scorsese
+        - Mardik Martin
+      cinematographer: Kent Wakeford
+      composer: ''
+      editor: Sidney Levin
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Warner Bros. Inc.
+      alt_title: null
+
+minority_report:
+  groups:
+    - blu-ray
+  data:
+    title: Minority Report
+    year: 2002
+    runtime: 145
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Scott Frank
+        - Jon Cohen
+      cinematographer: Janusz Kaminski
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - violence
+        - brief language
+        - some sexuality
+        - drug content
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: null
+
+mission-impossible:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: 'Mission: Impossible'
+    year: 1996
+    runtime: 110
+    director: Brian De Palma
+    crew:
+      writer:
+        - David Koepp
+        - Robert Towne
+      cinematographer: Stephen H. Burum
+      composer: Danny Elfman
+      editor: Paul Hirsch
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: some intense action violence
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+
+mona_lisa:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Mona Lisa
+    year: 1986
+    runtime: 104
+    director: Neil Jordan
+    crew:
+      writer:
+        - Neil Jordan
+        - David Leland
+      cinematographer: Roger Pratt
+      composer: Michael Kamen
+      editor: Lesley Walker
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Island Pictures
+      alt_title: null
+
+mulholland_drive:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Mulholland Drive
+    year: 2001
+    runtime: 146
+    director: David Lynch
+    crew:
+      writer: David Lynch
+      cinematographer: Peter Deming
+      composer: Angelo Badalamenti
+      editor: Mary Sweeney
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - language
+        - some strong sexuality
+      distributor: Universal Focus
+      alt_title: null
+
+the_new_world:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The New World
+    year: 2005
+    runtime: 135
+    director: Terrence Malick
+    crew:
+      writer: Terrence Malick
+      cinematographer: Emmanuel Lubezki
+      composer: James Horner
+      editor:
+        - Richard Chew
+        - Hank Corwin
+        - Saar Klein
+        - Mark Yoshikawa
+    aspect_ratio: 2.35
+    publisher: The Criterion Collection
+    discs: 3
+    mpaa:
+      rating: PG-13
+      reason: some intense battle sequences
+      distributor: New Line Cinema
+      alt_title: null
+
+no_country_for_old_men:
+  groups:
+    - blu-ray
+  data:
+    title: No Country for Old Men
+    year: 2007
+    runtime: 122
+    director:
+      - Joel Coen
+      - Ethan Coen
+    crew:
+      writer:
+        - Joel Coen
+        - Ethan Coen
+      cinematographer: Roger A. Deakins
+      composer: Carter Burwell
+      editor: Roderick Jaynes
+    aspect_ratio: 2.35
+    publisher: Buena Vista Home Entertainment, Inc.
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - strong graphic violence
+        - some language
+      distributor: Miramax Films
+      alt_title: null
+
+north_by_northwest:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - steelbook
+  data:
+    title: North By Northwest
+    year: 1959
+    runtime: 136
+    director: Alfred Hitchcock
+    crew:
+      writer: Ernest Lehman
+      cinematographer: Robert Burks
+      composer: Bernard Herrmann
+      editor: George Tomasini
+    aspect_ratio: 1.85
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+
+one_false_move:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: One False Move
+    year: 1992
+    runtime: 105
+    director: Carl Franklin
+    crew:
+      writer:
+        - Billy Bob Thornton
+        - Tom Epperson
+      cinematographer: James L. Carter
+      composer:
+        - Peter Haycock
+        - Derek Holt
+      editor: Carole Kravetz
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong violence and language
+        - drug content
+      distributor: I.R.S. Releasing Corp.
+      alt_title:
+        - Hurricane
+        - Star City
+
+paper_moon:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Paper Moon
+    year: 1973
+    runtime: 102
+    director: Peter Bogdanovich
+    crew:
+      writer: Alvin Sargent
+      cinematographer: "L\xE1szl\xF3 Kov\xE1cs"
+      composer: ''
+      editor: Verna Fields
+    aspect_ratio: 1.66
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+paprika:
+  groups:
+    - 4k_uhd
+    - animation
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Paprika
+    year: 2006
+    runtime: 90
+    director: Satoshi Kon
+    crew:
+      writer:
+        - Seishi Minakami
+        - Satoshi Kon
+      cinematographer: Michiya Katou
+      composer: Susumu Hirasawa
+      editor: Takeshi Seyama
+    aspect_ratio: 1.85
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason: violent and sexual images
+      distributor: Sony Pictures Classics
+      alt_title: null
+
+the_parallax_view:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The Parallax View
+    year: 1974
+    runtime: 102
+    director: Alan J. Pakula
+    crew:
+      writer:
+        - David Giler
+        - Lorenzo Semple Jr.
+      cinematographer: Gordon Willis
+      composer: Michael Small
+      editor: John W. Wheeler
+    aspect_ratio: 2.39
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+peeping_tom:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Peeping Tom
+    year: 1960
+    runtime: 101
+    director: Michael Powell
+    crew:
+      writer: Leo Marks
+      cinematographer: Otto Heller
+      composer: Brian Easdale
+      editor: Noreen Ackland
+    aspect_ratio: 1.66
+    publisher: The Criterion Collection
+    discs: 2
+
+the_phantom_thread:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - slipcover
+  data:
+    title: The Phantom Thread
+    year: 2018
+    runtime: 130
+    director: Paul Thomas Anderson
+    crew:
+      writer: Paul Thomas Anderson
+      cinematographer: ''
+      composer: Jonny Greenwood
+      editor: Dylan Tichenor
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason: language
+      distributor: Focus Features LLC
+      alt_title: Untitled PTA Project
+
+pineapple_express:
+  groups:
+    - blu-ray
+  data:
+    title: Pineapple Express
+    year: 2008
+    runtime: 112
+    director: David Gordon Green
+    crew:
+      writer:
+        - Seth Rogen
+        - Evan Goldberg
+      cinematographer: Tim Orr
+      composer: Graeme Revell
+      editor: Craig Alpert
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - pervasive language
+        - drug use
+        - sexual references
+        - violence
+      distributor: Columbia Pictures
+      alt_title: null
+
+planet_earth:
+  groups:
+    - blu-ray
+  data:
+    title: Planet Earth
+    year: 2007
+    runtime: 550
+    director: Alastair Fothergill
+    crew:
+      writer: ''
+      cinematographer: ''
+      composer: George Fenton
+      editor: ''
+    aspect_ratio: 1.78
+    publisher: Warner Bros. Entertainment Inc
+    discs: 4
+
+premium_rush:
+  groups:
+    - blu-ray
+  data:
+    title: Premium Rush
+    year: 2012
+    runtime: 91
+    director: David Koepp
+    crew:
+      writer:
+        - David Koepp
+        - John Kamps
+      cinematographer: Mitchell Amundsen
+      composer: David Sardy
+      editor: Jill Savitt
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason:
+        - some violence
+        - intense action sequences
+        - language
+      distributor: Columbia Pictures
+      alt_title: null
+
+prince_of_darkness:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Prince of Darkness
+    year: 1987
+    runtime: 102
+    director: John Carpenter
+    crew:
+      writer: Martin Quatermass
+      cinematographer: Gary B. Kibbe
+      composer:
+        - John Carpenter
+        - Alan Howarth
+      editor: Steve Mirkovich
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+quantum_of_solace:
+  groups:
+    - blu-ray
+  data:
+    title: Quantum of Solace
+    year: 2008
+    runtime: 106
+    director: Marc Forster
+    crew:
+      writer:
+        - Paul Haggis
+        - Neal Purvis
+        - Robert Wade
+      cinematographer: Roberto Schaffer
+      composer: David Arnold
+      editor:
+        - Matt Chesse
+        - Richard Pearson
+    aspect_ratio: 2.4
+    publisher: Twentieth Century Fox Home Entertainment LLC
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason:
+        - intense sequences of violence and action
+        - some sexual content
+      distributor: Columbia Pictures
+      alt_title: "Bond 22\_"
+
+raging_bull:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10
+    - boutique
+  data:
+    title: Raging Bull
+    year: 1980
+    runtime: 129
+    director: Martin Scorsese
+    crew:
+      writer:
+        - Paul Schrader
+        - Mardik Martin
+      cinematographer: Michael Chapman
+      composer: ''
+      editor: Thelma Schoonmaker
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: United Artists
+      alt_title: null
+
+raiders_of_the_lost_ark:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: Raiders of the Lost Ark
+    year: 1981
+    runtime: 115
+    director: Steven Spielberg
+    crew:
+      writer: Lawrence Kasdan
+      cinematographer: Douglas Slocombe
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 1
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+rambo:
+  groups:
+    - blu-ray
+  data:
+    title: Rambo
+    year: 2008
+    runtime: 91
+    director: Sylvester Stallone
+    crew:
+      writer:
+        - Art Monterastelli
+        - Sylvester Stallone
+      cinematographer: Glen MacPherson
+      composer: Brian Tyler
+      editor: Sean Albertson
+    aspect_ratio: 2.4
+    publisher: Lions Gate Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong graphic bloody violence
+        - sexual assaults
+        - grisly images
+        - language
+      distributor: Lionsgate
+      alt_title:
+        - John Rambo
+        - Rambo 4
+        - Rambo To Hell And Back
+
+real_genius:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: Real Genius
+    year: 1985
+    runtime: 106
+    director: Martha Coolidge
+    crew:
+      writer:
+        - Neal Israel
+        - Pat Proft
+        - Peter Torokvei
+      cinematographer: Vilmos Zsigmond
+      composer: Thomas Newman
+      editor: Richard Chew
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Tri-Star Pictures
+      alt_title: null
+
+repo_man:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Repo Man
+    year: 1984
+    runtime: 92
+    director: Alex Cox
+    crew:
+      writer: Alex Cox
+      cinematographer: "Robby M\xFCller"
+      composer:
+        - Tito Larriva
+        - Steven Hufsteter
+      editor: Dennis Dolan
+    aspect_ratio: 1.78
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+ronin:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Ronin
+    year: 1998
+    runtime: 122
+    director: John Frankenheimer
+    crew:
+      writer:
+        - J.D. Zeik
+        - Richard Weisz
+      cinematographer: Robert Fraisse
+      composer: Elia Cmiral
+      editor: Tony Gibbs
+    aspect_ratio: 2.39
+    publisher: Kino Lorber Studio Classics
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - strong violence
+        - some language
+      distributor: Metro-Goldwyn-Mayer Distribution Co.
+      alt_title: null
+
+the_royal_tenenbaums:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The Royal Tenenbaums
+    year: 2001
+    runtime: 110
+    director: Wes Anderson
+    crew:
+      writer:
+        - Wes Anderson
+        - Owen Wilson
+      cinematographer: Robert Yeoman
+      composer: Mark Mothersbaugh
+      editor: Dylan Tichenor
+    aspect_ratio: 2.39
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - some language
+        - sexuality/nudity
+        - drug content
+      distributor: Buena Vista Pictures Distribution
+      alt_title: null
+
+rumble_fish:
+  groups:
+    - blu-ray
+    - black_white
+    - boutique
+  data:
+    title: Rumble Fish
+    year: 1983
+    runtime: 94
+    director: Francis Ford Coppola
+    crew:
+      writer:
+        - S.E. Hinton
+        - Francis Ford Coppola
+      cinematographer: Stephen H. Burum
+      composer: Stewart Copeland
+      editor: Barry Malkin
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+rushmore:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Rushmore
+    year: 1998
+    runtime: 93
+    director: Wes Anderson
+    crew:
+      writer:
+        - Wes Anderson
+        - Owen Wilson
+      cinematographer: Robert Yeoman
+      composer: Mark Mothersbaugh
+      editor: David Moritz
+    aspect_ratio: 2.35
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - brief nudity
+      distributor: Buena Vista Pictures Distribution
+      alt_title: null
+
+schindler's_list:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10_dv
+  data:
+    title: Schindler's List
+    year: 1993
+    runtime: 196
+    director: Steven Spielberg
+    crew:
+      writer: Steven Zaillian
+      cinematographer: Janusz Kaminski
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 3
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - some sexuality
+        - actuality violence
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+seconds:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Seconds
+    year: 1966
+    runtime: 107
+    director: John Frankenheimer
+    crew:
+      writer: Lewis John Carlino
+      cinematographer: James Wong Howe
+      composer: Jerry Goldsmith
+      editor:
+        - Ferris Webster
+        - David Newhouse
+    aspect_ratio: 1.75
+    publisher: The Criterion Collection
+    discs: 1
+
+a_serious_man:
+  groups:
+    - blu-ray
+  data:
+    title: A Serious Man
+    year: 2009
+    runtime: 106
+    director:
+      - Joel Coen
+      - Ethan Coen
+    crew:
+      writer:
+        - Joel Coen
+        - Ethan Coen
+      cinematographer: Roger A. Deakins
+      composer: Carter Burwell
+      editor: Roderick Jaynes
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - some sexuality/nudity
+        - brief violence
+      distributor: Focus Features LLC
+      alt_title: null
+
+silent_running:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - slipcover
+  data:
+    title: Silent Running
+    year: 1972
+    runtime: 90
+    director: Douglas Trumbull
+    crew:
+      writer:
+        - Deric Washburn
+        - Mike Cimino
+        - Steve Bochco
+      cinematographer: Charles F. Wheeler
+      composer: Peter Schickele
+      editor: Aaron Stell
+    aspect_ratio: 1.85
+    publisher: Arrow Video
+    discs: 1
+    mpaa:
+      rating: G
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+slacker:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Slacker
+    year: 1991
+    runtime: 100
+    director: Richard Linklater
+    crew:
+      writer: Richard Linklater
+      cinematographer: Lee Daniel
+      composer: ''
+      editor: Scott Rhodes
+    aspect_ratio: 1.33
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason: language
+      distributor: Orion Classics
+      alt_title: null
+
+the_social_network:
+  groups:
+    - blu-ray
+  data:
+    title: The Social Network
+    year: 2010
+    runtime: 120
+    director: David Fincher
+    crew:
+      writer: Aaron Sorkin
+      cinematographer: Jeff Cronenweth
+      composer:
+        - Trent Reznor
+        - Atticus Ross
+      editor:
+        - Angus Wall
+        - Kirk Baxter
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - sexual content
+        - drug and alcohol use
+        - language
+      distributor: Columbia Pictures
+      alt_title: Facebook
+
+speed:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Speed
+    year: 1994
+    runtime: 116
+    director: Jan De Bont
+    crew:
+      writer: Graham Yost
+      cinematographer: Andrzej Bartkowiak
+      composer: Mark Mancina
+      editor: John Wright
+    aspect_ratio: 2.39
+    publisher: Buena Vista Home Entertainment, Inc.
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - language
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: null
+
+speed_racer:
+  groups:
+    - blu-ray
+  data:
+    title: Speed Racer
+    year: 2008
+    runtime: 135
+    director:
+      - Lana Wachowski
+      - Lilly Wachowski
+    crew:
+      writer:
+        - Lana Wachowski
+        - Lilly Wachowski
+      cinematographer: David Tattersall
+      composer: Michael Giacchino
+      editor:
+        - Zach Staenberg
+        - Roger Barton
+    aspect_ratio: 2.4
+    publisher: Warner Bros. Entertainment Inc
+    discs: 3
+    mpaa:
+      rating: PG
+      reason:
+        - sequences of action
+        - some violence
+        - language
+        - brief smoking
+      distributor: Warner Bros. Pictures Inc.
+      alt_title: null
+
+spider-man_3:
+  groups:
+    - blu-ray
+  data:
+    title: Spider-Man 3
+    year: 2007
+    runtime: 139
+    director: Sam Raimi
+    crew:
+      writer:
+        - Sam Raimi
+        - Ivan Raimi
+        - Alvin Sargent
+      cinematographer: Bill Pope
+      composer: Christopher Young
+      editor: Bob Murawski
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason: sequences of intense action violence
+      distributor: Columbia Pictures
+      alt_title: null
+
+stand_by_me:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Stand By Me
+    year: 1986
+    runtime: 88
+    director: Rob Reiner
+    crew:
+      writer:
+        - Raynold Gideon
+        - Bruce A. Evans
+      cinematographer: Thomas Del Ruth
+      composer: Jack Nitzsche
+      editor: Robert Leighton
+    aspect_ratio: 1.85
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Columbia Pictures Industries
+      alt_title: Body, The
+
+star_trek:
+  groups:
+    - blu-ray
+    - slipcover
+  data:
+    title: Star Trek
+    year: 2009
+    runtime: 127
+    director: J.J. Abrams
+    crew:
+      writer:
+        - Roberto Orci
+        - Alex Kurtzman
+      cinematographer: Dan Mindel
+      composer: Michael Giacchino
+      editor:
+        - Maryann Brandon
+        - Mary Jo Markey
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 3
+    mpaa:
+      rating: PG-13
+      reason:
+        - sci-fi action and violence
+        - brief sexual content
+      distributor: Paramount Pictures Corporation
+      alt_title:
+        - Corporate Headquarters
+        - Star Trek XI
+        - 'Star Trek: Corporate Headquarters'
+
+star_wars-andor:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - steelbook
+  data:
+    title: 'Star Wars: Andor'
+    year: 2022
+    runtime: 546
+    director:
+      - Toby Hanes
+      - Susanna White
+      - Benjamin Caron
+    crew:
+      writer:
+        - Tony Gilroy
+        - Dan Gilroy
+        - Stephen Schiff
+        - Beau Willimon
+      cinematographer:
+        - Adriano Goldman
+        - Frank Lamm
+        - "Damian Garc\xEDa"
+      composer: Nicholas Britell
+      editor:
+        - John Gilroy
+        - Tim Porter
+        - Hazel Baillie
+        - Dan Roberts
+        - Frances Parker
+        - Matthew Cannings
+        - Simon Smith
+        - Yan Miles
+    aspect_ratio: 2.39
+    publisher: Buena Vista Home Entertainment, Inc.
+    discs: 3
+
+super_8:
+  groups:
+    - blu-ray
+  data:
+    title: Super 8
+    year: 2011
+    runtime: 111
+    director: J.J. Abrams
+    crew:
+      writer: J.J. Abrams
+      cinematographer: Larry Fong
+      composer: Michael Giacchino
+      editor:
+        - Mary Jo Markey
+        - Maryann Brandon
+    aspect_ratio: 2.4
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - intense sequences of sci-fi action and violence
+        - language
+        - some drug use
+      distributor: Paramount Pictures Corporation
+      alt_title:
+        - Darlings
+        - Project Wickham
+
+the_taking_of_pelham_one_two_three:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: The Taking of Pelham One Two Three
+    year: 1974
+    runtime: 104
+    director: Joseph Sargent
+    crew:
+      writer: Peter Stone
+      cinematographer: Owen Roizman
+      composer: David Shire
+      editor:
+        - Gerald Greenberg
+        - Robert Q. Lovett
+    aspect_ratio: 2.35
+    publisher: Kino Lorber Studio Classics
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: United Artists
+      alt_title: null
+
+taxi_driver:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Taxi Driver
+    year: 1976
+    runtime: 114
+    director: Martin Scorsese
+    crew:
+      writer: Paul Schrader
+      cinematographer: Michael Chapman
+      composer: Bernard Herrmann
+      editor:
+        - Tom Rolf
+        - Melvin Shapiro
+    aspect_ratio: 1.85
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Columbia Pictures Industries
+      alt_title: null
+
+there_will_be_blood:
+  groups:
+    - blu-ray
+  data:
+    title: There Will Be Blood
+    year: 2007
+    runtime: 158
+    director: Paul Thomas Anderson
+    crew:
+      writer: Paul Thomas Anderson
+      cinematographer: Robert Elswit
+      composer: Jonny Greenwood
+      editor: Dylan Tichenor
+    aspect_ratio: 2.39
+    publisher: Paramount Pictures
+    discs: 1
+    mpaa:
+      rating: R
+      reason: some violence
+      distributor: Paramount Vantage, A Division Of Paramount Pictures Corporation
+      alt_title: null
+
+they_live:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - steelbook
+  data:
+    title: They Live
+    year: 1988
+    runtime: 93
+    director: John Carpenter
+    crew:
+      writer: Frank Armitage
+      cinematographer: Gary B. Kibbe
+      composer:
+        - John Carpenter
+        - Alan Howarth
+      editor:
+        - Gib Jaffe
+        - Frank E. Jimenez
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+thief:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Thief
+    year: 1981
+    runtime: 124
+    director: Michael Mann
+    crew:
+      writer: Michael Mann
+      cinematographer: Donald Thorin
+      composer: Tangerine Dream
+      editor: Dov Hoenig
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: United Artists
+      alt_title: Violent Streets
+
+the_thin_red_line:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The Thin Red Line
+    year: 1998
+    runtime: 171
+    director: Terrence Malick
+    crew:
+      writer: Terrence Malick
+      cinematographer: John Toll
+      composer: Hans Zimmer
+      editor:
+        - Billy Weber
+        - Leslie Jones
+    aspect_ratio: 2.35
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - realistic war violence
+        - language
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: null
+
+the_thing:
+  groups:
+    - blu-ray
+  data:
+    title: The Thing
+    year: 1982
+    runtime: 109
+    director: John Carpenter
+    crew:
+      writer: Bill Lancaster
+      cinematographer: Dean Cundey
+      composer: Ennio Morricone
+      editor: Todd Ramsay
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+the_tree_of_life:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: The Tree of Life
+    year: 2011
+    runtime: 139
+    director: Terrence Malick
+    crew:
+      writer: Terrence Malick
+      cinematographer: Emmanuel Lubezki
+      composer: Alexandre Desplat
+      editor:
+        - Hank Corwin
+        - Jaybinowitz
+        - Daniel Rezende
+        - Billy Weber
+        - Mark Yoshikawa
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason: some thematic material
+      distributor: Fox Searchlight Pictures, Inc.
+      alt_title: Edited for re-rating
+
+tropic_thunder:
+  groups:
+    - blu-ray
+  data:
+    title: Tropic Thunder
+    year: 2008
+    runtime: 120
+    director: Ben Stiller
+    crew:
+      writer:
+        - Justin Theroux
+        - Ben Stiller
+        - Etan Cohen
+      cinematographer: John Toll
+      composer: Theodore Shapiro
+      editor: Greg Hayden
+    aspect_ratio: 2.39
+    publisher: DreamWorks LLC
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - pervasive language including sexual references
+        - violent content
+        - drug material
+      distributor: DreamWorks/Paramount Distribution
+      alt_title: null
+
+twilight_of_the_warriors-walled_in:
+  groups:
+    - 4k_uhd
+    - hdr10
+    - slipcover
+  data:
+    title: 'Twilight of the Warriors: Walled In'
+    year: 2024
+    runtime: 125
+    director: Soi Cheang
+    crew:
+      writer:
+        - Au Kin Yee
+        - Chan Tai Lee
+        - Shum Kwan Sin
+        - Jack Lai Chun
+      cinematographer: Cheng Siu Keung
+      composer: Kenji Kawai
+      editor: Cheung Kai Fai
+    aspect_ratio: 2.39
+    publisher: Well Go USA Entertainment
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violence throughout
+        - language
+        - some drug content
+      distributor: Well Go USA, Inc.
+      alt_title: Subtitled
+
+twin_peaks-the_television_collection:
+  groups:
+    - blu-ray
+  data:
+    title: 'Twin Peaks: The Television Collection'
+    year: 1990
+    runtime: 2532
+    director:
+      - David Lynch
+      - Mark Frost
+      - Duwayne Dunham
+    crew:
+      writer:
+        - Mark Frost
+        - David Lynch
+      cinematographer:
+        - Ron Garcia
+        - Peter Deming
+      composer: Angelo Badalamenti
+      editor: Duwayne Dunham
+    aspect_ratio: 1.33
+    publisher: Paramount Pictures
+    discs: 16
+
+twin_peaks-fire_walk_with_me:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: 'Twin Peaks: Fire Walk With Me'
+    year: 1992
+    runtime: 134
+    director: David Lynch
+    crew:
+      writer:
+        - David Lynch
+        - Robert Engels
+      cinematographer: Ron Garcia
+      composer: Angelo Badalamenti
+      editor: Mary Sweeney
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - strong violence
+        - sex
+        - drug content
+        - language
+      distributor: New Line Cinema
+      alt_title: null
+
+unbreakable:
+  groups:
+    - blu-ray
+  data:
+    title: Unbreakable
+    year: 2000
+    runtime: 102
+    director: M. Night Shyamalan
+    crew:
+      writer: M. Night Shyamalan
+      cinematographer: Eduardo Serra
+      composer: James Newton Howard
+      editor: Dylan Tichenor
+    aspect_ratio: 2.35
+    publisher: Buena Vista Home Entertainment, Inc.
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason:
+        - mature themes
+        - some disturbing violent content
+        - a sexual reference
+      distributor: Buena Vista Pictures Distribution
+      alt_title: null
+
+unforgiven:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Unforgiven
+    year: 1992
+    runtime: 132
+    director: Clint Eastwood
+    crew:
+      writer: David Webb Peoples
+      cinematographer: Jack N. Green
+      composer: Lennie Niehaus
+      editor: Joel Cox
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - violence
+        - a scene of sexuality
+      distributor: Warner Bros. Inc.
+      alt_title: William Munny Killings, The
+
+uncut_gems:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Uncut Gems
+    year: 2019
+    runtime: 135
+    director:
+      - Josh Safdie
+      - Benny Safdie
+    crew:
+      writer:
+        - Ronald Bronstein
+        - Josh Safdie
+        - Benny Safdie
+      cinematographer: Darius Khondji
+      composer: Daniel Lopatin
+      editor:
+        - Ronald Bronstein
+        - Benny Safdie
+    aspect_ratio: 2.39
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - pervasive strong language
+        - violence
+        - some sexual content
+        - brief drug use
+      distributor: A24
+      alt_title: null
+
+vertigo:
+  groups:
+    - 4k_uhd
+  data:
+    title: Vertigo
+    year: 1958
+    runtime: 129
+    director: Alfred Hitchcock
+    crew:
+      writer:
+        - Alec Coppel
+        - Samuel Taylor
+      cinematographer: Robert Burks
+      composer: Bernard Herrmann
+      editor: George Tomasini
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+
+videodrome:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: Videodrome
+    year: 1983
+    runtime: 89
+    director: David Cronenberg
+    crew:
+      writer: David Cronenberg
+      cinematographer: Mark Irwin
+      composer: Howard Shore
+      editor: Ronald Sanders
+    aspect_ratio: 1.85
+    publisher: The Criterion Collection
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
+walk_hard-the_dewey_cox_story:
+  groups:
+    - blu-ray
+  data:
+    title: 'Walk Hard: The Dewey Cox Story'
+    year: 2007
+    runtime: 96
+    director: Jake Kasdan
+    crew:
+      writer:
+        - Judd Apatow
+        - Jake Kasdan
+      cinematographer: Uta Briesewitz
+      composer: Michael Andrews
+      editor:
+        - Tara Timpone
+        - Steve Welch
+    aspect_ratio: 2.4
+    publisher: Sony Pictures Home Entertainment
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - sexual content
+        - graphic nudity
+        - drug use
+        - language
+      distributor: Columbia Pictures
+      alt_title: Walk Hard
+
+war_of_the_worlds:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: War of the Worlds
+    year: 2005
+    runtime: 116
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Josh Friedman
+        - David Koepp
+      cinematographer: Janusz Kaminski
+      composer: John Williams
+      editor: Michael Kahn
+    aspect_ratio: 1.85
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - frightening sequences of sci-fi violence
+        - disturbing images
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+
+wayne's_world:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: Wayne's World
+    year: 1992
+    runtime: 94
+    director: Penelope Spheeris
+    crew:
+      writer:
+        - Mike Myers
+        - Bonnie Turner
+        - Terry Turner
+      cinematographer: Theo Van de Sand
+      composer: J. Peter Robinson
+      editor: Malcolm Campbell
+    aspect_ratio: 1.85
+    publisher: Paramount Pictures
+    discs: 1
+    mpaa:
+      rating: PG-13
+      reason: sex related dialogue
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+
+wild_at_heart:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Wild at Heart
+    year: 1990
+    runtime: 124
+    director: David Lynch
+    crew:
+      writer: David Lynch
+      cinematographer: Frederick Elmes
+      composer: Angelo Badalamenti
+      editor: Duwayne Dunham
+    aspect_ratio: 2.35
+    publisher: Shout! Factory LLC
+    discs: 1
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Samuel Goldwyn Company
+      alt_title: null
+
+zodiac:
+  groups:
+    - blu-ray
+  data:
+    title: Zodiac
+    year: 2007
+    runtime: 162
+    director: David Fincher
+    crew:
+      writer: James Vanderbilt
+      cinematographer: Harris Savides
+      composer: David Shire
+      editor: Angus Wall
+    aspect_ratio: 2.4
+    publisher: Paramount Pictures
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - some strong killings
+        - language
+        - drug material
+        - brief sexual images
+      distributor: Paramount Pictures Corporation
+      alt_title:
+        - Chronicles
+        - Chronicles Of The Zodiac

@@ -1,0 +1,46 @@
+---
+4k_uhd:
+  data:
+    format: 4K UHD
+    resolution: 2160
+
+blu-ray:
+  data:
+    format: Blu-Ray
+    resolution: 1080
+
+black_white:
+  data:
+    color: false
+
+animation:
+  data:
+    animation: true
+
+hdr10:
+  data:
+    hdr: HDR10
+
+hdr10_dv:
+  data:
+    hdr: Dolby Vision
+
+commentary:
+  data:
+    commentary: true
+
+boutique:
+  data:
+    boutique_release: true
+
+slipcover:
+  data:
+    slipcover: true
+
+steelbook:
+  data:
+    steelbook: true
+
+case_replacement:
+  data:
+    needs_case_replacement: true
