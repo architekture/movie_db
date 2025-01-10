@@ -1,3 +1,7 @@
 archives/movies.csv.*
+archives/movies.yml.*
 mvdb/__pycache__
 nornir.log
+
+#mac-tax
+*.DS_Store

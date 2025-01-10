@@ -1751,6 +1751,35 @@ heat:
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
 
+horizon-an_american_saga_chapter_1:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: 'Horizon: An American Saga Chapter 1'
+    year: 2024
+    runtime: 181
+    director: Kevin Costner
+    crew:
+      writer:
+        - Jon Baird
+        - Kevin Costner
+      cinematographer: J. Michael Muro
+      composer: John Debney
+      editor: Miklos Wright
+    aspect_ratio: 1.85
+    publisher: Warner Bros. Entertainment Inc
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - some nudity
+        - sexuality
+      distributor: New Line Cinema
+      alt_title: null
+
 in_the_mouth_of_madness:
   groups:
     - blu-ray
@@ -1776,7 +1805,7 @@ in_the_mouth_of_madness:
         - images of horror
         - language
       distributor: New Line Cinema
-      alt_title: null
+      alt_title: Horizon
 
 inception:
   groups:
@@ -1848,6 +1877,31 @@ invasion_of_the_body_snatchers:
       rating: PG
       reason: null
       distributor: United Artists
+      alt_title: null
+
+jaws:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+  data:
+    title: Jaws
+    year: 1975
+    runtime: 124
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Peter Benchley
+        - Carl Gottlieb
+      cinematographer: Bill Butler
+      composer: John Williams
+      editor: Verna Fields
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Universal City Studios, Inc
       alt_title: null
 
 jurassic_park:
@@ -2200,6 +2254,32 @@ lost_highway:
       distributor: October Films
       alt_title: null
 
+mad_max-the_road_warrior:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: 'Mad Max: The Road Warrior'
+    year: 1982
+    runtime: 95
+    director: George Miller
+    crew:
+      writer:
+        - Terry Hayes
+        - George Miller
+        - Brian Hannant
+      cinematographer: Dean Semler
+      composer: Brian May
+      editor: ''
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Warner Bros. Inc.
+      alt_title: Mad Max 2
+
 mad_max-fury_road:
   groups:
     - 4k_uhd
@@ -2260,6 +2340,7 @@ the_maltese_falcon:
   groups:
     - 4k_uhd
     - black_white
+    - hdr10
     - slipcover
   data:
     title: The Maltese Falcon
@@ -2621,6 +2702,32 @@ one_false_move:
       alt_title:
         - Hurricane
         - Star City
+
+oppenheimer:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Oppenheimer
+    year: 2023
+    runtime: 181
+    director: Christopher Nolan
+    crew:
+      writer: Christopher Nolan
+      cinematographer: Hoyte Van Hoytema
+      composer: "Ludwig G\xF6ransson"
+      editor: Jennifer Lame
+    aspect_ratio: 2.2
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - some sexuality
+        - nudity
+        - language
+      distributor: Universal Studios
+      alt_title: null
 
 paper_moon:
   groups:
@@ -3443,6 +3550,63 @@ star_wars-andor:
     publisher: Buena Vista Home Entertainment, Inc.
     discs: 3
 
+straight_outta_compton:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Straight Outta Compton
+    year: 2015
+    runtime: 147
+    director: F. Gary Gray
+    crew:
+      writer:
+        - Jonathan Herman
+        - Andrea Berloff
+      cinematographer: Matthew Libatique
+      composer: Joseph Trapanese
+      editor: Billy Fox
+    aspect_ratio: 2.4
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - language throughout
+        - strong sexuality/nudity
+        - violence
+        - drug use
+      distributor: Universal Studios
+      alt_title: null
+
+the_sugarland_express:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - slipcover
+  data:
+    title: The Sugarland Express
+    year: 1973
+    runtime: 110
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Hal Barwood
+        - Matthew Robbins
+      cinematographer: Vilmos Zsigmond
+      composer: John Williams
+      editor:
+        - Edward M. Abroms
+        - Verna Fields
+    aspect_ratio: 2.35
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: PG
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+
 super_8:
   groups:
     - blu-ray
@@ -3812,32 +3976,6 @@ unbreakable:
       distributor: Buena Vista Pictures Distribution
       alt_title: null
 
-unforgiven:
-  groups:
-    - 4k_uhd
-    - hdr10
-  data:
-    title: Unforgiven
-    year: 1992
-    runtime: 132
-    director: Clint Eastwood
-    crew:
-      writer: David Webb Peoples
-      cinematographer: Jack N. Green
-      composer: Lennie Niehaus
-      editor: Joel Cox
-    aspect_ratio: 2.39
-    publisher: Warner Bros. Entertainment Inc
-    discs: 1
-    mpaa:
-      rating: R
-      reason:
-        - language
-        - violence
-        - a scene of sexuality
-      distributor: Warner Bros. Inc.
-      alt_title: William Munny Killings, The
-
 uncut_gems:
   groups:
     - 4k_uhd
@@ -3873,9 +4011,36 @@ uncut_gems:
       distributor: A24
       alt_title: null
 
+unforgiven:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Unforgiven
+    year: 1992
+    runtime: 132
+    director: Clint Eastwood
+    crew:
+      writer: David Webb Peoples
+      cinematographer: Jack N. Green
+      composer: Lennie Niehaus
+      editor: Joel Cox
+    aspect_ratio: 2.39
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - language
+        - violence
+        - a scene of sexuality
+      distributor: Warner Bros. Inc.
+      alt_title: William Munny Killings, The
+
 vertigo:
   groups:
     - 4k_uhd
+    - hdr10
   data:
     title: Vertigo
     year: 1958
