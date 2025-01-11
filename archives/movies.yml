@@ -423,7 +423,9 @@ bill_&_ted's_excellent_adventure:
         - Ed Solomon
       cinematographer: Timothy Suhrstedt
       composer: David Newman
-      editor: ''
+      editor:
+        - Larry Bock
+        - Patrick Rand
     aspect_ratio: 2.35
     publisher: Shout! Factory LLC
     discs: 1
@@ -2258,6 +2260,7 @@ mad_max-the_road_warrior:
   groups:
     - 4k_uhd
     - hdr10
+    - slipcover
   data:
     title: 'Mad Max: The Road Warrior'
     year: 1982
@@ -2270,7 +2273,10 @@ mad_max-the_road_warrior:
         - Brian Hannant
       cinematographer: Dean Semler
       composer: Brian May
-      editor: ''
+      editor:
+        - David Stiven
+        - Tim Wellburn
+        - Michael Balson
     aspect_ratio: 2.39
     publisher: Warner Bros. Entertainment Inc
     discs: 2
@@ -2719,7 +2725,7 @@ oppenheimer:
       editor: Jennifer Lame
     aspect_ratio: 2.2
     publisher: Universal Studios
-    discs: 2
+    discs: 3
     mpaa:
       rating: R
       reason:
@@ -2836,7 +2842,7 @@ the_phantom_thread:
     director: Paul Thomas Anderson
     crew:
       writer: Paul Thomas Anderson
-      cinematographer: ''
+      cinematographer: Michael Bauman
       composer: Jonny Greenwood
       editor: Dylan Tichenor
     aspect_ratio: 1.85
