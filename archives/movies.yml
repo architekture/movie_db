@@ -22,6 +22,8 @@
       reason: null
       distributor: MGM Film Company
       alt_title: null
+    genres:
+      - science fiction
 
 akira:
   groups:
@@ -43,6 +45,13 @@ akira:
     aspect_ratio: 1.85
     publisher: FUNimation
     discs: 2
+    genres:
+      - action
+      - science fiction
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 alien:
   groups:
@@ -69,6 +78,12 @@ alien:
       reason: null
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - gritty
+      - violent
 
 aliens:
   groups:
@@ -92,6 +107,13 @@ aliens:
       reason: null
       distributor: Twentieth Century Fox Film Corp.
       alt_title: Alien 2
+    genres:
+      - action
+      - horror
+      - science fiction
+      - dark
+      - gritty
+      - violent
 
 alphaville:
   groups:
@@ -113,6 +135,11 @@ alphaville:
     aspect_ratio: 1.37
     publisher: Kino Lorber Studio Classics
     discs: 2
+    genres:
+      - mystery
+      - science fiction
+      - noir
+      - dystopian
 
 amelie:
   groups:
@@ -139,6 +166,10 @@ amelie:
         - Amelie From Montmartre
         - Amelie In Montmartre
         - Le Fabuleux Destin D'Amelie Poulain
+    genres:
+      - comedy
+      - fantasy
+      - period
 
 the_american:
   groups:
@@ -164,6 +195,12 @@ the_american:
         - nudity
       distributor: Focus Features LLC
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 american_gangster:
   groups:
@@ -190,6 +227,12 @@ american_gangster:
         - sexuality
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - action
+      - crime
+      - gritty
+      - period
+      - violent
 
 american_movie:
   groups:
@@ -218,6 +261,7 @@ american_movie:
         - some drug content
       distributor: Sony Pictures Classics
       alt_title: null
+    genres: []
 
 annihiliation:
   groups:
@@ -247,6 +291,15 @@ annihiliation:
         - some sexuality
       distributor: Paramount Pictures Corporation
       alt_title: null
+    genres:
+      - action
+      - horror
+      - mystery
+      - science fiction
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 apollo_13:
   groups:
@@ -276,6 +329,8 @@ apollo_13:
         - emotional intensity
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - period
 
 army_of_shadows:
   groups:
@@ -294,6 +349,9 @@ army_of_shadows:
     aspect_ratio: 1.85
     publisher: The Criterion Collection
     discs: 1
+    genres:
+      - dark
+      - period
 
 the_batman:
   groups:
@@ -325,6 +383,13 @@ the_batman:
         - some suggestive material
       distributor: Warner Bros. Pictures
       alt_title: null
+    genres:
+      - mystery
+      - crime
+      - noir
+      - dark
+      - gritty
+      - dystopian
 
 batman_begins:
   groups:
@@ -354,6 +419,11 @@ batman_begins:
         - some thematic elements
       distributor: Warner Bros. Pictures Inc.
       alt_title: null
+    genres:
+      - action
+      - mystery
+      - crime
+      - gritty
 
 berry_gordy's_the_last_dragon:
   groups:
@@ -378,6 +448,11 @@ berry_gordy's_the_last_dragon:
       reason: null
       distributor: Tri-Star Pictures
       alt_title: Last Dragon, The
+    genres:
+      - action
+      - comedy
+      - fantasy
+      - martial arts
 
 big_trouble_in_little_china:
   groups:
@@ -406,6 +481,13 @@ big_trouble_in_little_china:
       reason: null
       distributor: Twentieth Century Fox Film
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - fantasy
+      - science fiction
+      - martial arts
+      - wuxia
 
 bill_&_ted's_excellent_adventure:
   groups:
@@ -434,6 +516,10 @@ bill_&_ted's_excellent_adventure:
       reason: null
       distributor: Orion Pictures Corp.
       alt_title: null
+    genres:
+      - comedy
+      - science fiction
+      - period
 
 blackhat:
   groups:
@@ -467,6 +553,12 @@ blackhat:
         - some language
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - action
+      - mystery
+      - crime
+      - gritty
+      - violent
 
 blade_runner:
   groups:
@@ -491,6 +583,13 @@ blade_runner:
       reason: null
       distributor: Ladd Company Thru Warner Bros.
       alt_title: null
+    genres:
+      - mystery
+      - science fiction
+      - noir
+      - dark
+      - dystopian
+      - violent
 
 blade_runner_2049:
   groups:
@@ -522,6 +621,13 @@ blade_runner_2049:
         - language
       distributor: Warner Bros. Pictures
       alt_title: null
+    genres:
+      - mystery
+      - science fiction
+      - noir
+      - dark
+      - dystopian
+      - violent
 
 blood_simple:
   groups:
@@ -550,6 +656,12 @@ blood_simple:
       reason: null
       distributor: Circle Releasing Corp.
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 blue_velvet:
   groups:
@@ -574,6 +686,13 @@ blue_velvet:
       reason: null
       distributor: De Laurentiis Entertainment Group
       alt_title: null
+    genres:
+      - mystery
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 bob_le_flambeur:
   groups:
@@ -598,6 +717,10 @@ bob_le_flambeur:
     aspect_ratio: 1.37
     publisher: Kino Lorber Studio Classics
     discs: 2
+    genres:
+      - crime
+      - noir
+      - heist
 
 bottle_rocket:
   groups:
@@ -623,6 +746,10 @@ bottle_rocket:
       reason: language
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - comedy
+      - crime
+      - heist
 
 bound:
   groups:
@@ -654,6 +781,12 @@ bound:
         - language
       distributor: Gramercy Pictures
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 bram_stoker's_dracula:
   groups:
@@ -683,6 +816,11 @@ bram_stoker's_dracula:
         - horror violence
       distributor: Columbia Pictures
       alt_title: Dracula, The Untold Story
+    genres:
+      - horror
+      - dark
+      - period
+      - violent
 
 burn_after_reading:
   groups:
@@ -712,6 +850,10 @@ burn_after_reading:
         - violence
       distributor: Focus Features LLC
       alt_title: null
+    genres:
+      - comedy
+      - dark
+      - violent
 
 captain_america-the_first_avenger:
   groups:
@@ -738,6 +880,11 @@ captain_america-the_first_avenger:
       reason: intense sequences of sci-fi violence and action
       distributor: Paramount Pictures Corporation
       alt_title: null
+    genres:
+      - action
+      - fantasy
+      - science fiction
+      - period
 
 casino_royale:
   groups:
@@ -768,6 +915,10 @@ casino_royale:
         - nudity
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - action
+      - gritty
+      - violent
 
 children_of_men:
   groups:
@@ -801,6 +952,12 @@ children_of_men:
         - brief nudity
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - science fiction
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 citizen_kane:
   groups:
@@ -828,6 +985,8 @@ citizen_kane:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - mystery
 
 close_encounters_of_the_third_kind:
   groups:
@@ -851,6 +1010,8 @@ close_encounters_of_the_third_kind:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: null
+    genres:
+      - science fiction
 
 colossus-the_forbin_project:
   groups:
@@ -869,6 +1030,11 @@ colossus-the_forbin_project:
     aspect_ratio: 2.35
     publisher: Shout! Factory LLC
     discs: 1
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - dystopian
 
 the_conversation:
   groups:
@@ -893,6 +1059,11 @@ the_conversation:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - mystery
+      - noir
+      - dark
+      - dystopian
 
 crimson_tide:
   groups:
@@ -915,6 +1086,10 @@ crimson_tide:
       reason: strong language
       distributor: Buena Vista Pictures Distribution, Inc.
       alt_title: null
+    genres:
+      - action
+      - gritty
+      - violent
 
 crouching_tiger,_hidden_dragon:
   groups:
@@ -944,6 +1119,12 @@ crouching_tiger,_hidden_dragon:
         - some sexuality
       distributor: Sony Pictures Classics
       alt_title: null
+    genres:
+      - action
+      - fantasy
+      - martial arts
+      - wuxia
+      - period
 
 dark_city:
   groups:
@@ -971,6 +1152,15 @@ dark_city:
         - some sexuality
       distributor: New Line Cinema
       alt_title: null
+    genres:
+      - horror
+      - mystery
+      - science fiction
+      - noir
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 the_dark_knight:
   groups:
@@ -999,6 +1189,15 @@ the_dark_knight:
         - some menace
       distributor: Warner Bros. Pictures Inc.
       alt_title: "Rory's First Kiss\_"
+    genres:
+      - action
+      - mystery
+      - crime
+      - noir
+      - heist
+      - dark
+      - gritty
+      - violent
 
 days_of_heaven:
   groups:
@@ -1023,6 +1222,9 @@ days_of_heaven:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - dark
+      - period
 
 dazed_and_confused:
   groups:
@@ -1049,6 +1251,9 @@ dazed_and_confused:
         - very strong language
       distributor: Gramercy Pictures
       alt_title: null
+    genres:
+      - comedy
+      - period
 
 deep_cover:
   groups:
@@ -1078,6 +1283,38 @@ deep_cover:
         - sensuality
       distributor: New Line Cinema
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+
+do_the_right_thing:
+  groups:
+    - 4k_uhd
+    - hdr10
+  data:
+    title: Do The Right Thing
+    year: 1989
+    runtime: 120
+    director: Spike Lee
+    crew:
+      writer: Spike Lee
+      cinematographer: Ernest Dickerson
+      composer: Bill Lee
+      editor: Barry Alexander Brown
+    aspect_ratio: 1.85
+    publisher: Universal Studios
+    discs: 2
+    mpaa:
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+    genres:
+      - comedy
+      - gritty
 
 double_indemnity:
   groups:
@@ -1100,6 +1337,11 @@ double_indemnity:
     aspect_ratio: 1.37
     publisher: The Criterion Collection
     discs: 3
+    genres:
+      - mystery
+      - crime
+      - noir
+      - dark
 
 drive:
   groups:
@@ -1127,6 +1369,13 @@ drive:
         - some nudity
       distributor: FilmDistrict Distribution, LLC
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - heist
+      - dark
+      - gritty
+      - violent
 
 dune:
   groups:
@@ -1156,6 +1405,9 @@ dune:
         - suggestive material
       distributor: Warner Bros. Pictures
       alt_title: null
+    genres:
+      - action
+      - science fiction
 
 dune-part_two:
   groups:
@@ -1184,6 +1436,9 @@ dune-part_two:
         - brief strong language
       distributor: Legendary Features Productions US LLC & Warner Bros. Pictures
       alt_title: null
+    genres:
+      - action
+      - science fiction
 
 ed_wood:
   groups:
@@ -1209,6 +1464,10 @@ ed_wood:
       reason: some strong language
       distributor: Buena Vista Pictures Distribution, Inc.
       alt_title: null
+    genres:
+      - comedy
+      - dark
+      - period
 
 election:
   groups:
@@ -1238,6 +1497,9 @@ election:
         - a scene of drug use
       distributor: Paramount Pictures Corporation
       alt_title: null
+    genres:
+      - comedy
+      - dark
 
 enter_the_dragon:
   groups:
@@ -1264,6 +1526,12 @@ enter_the_dragon:
       reason: null
       distributor: Warner Bros. Inc.
       alt_title: Deadly Three, The
+    genres:
+      - action
+      - crime
+      - martial arts
+      - gritty
+      - violent
 
 escape_from_new_york:
   groups:
@@ -1293,6 +1561,14 @@ escape_from_new_york:
       reason: null
       distributor: Avco Embassy Pictures
       alt_title: null
+    genres:
+      - action
+      - science fiction
+      - heist
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 e.t._the_extra-terrestrial:
   groups:
@@ -1316,6 +1592,10 @@ e.t._the_extra-terrestrial:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - horror
+      - science fiction
+      - dark
 
 ex_machina:
   groups:
@@ -1345,6 +1625,12 @@ ex_machina:
         - some violence
       distributor: A24
       alt_title: Ex-Machina
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - dystopian
+      - violent
 
 fargo:
   groups:
@@ -1374,6 +1660,13 @@ fargo:
         - sexuality
       distributor: Gramercy Pictures
       alt_title: null
+    genres:
+      - comedy
+      - crime
+      - noir
+      - dark
+      - period
+      - violent
 
 ferrari:
   groups:
@@ -1401,6 +1694,9 @@ ferrari:
         - language
       distributor: NEON
       alt_title: null
+    genres:
+      - period
+      - violent
 
 the_fifth_element:
   groups:
@@ -1430,6 +1726,12 @@ the_fifth_element:
         - brief nudity
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - fantasy
+      - science fiction
+      - violent
 
 forgetting_sarah_marshall:
   groups:
@@ -1455,6 +1757,9 @@ forgetting_sarah_marshall:
         - some graphic nudity
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - comedy
+      - dark
 
 friday_night_lights:
   groups:
@@ -1484,6 +1789,10 @@ friday_night_lights:
         - rough sports action
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - dark
+      - gritty
+      - period
 
 funny_people:
   groups:
@@ -1512,6 +1821,8 @@ funny_people:
         - some sexuality
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - comedy
 
 furiosa-a_mad_max_saga:
   groups:
@@ -1542,6 +1853,13 @@ furiosa-a_mad_max_saga:
         - grisly images
       distributor: Warner Bros. Pictures
       alt_title: null
+    genres:
+      - action
+      - science fiction
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 the_game:
   groups:
@@ -1569,6 +1887,12 @@ the_game:
         - some violence and sexuality
       distributor: Polygram Films
       alt_title: null
+    genres:
+      - horror
+      - mystery
+      - noir
+      - dark
+      - violent
 
 gattaca:
   groups:
@@ -1596,6 +1920,11 @@ gattaca:
         - some sexuality
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - mystery
+      - science fiction
+      - noir
+      - dystopian
 
 ghost_dog-the_way_of_the_samurai:
   groups:
@@ -1621,6 +1950,12 @@ ghost_dog-the_way_of_the_samurai:
         - language
       distributor: Artisan Pictures Inc.
       alt_title: Ghost Dog
+    genres:
+      - comedy
+      - crime
+      - martial arts
+      - dark
+      - violent
 
 ghost_in_the_shell:
   groups:
@@ -1640,6 +1975,13 @@ ghost_in_the_shell:
     aspect_ratio: 1.85
     publisher: Lions Gate Entertainment Inc
     discs: 2
+    genres:
+      - action
+      - mystery
+      - science fiction
+      - noir
+      - dystopian
+      - violent
 
 the_girl_with_the_dragon_tattoo:
   groups:
@@ -1670,6 +2012,12 @@ the_girl_with_the_dragon_tattoo:
         - language
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - mystery
+      - crime
+      - noir
+      - dark
+      - violent
 
 gladiator:
   groups:
@@ -1699,6 +2047,10 @@ gladiator:
       reason: intense graphic combat
       distributor: Dreamworks Distribution L.L.C.
       alt_title: null
+    genres:
+      - action
+      - period
+      - violent
 
 the_guyver:
   groups:
@@ -1726,6 +2078,14 @@ the_guyver:
       reason: null
       distributor: ''
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - fantasy
+      - science fiction
+      - martial arts
+      - dark
+      - violent
 
 heat:
   groups:
@@ -1752,6 +2112,13 @@ heat:
         - language
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
+    genres:
+      - action
+      - crime
+      - noir
+      - heist
+      - gritty
+      - violent
 
 horizon-an_american_saga_chapter_1:
   groups:
@@ -1781,6 +2148,10 @@ horizon-an_american_saga_chapter_1:
         - sexuality
       distributor: New Line Cinema
       alt_title: null
+    genres:
+      - western
+      - period
+      - violent
 
 in_the_mouth_of_madness:
   groups:
@@ -1808,6 +2179,11 @@ in_the_mouth_of_madness:
         - language
       distributor: New Line Cinema
       alt_title: Horizon
+    genres:
+      - horror
+      - mystery
+      - dark
+      - violent
 
 inception:
   groups:
@@ -1830,6 +2206,12 @@ inception:
       reason: sequences of violence and action throughout
       distributor: Warner Bros. Pictures
       alt_title: Oliver's Arrow
+    genres:
+      - action
+      - science fiction
+      - crime
+      - heist
+      - violent
 
 indiana_jones_and_the_temple_of_doom:
   groups:
@@ -1856,6 +2238,12 @@ indiana_jones_and_the_temple_of_doom:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - action
+      - fantasy
+      - dark
+      - period
+      - violent
 
 invasion_of_the_body_snatchers:
   groups:
@@ -1880,6 +2268,12 @@ invasion_of_the_body_snatchers:
       reason: null
       distributor: United Artists
       alt_title: null
+    genres:
+      - horror
+      - mystery
+      - science fiction
+      - dark
+      - violent
 
 jaws:
   groups:
@@ -1905,6 +2299,10 @@ jaws:
       reason: null
       distributor: Universal City Studios, Inc
       alt_title: null
+    genres:
+      - action
+      - horror
+      - violent
 
 jurassic_park:
   groups:
@@ -1930,6 +2328,11 @@ jurassic_park:
       reason: intense science fiction terror
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - action
+      - horror
+      - science fiction
+      - violent
 
 the_kingdom:
   groups:
@@ -1958,6 +2361,10 @@ the_kingdom:
       alt_title:
         - Kingdom
         - Top Dog
+    genres:
+      - action
+      - gritty
+      - violent
 
 l.a._confidential:
   groups:
@@ -1985,6 +2392,13 @@ l.a._confidential:
         - sexuality
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
+    genres:
+      - mystery
+      - crime
+      - noir
+      - dark
+      - period
+      - violent
 
 last_action_hero:
   groups:
@@ -2013,6 +2427,10 @@ last_action_hero:
       reason: strong action sequences
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - violent
 
 the_last_picture_show:
   groups:
@@ -2040,6 +2458,8 @@ the_last_picture_show:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: null
+    genres:
+      - period
 
 the_lawnmower_man:
   groups:
@@ -2068,6 +2488,11 @@ the_lawnmower_man:
         - a scene of violence
       distributor: New Line Cinema
       alt_title: null
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - violent
 
 le_cercle_rouge:
   groups:
@@ -2087,6 +2512,13 @@ le_cercle_rouge:
     aspect_ratio: 1.85
     publisher: The Criterion Collection
     discs: 2
+    genres:
+      - crime
+      - noir
+      - heist
+      - dark
+      - gritty
+      - violent
 
 le_doulos:
   groups:
@@ -2107,6 +2539,14 @@ le_doulos:
     aspect_ratio: 1.66
     publisher: Kino Lorber Studio Classics
     discs: 2
+    genres:
+      - mystery
+      - crime
+      - noir
+      - heist
+      - dark
+      - gritty
+      - violent
 
 le_samourai:
   groups:
@@ -2128,6 +2568,12 @@ le_samourai:
     aspect_ratio: 1.85
     publisher: The Criterion Collection
     discs: 2
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 legend:
   groups:
@@ -2151,6 +2597,11 @@ legend:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - action
+      - fantasy
+      - dark
+      - violent
 
 licorice_pizza:
   groups:
@@ -2176,6 +2627,9 @@ licorice_pizza:
         - some drug use
       distributor: Metro-Goldwyn-Mayer Pictures Inc.
       alt_title: Untitled PTA
+    genres:
+      - comedy
+      - period
 
 lone_star:
   groups:
@@ -2203,6 +2657,9 @@ lone_star:
         - violence
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - mystery
+      - noir
 
 the_long_good_friday:
   groups:
@@ -2227,6 +2684,12 @@ the_long_good_friday:
       reason: null
       distributor: Avco Embassy Pictures
       alt_title: null
+    genres:
+      - action
+      - crime
+      - noir
+      - gritty
+      - violent
 
 lost_highway:
   groups:
@@ -2255,6 +2718,11 @@ lost_highway:
         - strong langauge
       distributor: October Films
       alt_title: null
+    genres:
+      - horror
+      - noir
+      - dark
+      - violent
 
 mad_max-the_road_warrior:
   groups:
@@ -2285,6 +2753,12 @@ mad_max-the_road_warrior:
       reason: null
       distributor: Warner Bros. Inc.
       alt_title: Mad Max 2
+    genres:
+      - action
+      - science fiction
+      - gritty
+      - dystopian
+      - violent
 
 mad_max-fury_road:
   groups:
@@ -2313,6 +2787,12 @@ mad_max-fury_road:
         - disturbing images
       distributor: Warner Bros. Pictures
       alt_title: null
+    genres:
+      - action
+      - science fiction
+      - gritty
+      - dystopian
+      - violent
 
 mallrats:
   groups:
@@ -2341,6 +2821,9 @@ mallrats:
         - drug content
       distributor: Gramercy Pictures
       alt_title: null
+    genres:
+      - comedy
+      - dark
 
 the_maltese_falcon:
   groups:
@@ -2361,6 +2844,10 @@ the_maltese_falcon:
     aspect_ratio: 1.37
     publisher: Warner Bros. Entertainment Inc
     discs: 2
+    genres:
+      - mystery
+      - crime
+      - noir
 
 margin_call:
   groups:
@@ -2383,6 +2870,9 @@ margin_call:
       reason: language
       distributor: Roadside Attractions LLC
       alt_title: null
+    genres:
+      - dark
+      - gritty
 
 the_matrix:
   groups:
@@ -2412,6 +2902,14 @@ the_matrix:
         - brief language
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
+    genres:
+      - action
+      - science fiction
+      - martial arts
+      - wuxia
+      - dark
+      - dystopian
+      - violent
 
 the_matrix_reloaded:
   groups:
@@ -2441,6 +2939,14 @@ the_matrix_reloaded:
         - some sexuality
       distributor: Warner Bros. Pictures An AOL Time Warner Company
       alt_title: Matrix 2
+    genres:
+      - action
+      - science fiction
+      - martial arts
+      - wuxia
+      - dark
+      - dystopian
+      - violent
 
 the_matrix_revolutions:
   groups:
@@ -2470,6 +2976,14 @@ the_matrix_revolutions:
         - brief sexual content
       distributor: Warner Bros. Pictures Inc.
       alt_title: null
+    genres:
+      - action
+      - science fiction
+      - martial arts
+      - wuxia
+      - dark
+      - dystopian
+      - violent
 
 mean_streets:
   groups:
@@ -2496,6 +3010,10 @@ mean_streets:
       reason: null
       distributor: Warner Bros. Inc.
       alt_title: null
+    genres:
+      - crime
+      - gritty
+      - violent
 
 minority_report:
   groups:
@@ -2524,6 +3042,13 @@ minority_report:
         - drug content
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+    genres:
+      - action
+      - mystery
+      - science fiction
+      - dark
+      - gritty
+      - dystopian
 
 mission-impossible:
   groups:
@@ -2550,6 +3075,12 @@ mission-impossible:
       reason: some intense action violence
       distributor: Paramount Pictures Corporation
       alt_title: null
+    genres:
+      - action
+      - mystery
+      - noir
+      - heist
+      - dark
 
 mona_lisa:
   groups:
@@ -2575,6 +3106,12 @@ mona_lisa:
       reason: null
       distributor: Island Pictures
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 mulholland_drive:
   groups:
@@ -2602,6 +3139,13 @@ mulholland_drive:
         - some strong sexuality
       distributor: Universal Focus
       alt_title: null
+    genres:
+      - horror
+      - mystery
+      - crime
+      - noir
+      - dark
+      - violent
 
 the_new_world:
   groups:
@@ -2629,6 +3173,8 @@ the_new_world:
       reason: some intense battle sequences
       distributor: New Line Cinema
       alt_title: null
+    genres:
+      - period
 
 no_country_for_old_men:
   groups:
@@ -2657,6 +3203,13 @@ no_country_for_old_men:
         - some language
       distributor: Miramax Films
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - period
+      - violent
 
 north_by_northwest:
   groups:
@@ -2676,6 +3229,11 @@ north_by_northwest:
     aspect_ratio: 1.85
     publisher: Warner Bros. Entertainment Inc
     discs: 1
+    genres:
+      - action
+      - comedy
+      - mystery
+      - crime
 
 one_false_move:
   groups:
@@ -2708,6 +3266,12 @@ one_false_move:
       alt_title:
         - Hurricane
         - Star City
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 oppenheimer:
   groups:
@@ -2734,6 +3298,8 @@ oppenheimer:
         - language
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - period
 
 paper_moon:
   groups:
@@ -2758,6 +3324,9 @@ paper_moon:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - comedy
+      - period
 
 paprika:
   groups:
@@ -2785,6 +3354,11 @@ paprika:
       reason: violent and sexual images
       distributor: Sony Pictures Classics
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - mystery
+      - science fiction
 
 the_parallax_view:
   groups:
@@ -2810,6 +3384,13 @@ the_parallax_view:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - mystery
+      - noir
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 peeping_tom:
   groups:
@@ -2829,6 +3410,11 @@ peeping_tom:
     aspect_ratio: 1.66
     publisher: The Criterion Collection
     discs: 2
+    genres:
+      - horror
+      - crime
+      - dark
+      - violent
 
 the_phantom_thread:
   groups:
@@ -2853,6 +3439,10 @@ the_phantom_thread:
       reason: language
       distributor: Focus Features LLC
       alt_title: Untitled PTA Project
+    genres:
+      - comedy
+      - dark
+      - period
 
 pineapple_express:
   groups:
@@ -2881,6 +3471,12 @@ pineapple_express:
         - violence
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - crime
+      - dark
+      - violent
 
 planet_earth:
   groups:
@@ -2898,6 +3494,7 @@ planet_earth:
     aspect_ratio: 1.78
     publisher: Warner Bros. Entertainment Inc
     discs: 4
+    genres: []
 
 premium_rush:
   groups:
@@ -2925,6 +3522,9 @@ premium_rush:
         - language
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - action
+      - violent
 
 prince_of_darkness:
   groups:
@@ -2951,6 +3551,12 @@ prince_of_darkness:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - horror
+      - mystery
+      - science fiction
+      - dark
+      - violent
 
 quantum_of_solace:
   groups:
@@ -2980,6 +3586,10 @@ quantum_of_solace:
         - some sexual content
       distributor: Columbia Pictures
       alt_title: "Bond 22\_"
+    genres:
+      - action
+      - gritty
+      - violent
 
 raging_bull:
   groups:
@@ -3007,6 +3617,11 @@ raging_bull:
       reason: null
       distributor: United Artists
       alt_title: null
+    genres:
+      - dark
+      - gritty
+      - period
+      - violent
 
 raiders_of_the_lost_ark:
   groups:
@@ -3030,6 +3645,10 @@ raiders_of_the_lost_ark:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - action
+      - period
+      - violent
 
 rambo:
   groups:
@@ -3061,6 +3680,11 @@ rambo:
         - John Rambo
         - Rambo 4
         - Rambo To Hell And Back
+    genres:
+      - action
+      - dark
+      - gritty
+      - violent
 
 real_genius:
   groups:
@@ -3087,6 +3711,9 @@ real_genius:
       reason: null
       distributor: Tri-Star Pictures
       alt_title: null
+    genres:
+      - comedy
+      - science fiction
 
 repo_man:
   groups:
@@ -3113,6 +3740,14 @@ repo_man:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - comedy
+      - science fiction
+      - crime
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 ronin:
   groups:
@@ -3141,6 +3776,13 @@ ronin:
         - some language
       distributor: Metro-Goldwyn-Mayer Distribution Co.
       alt_title: null
+    genres:
+      - action
+      - crime
+      - heist
+      - dark
+      - gritty
+      - violent
 
 the_royal_tenenbaums:
   groups:
@@ -3169,6 +3811,8 @@ the_royal_tenenbaums:
         - drug content
       distributor: Buena Vista Pictures Distribution
       alt_title: null
+    genres:
+      - comedy
 
 rumble_fish:
   groups:
@@ -3195,6 +3839,9 @@ rumble_fish:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - dark
+      - period
 
 rushmore:
   groups:
@@ -3222,6 +3869,8 @@ rushmore:
         - brief nudity
       distributor: Buena Vista Pictures Distribution
       alt_title: null
+    genres:
+      - comedy
 
 schindler's_list:
   groups:
@@ -3249,6 +3898,10 @@ schindler's_list:
         - actuality violence
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - dark
+      - period
+      - violent
 
 seconds:
   groups:
@@ -3269,6 +3922,9 @@ seconds:
     aspect_ratio: 1.75
     publisher: The Criterion Collection
     discs: 1
+    genres:
+      - science fiction
+      - dark
 
 a_serious_man:
   groups:
@@ -3298,6 +3954,10 @@ a_serious_man:
         - brief violence
       distributor: Focus Features LLC
       alt_title: null
+    genres:
+      - comedy
+      - dark
+      - period
 
 silent_running:
   groups:
@@ -3326,6 +3986,9 @@ silent_running:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - science fiction
+      - dystopian
 
 slacker:
   groups:
@@ -3349,6 +4012,8 @@ slacker:
       reason: language
       distributor: Orion Classics
       alt_title: null
+    genres:
+      - comedy
 
 the_social_network:
   groups:
@@ -3378,6 +4043,10 @@ the_social_network:
         - language
       distributor: Columbia Pictures
       alt_title: Facebook
+    genres:
+      - comedy
+      - dark
+      - period
 
 speed:
   groups:
@@ -3403,6 +4072,10 @@ speed:
         - language
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+    genres:
+      - action
+      - gritty
+      - violent
 
 speed_racer:
   groups:
@@ -3435,6 +4108,10 @@ speed_racer:
         - brief smoking
       distributor: Warner Bros. Pictures Inc.
       alt_title: null
+    genres:
+      - action
+      - fantasy
+      - science fiction
 
 spider-man_3:
   groups:
@@ -3460,6 +4137,12 @@ spider-man_3:
       reason: sequences of intense action violence
       distributor: Columbia Pictures
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - fantasy
+      - science fiction
+      - dark
 
 stand_by_me:
   groups:
@@ -3486,6 +4169,10 @@ stand_by_me:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: Body, The
+    genres:
+      - comedy
+      - dark
+      - period
 
 star_trek:
   groups:
@@ -3518,6 +4205,10 @@ star_trek:
         - Corporate Headquarters
         - Star Trek XI
         - 'Star Trek: Corporate Headquarters'
+    genres:
+      - action
+      - science fiction
+      - dark
 
 star_wars-andor:
   groups:
@@ -3555,6 +4246,12 @@ star_wars-andor:
     aspect_ratio: 2.39
     publisher: Buena Vista Home Entertainment, Inc.
     discs: 3
+    genres:
+      - action
+      - fantasy
+      - science fiction
+      - heist
+      - dark
 
 straight_outta_compton:
   groups:
@@ -3584,6 +4281,9 @@ straight_outta_compton:
         - drug use
       distributor: Universal Studios
       alt_title: null
+    genres:
+      - dark
+      - period
 
 the_sugarland_express:
   groups:
@@ -3612,6 +4312,11 @@ the_sugarland_express:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - comedy
+      - crime
+      - dark
+      - period
 
 super_8:
   groups:
@@ -3641,6 +4346,12 @@ super_8:
       alt_title:
         - Darlings
         - Project Wickham
+    genres:
+      - action
+      - horror
+      - science fiction
+      - dark
+      - period
 
 the_taking_of_pelham_one_two_three:
   groups:
@@ -3667,6 +4378,13 @@ the_taking_of_pelham_one_two_three:
       reason: null
       distributor: United Artists
       alt_title: null
+    genres:
+      - action
+      - crime
+      - heist
+      - dark
+      - gritty
+      - violent
 
 taxi_driver:
   groups:
@@ -3693,6 +4411,12 @@ taxi_driver:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
 
 there_will_be_blood:
   groups:
@@ -3715,6 +4439,10 @@ there_will_be_blood:
       reason: some violence
       distributor: Paramount Vantage, A Division Of Paramount Pictures Corporation
       alt_title: null
+    genres:
+      - dark
+      - period
+      - violent
 
 they_live:
   groups:
@@ -3744,6 +4472,14 @@ they_live:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - horror
+      - science fiction
+      - dark
+      - dystopian
+      - violent
 
 thief:
   groups:
@@ -3767,6 +4503,13 @@ thief:
       reason: null
       distributor: United Artists
       alt_title: Violent Streets
+    genres:
+      - crime
+      - noir
+      - heist
+      - dark
+      - gritty
+      - violent
 
 the_thin_red_line:
   groups:
@@ -3794,6 +4537,10 @@ the_thin_red_line:
         - language
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+    genres:
+      - dark
+      - period
+      - violent
 
 the_thing:
   groups:
@@ -3816,6 +4563,11 @@ the_thing:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - violent
 
 the_tree_of_life:
   groups:
@@ -3844,6 +4596,8 @@ the_tree_of_life:
       reason: some thematic material
       distributor: Fox Searchlight Pictures, Inc.
       alt_title: Edited for re-rating
+    genres:
+      - period
 
 tropic_thunder:
   groups:
@@ -3872,6 +4626,11 @@ tropic_thunder:
         - drug material
       distributor: DreamWorks/Paramount Distribution
       alt_title: null
+    genres:
+      - action
+      - comedy
+      - dark
+      - violent
 
 twilight_of_the_warriors-walled_in:
   groups:
@@ -3903,6 +4662,13 @@ twilight_of_the_warriors-walled_in:
         - some drug content
       distributor: Well Go USA, Inc.
       alt_title: Subtitled
+    genres:
+      - comedy
+      - fantasy
+      - crime
+      - martial arts
+      - period
+      - violent
 
 twin_peaks-the_television_collection:
   groups:
@@ -3927,6 +4693,10 @@ twin_peaks-the_television_collection:
     aspect_ratio: 1.33
     publisher: Paramount Pictures
     discs: 16
+    genres:
+      - noir
+      - dark
+      - violent
 
 twin_peaks-fire_walk_with_me:
   groups:
@@ -3956,6 +4726,10 @@ twin_peaks-fire_walk_with_me:
         - language
       distributor: New Line Cinema
       alt_title: null
+    genres:
+      - noir
+      - dark
+      - violent
 
 unbreakable:
   groups:
@@ -3981,6 +4755,11 @@ unbreakable:
         - a sexual reference
       distributor: Buena Vista Pictures Distribution
       alt_title: null
+    genres:
+      - fantasy
+      - science fiction
+      - dark
+      - violent
 
 uncut_gems:
   groups:
@@ -4016,6 +4795,13 @@ uncut_gems:
         - brief drug use
       distributor: A24
       alt_title: null
+    genres:
+      - crime
+      - noir
+      - dark
+      - gritty
+      - period
+      - violent
 
 unforgiven:
   groups:
@@ -4042,6 +4828,12 @@ unforgiven:
         - a scene of sexuality
       distributor: Warner Bros. Inc.
       alt_title: William Munny Killings, The
+    genres:
+      - western
+      - dark
+      - gritty
+      - period
+      - violent
 
 vertigo:
   groups:
@@ -4062,6 +4854,11 @@ vertigo:
     aspect_ratio: 1.85
     publisher: Universal Studios
     discs: 2
+    genres:
+      - horror
+      - mystery
+      - noir
+      - dark
 
 videodrome:
   groups:
@@ -4086,6 +4883,13 @@ videodrome:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - gritty
+      - dystopian
+      - violent
 
 walk_hard-the_dewey_cox_story:
   groups:
@@ -4116,6 +4920,9 @@ walk_hard-the_dewey_cox_story:
         - language
       distributor: Columbia Pictures
       alt_title: Walk Hard
+    genres:
+      - comedy
+      - period
 
 war_of_the_worlds:
   groups:
@@ -4143,6 +4950,13 @@ war_of_the_worlds:
         - disturbing images
       distributor: Paramount Pictures Corporation
       alt_title: null
+    genres:
+      - action
+      - horror
+      - science fiction
+      - dark
+      - gritty
+      - violent
 
 wayne's_world:
   groups:
@@ -4170,6 +4984,8 @@ wayne's_world:
       reason: sex related dialogue
       distributor: Paramount Pictures Corp.
       alt_title: null
+    genres:
+      - comedy
 
 wild_at_heart:
   groups:
@@ -4193,6 +5009,12 @@ wild_at_heart:
       reason: null
       distributor: Samuel Goldwyn Company
       alt_title: null
+    genres:
+      - comedy
+      - crime
+      - noir
+      - dark
+      - violent
 
 zodiac:
   groups:
@@ -4221,3 +5043,11 @@ zodiac:
       alt_title:
         - Chronicles
         - Chronicles Of The Zodiac
+    genres:
+      - horror
+      - mystery
+      - crime
+      - noir
+      - dark
+      - period
+      - violent

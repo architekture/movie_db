@@ -16,6 +16,7 @@ def dump_movies_yaml(movie_list: list):
     
     return export
 
+
 def export_movies_yaml(yaml_blob: str, file_name: str):
     """Writes YAML file of the movie database for use with Nornir.
 
@@ -27,6 +28,59 @@ def export_movies_yaml(yaml_blob: str, file_name: str):
     """
     with open(file_name, "w") as f:
         f.write(yaml_blob)
+
+
+def import_genres(csv_row: dict, movie_dict: dict):
+    """Appends genre and descriptor data for movie database.
+    
+    Args:
+      csv_row(dict):
+        An individual row read into mem using the data.import_movies
+        func.
+      movie_dict(dict):
+        Transformed Python-native dict synthesized from csv_row data
+        using the data.import_movies func.
+    """
+    """TODO"""
+    genres = []
+    if csv_row["action"] == "TRUE":
+        genres.append("action")
+    if csv_row["comedy"] == "TRUE":
+        genres.append("comedy")
+    if csv_row["fantasy"] == "TRUE":
+        genres.append("fantasy")
+    if csv_row["horror"] == "TRUE":
+        genres.append("horror")
+    if csv_row["mystery"] == "TRUE":
+        genres.append("mystery")
+    if csv_row["sciFi"] == "TRUE":
+        genres.append("science fiction")
+    if csv_row["western"] == "TRUE":
+        genres.append("western")
+    if csv_row["crime"] == "TRUE":
+        genres.append("crime")
+    if csv_row["noir"] == "TRUE":
+        genres.append("noir")
+    if csv_row["heist"] == "TRUE":
+        genres.append("heist")
+    if csv_row["martialArts"] == "TRUE":
+        genres.append("martial arts")
+    if csv_row["wuxia"] == "TRUE":
+        genres.append("wuxia")
+    if csv_row["dark"] == "TRUE":
+        genres.append("dark")
+    if csv_row["gritty"] == "TRUE":
+        genres.append("gritty")
+    if csv_row["dystopian"] == "TRUE":
+        genres.append("dystopian")
+    if csv_row["period"] == "TRUE":
+        genres.append("period")
+    if csv_row["violent"] == "TRUE":
+        genres.append("violent")
+
+    for v in movie_dict.values():
+        v["data"]["genres"] = genres
+
 
 def import_movies(file: str):
     """Converts movie .CSV file into structured Python data.
@@ -93,10 +147,12 @@ def import_movies(file: str):
             }
             if i["mpaa"] != "":
                 import_mpaa_data(i, mv)
+            import_genres(i, mv)
             split_collaborators(mv)
             movies.append(mv)
     
     return movies
+
 
 def import_mpaa_data(csv_row: dict, movie_dict: dict):
     """Appends MPAA ratings data for eligible pictures.
@@ -125,6 +181,7 @@ def import_mpaa_data(csv_row: dict, movie_dict: dict):
     }
     for k,v in movie_dict.items():
         v["data"]["mpaa"] = mpaa
+
 
 def split_collaborators(movie_dict: dict):
     """Converts str values into lists for applicable crew fields.
