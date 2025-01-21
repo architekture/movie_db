@@ -3906,6 +3906,7 @@ schindler's_list:
 seconds:
   groups:
     - blu-ray
+    - black_white
     - boutique
   data:
     title: Seconds
@@ -4567,6 +4568,38 @@ the_thing:
       - horror
       - science fiction
       - dark
+      - violent
+
+traffic:
+  groups:
+    - blu-ray
+    - boutique
+  data:
+    title: Traffic
+    year: 2000
+    runtime: 147
+    director: Steven Soderbergh
+    crew:
+      writer: Stephen Gaghan
+      cinematographer: Peter Andrews
+      composer: Cliff Martinez
+      editor: Stephen Mirrione
+    aspect_ratio: 1.78
+    publisher: The Criterion Collection
+    discs: 1
+    mpaa:
+      rating: R
+      reason:
+        - pervasive drug content
+        - strong language
+        - violence
+        - some sexuality
+      distributor: USA Films
+      alt_title: null
+    genres:
+      - crime
+      - dark
+      - gritty
       - violent
 
 the_tree_of_life:

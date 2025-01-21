@@ -1,3 +1,4 @@
+import configparser
 import csv
 import yaml
 
@@ -30,6 +31,25 @@ def export_movies_yaml(yaml_blob: str, file_name: str):
         f.write(yaml_blob)
 
 
+def import_current_genres(file: str):
+    """Reads genres.ini file via ConfigParser and imports data.
+
+    Args:
+      file(str):
+        Name including the file path of the INI file for ConfigParser
+        to read and intepret.
+    """
+    parser = configparser.ConfigParser()
+    parser.read(file)
+    genres = parser["GENRES"]["genres"].split(",")
+    subgenres = parser["GENRES"]["subgenres"].split(",")
+    descriptors = parser["DESCRIPTORS"]["descriptors"].split(",")
+    genres.extend(subgenres)
+    genres.extend(descriptors)
+
+    return genres
+
+
 def import_genres(csv_row: dict, movie_dict: dict):
     """Appends genre and descriptor data for movie database.
     
@@ -41,7 +61,6 @@ def import_genres(csv_row: dict, movie_dict: dict):
         Transformed Python-native dict synthesized from csv_row data
         using the data.import_movies func.
     """
-    """TODO"""
     genres = []
     if csv_row["action"] == "TRUE":
         genres.append("action")
