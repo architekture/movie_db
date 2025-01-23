@@ -1065,6 +1065,40 @@ the_conversation:
       - dark
       - dystopian
 
+the_counselor:
+  groups:
+    - blu-ray
+    - case_replacement
+  data:
+    title: The Counselor
+    year: 2013
+    runtime: 117
+    director: Ridley Scott
+    crew:
+      writer: Cormac McCarthy
+      cinematographer: Dariusz Wolski
+      composer: Daniel Pemberton
+      editor: Pietro Scalia
+    aspect_ratio: 2.4
+    publisher: Twentieth Century Fox Home Entertainment LLC
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - graphic violence
+        - some grisly images
+        - strong sexual content
+        - language
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: null
+    genres:
+      - western
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+
 crimson_tide:
   groups:
     - blu-ray
@@ -2513,6 +2547,7 @@ le_cercle_rouge:
     publisher: The Criterion Collection
     discs: 2
     genres:
+      - action
       - crime
       - noir
       - heist
@@ -2659,6 +2694,7 @@ lone_star:
       alt_title: null
     genres:
       - mystery
+      - western
       - noir
 
 the_long_good_friday:
@@ -2720,6 +2756,7 @@ lost_highway:
       alt_title: null
     genres:
       - horror
+      - crime
       - noir
       - dark
       - violent
@@ -2848,6 +2885,7 @@ the_maltese_falcon:
       - mystery
       - crime
       - noir
+      - dark
 
 margin_call:
   groups:
@@ -2873,6 +2911,7 @@ margin_call:
     genres:
       - dark
       - gritty
+      - period
 
 the_matrix:
   groups:
@@ -3204,6 +3243,7 @@ no_country_for_old_men:
       distributor: Miramax Films
       alt_title: null
     genres:
+      - western
       - crime
       - noir
       - dark
@@ -3647,6 +3687,7 @@ raiders_of_the_lost_ark:
       alt_title: null
     genres:
       - action
+      - fantasy
       - period
       - violent
 
@@ -3840,6 +3881,7 @@ rumble_fish:
       distributor: Universal City Studios, Inc.
       alt_title: null
     genres:
+      - noir
       - dark
       - period
 
@@ -4045,7 +4087,6 @@ the_social_network:
       distributor: Columbia Pictures
       alt_title: Facebook
     genres:
-      - comedy
       - dark
       - period
 
@@ -4315,6 +4356,7 @@ the_sugarland_express:
       alt_title: null
     genres:
       - comedy
+      - western
       - crime
       - dark
       - period
@@ -4727,6 +4769,7 @@ twin_peaks-the_television_collection:
     publisher: Paramount Pictures
     discs: 16
     genres:
+      - crime
       - noir
       - dark
       - violent
@@ -4760,6 +4803,7 @@ twin_peaks-fire_walk_with_me:
       distributor: New Line Cinema
       alt_title: null
     genres:
+      - crime
       - noir
       - dark
       - violent
@@ -4888,7 +4932,6 @@ vertigo:
     publisher: Universal Studios
     discs: 2
     genres:
-      - horror
       - mystery
       - noir
       - dark
