@@ -57,6 +57,7 @@ alien:
   groups:
     - blu-ray
     - slipcover
+    - case_replacement
   data:
     title: Alien
     year: 1979
@@ -89,6 +90,7 @@ aliens:
   groups:
     - blu-ray
     - slipcover
+    - case_replacement
   data:
     title: Aliens
     year: 1986
@@ -425,7 +427,7 @@ batman_begins:
       - crime
       - gritty
 
-berry_gordy's_the_last_dragon:
+berry_gordys_the_last_dragon:
   groups:
     - 4k_uhd
     - hdr10_dv
@@ -489,7 +491,7 @@ big_trouble_in_little_china:
       - martial arts
       - wuxia
 
-bill_&_ted's_excellent_adventure:
+bill_&_teds_excellent_adventure:
   groups:
     - 4k_uhd
     - hdr10_dv
@@ -788,7 +790,7 @@ bound:
       - gritty
       - violent
 
-bram_stoker's_dracula:
+bram_stokers_dracula:
   groups:
     - 4k_uhd
     - hdr10_dv
@@ -885,6 +887,32 @@ captain_america-the_first_avenger:
       - fantasy
       - science fiction
       - period
+
+casablanca:
+  groups:
+    - 4k_uhd
+    - black_white
+    - hdr10
+  data:
+    title: Casablanca
+    year: 1942
+    runtime: 102
+    director: Michael Curtiz
+    crew:
+      writer:
+        - Julius J. Epstein
+        - Philip G. Epstein
+        - Howard Koch
+      cinematographer: Arthur Edeson
+      composer: Max Steiner
+      editor: Owen Marks
+    aspect_ratio: 1.37
+    publisher: Warner Bros. Entertainment Inc
+    discs: 2
+    genres:
+      - noir
+      - dark
+      - dystopian
 
 casino_royale:
   groups:
@@ -1163,6 +1191,7 @@ crouching_tiger,_hidden_dragon:
 dark_city:
   groups:
     - blu-ray
+    - case_replacement
   data:
     title: Dark City
     year: 1998
@@ -1669,6 +1698,7 @@ ex_machina:
 fargo:
   groups:
     - blu-ray
+    - case_replacement
   data:
     title: Fargo
     year: 1996
@@ -1996,6 +2026,7 @@ ghost_in_the_shell:
     - 4k_uhd
     - animation
     - hdr10_dv
+    - case_replacement
   data:
     title: Ghost in the Shell
     year: 1995
@@ -2499,6 +2530,7 @@ the_lawnmower_man:
   groups:
     - blu-ray
     - boutique
+    - case_replacement
   data:
     title: The Lawnmower Man
     year: 1992
@@ -3914,7 +3946,7 @@ rushmore:
     genres:
       - comedy
 
-schindler's_list:
+schindlers_list:
   groups:
     - 4k_uhd
     - black_white
@@ -5034,7 +5066,7 @@ war_of_the_worlds:
       - gritty
       - violent
 
-wayne's_world:
+waynes_world:
   groups:
     - 4k_uhd
     - hdr10_dv

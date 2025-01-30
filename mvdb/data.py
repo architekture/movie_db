@@ -127,6 +127,7 @@ def import_movies(file: str):
             groups = []
             name = i["title"].lower().replace(" ", "_")
             name = name.replace(":_", "-")
+            name = name.replace("'", "")
             groups.append(i["format"].lower())
             if i["color"].lower() == "false":
                 groups.append("black_white")
