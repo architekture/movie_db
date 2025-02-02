@@ -9,6 +9,10 @@ def dump_movies_yaml(movie_list: list):
     Args:
       movie_list(list):
         List of movies returned via data.import_movies func.
+
+    Returns:
+      A string value of the imported movie list transformed into YAML
+      for use with Nornir.
     """
     export ="---"
     for i in movie_list:
@@ -38,6 +42,10 @@ def import_current_genres(file: str):
       file(str):
         Name including the file path of the INI file for ConfigParser
         to read and intepret.
+
+    Returns:
+      A list of currently supported genres, with each element
+      representing a genre, subgenre or descriptor.
     """
     parser = configparser.ConfigParser()
     parser.read(file)
@@ -66,6 +74,8 @@ def import_genres(csv_row: dict, movie_dict: dict):
         genres.append("action")
     if csv_row["comedy"] == "TRUE":
         genres.append("comedy")
+    if csv_row["drama"] == "TRUE":
+        genres.append("drama")
     if csv_row["fantasy"] == "TRUE":
         genres.append("fantasy")
     if csv_row["horror"] == "TRUE":
@@ -109,8 +119,7 @@ def import_movies(file: str):
         The file name of the movie DB in .CSV format.
 
     Returns:
-      movies(list):
-        Each element is a dict representing a single movie.
+      A list wherein each element is a dict representing a single movie.
     """
     movies = []
     # List of boutique publishers
@@ -128,6 +137,11 @@ def import_movies(file: str):
             name = i["title"].lower().replace(" ", "_")
             name = name.replace(":_", "-")
             name = name.replace("'", "")
+            director = cell_sort(i["director"])
+            writer = cell_sort(i["writer"])
+            dp = cell_sort(i["cinematographer"])
+            composer = cell_sort(i["composer"])
+            editor = cell_sort(i["editor"])
             groups.append(i["format"].lower())
             if i["color"].lower() == "false":
                 groups.append("black_white")
@@ -152,12 +166,12 @@ def import_movies(file: str):
                         "title" : i["title"],
                         "year" : int(i["releaseYear"]),
                         "runtime" : int(i["runtime"]),
-                        "director" : i["director"],
+                        "director" : director,
                         "crew" : {
-                            "writer" : i["writer"],
-                            "cinematographer" : i["cinematographer"],
-                            "composer" : i["composer"],
-                            "editor" : i["editor"]
+                            "writer" : writer,
+                            "cinematographer" : dp,
+                            "composer" : composer,
+                            "editor" : editor
                         },
                         "aspect_ratio" : float(i["aspectRatio"]),
                         "publisher" : i["publisher"],
@@ -165,10 +179,8 @@ def import_movies(file: str):
                     }
                 }
             }
-            if i["mpaa"] != "":
-                import_mpaa_data(i, mv)
+            import_mpaa_data(i, mv)
             import_genres(i, mv)
-            split_collaborators(mv)
             movies.append(mv)
     
     return movies
@@ -185,45 +197,48 @@ def import_mpaa_data(csv_row: dict, movie_dict: dict):
         Transformed Python-native dict synthesized from csv_row data
         using the data.import_movies func.
     """
-    if "," in csv_row["mpaa_reason"]:
-        csv_row["mpaa_reason"] = csv_row["mpaa_reason"].split(",")
-    elif csv_row["mpaa_reason"] == "":
-        csv_row["mpaa_reason"] = None
-    if ";" in csv_row["alt_title"]:
-        csv_row["alt_title"] = csv_row["alt_title"].split("; ")
-    elif csv_row["alt_title"] == "":
-        csv_row["alt_title"] = None
-    mpaa = {
-        "rating" : csv_row["mpaa"].upper(),
-        "reason" : csv_row["mpaa_reason"],
-        "distributor" : csv_row["distributor"],
-        "alt_title" : csv_row["alt_title"]
-    }
-    for k,v in movie_dict.items():
+    rating = cell_sort(csv_row["mpaa"])
+    if isinstance(rating, str):
+        rating = rating.upper()
+    reason = cell_sort(csv_row["mpaa_reason"])
+    # distro = cell_sort(csv_row["distributor"])
+    alt_title = cell_sort(csv_row["alt_title"], "; ")
+    mpaa = {"rating" : rating}
+    if rating is not None:
+        mpaa["reason"] = reason
+        mpaa["distributor"] = csv_row["distributor"]
+        mpaa["alt_title"] = alt_title
+        mpaa["certificate"] = int(csv_row["mpaa_cert"])
+    for v in movie_dict.values():
         v["data"]["mpaa"] = mpaa
 
 
-def split_collaborators(movie_dict: dict):
-    """Converts str values into lists for applicable crew fields.
+def cell_sort(cell: str, delimiter: str=","):
+    """Evaluates cell string and modifies the data type as needed.
+    
+    The function first checks whether the cell's string value is empty.
+    If it is, the cell's value is replace with None.
+
+    Else, the function looks for compound values. If there's a comma
+    present in the cell value, the value is transformed into a list
+    using the built-in split method.
+
+    If neither of these conditions are present, the value is left
+    unmodified. The value is returned, regardless of transformation.
 
     Args:
-      movie_dict(dict):
-        Transformed Python-native dict synthesized from csv_row data
-        using the data.import_movies func.
+      cell(str):
+        String value for a given field in the movies.csv spreadsheet.
+      delimiter(str):
+        The delimiting character used to separate compound values. The
+        default value is ",".
+    
+    Returns:
+      The modified or unmodified cell value.
     """
-    for i in movie_dict.values():
-        director = i["data"]["director"]
-        writer = i["data"]["crew"]["writer"]
-        cinematographer = i["data"]["crew"]["cinematographer"]
-        composer = i["data"]["crew"]["composer"]
-        editor = i["data"]["crew"]["editor"]
-        if "," in director:
-            i["data"]["director"] = director.split(",")
-        if "," in writer:
-            i["data"]["crew"]["writer"] = writer.split(",")
-        if "," in cinematographer:
-            i["data"]["crew"]["cinematographer"] = cinematographer.split(",")
-        if "," in composer:
-            i["data"]["crew"]["composer"] = composer.split(",")
-        if "," in editor:
-            i["data"]["crew"]["editor"] = editor.split(",")
+    if cell == "":
+        cell = None
+    elif delimiter in cell:
+        cell = cell.split(delimiter)
+    
+    return cell
