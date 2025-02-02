@@ -12,7 +12,7 @@
         - Stanley Kubrick
         - Arthur C. Clarke
       cinematographer: Geoffrey Unsworth
-      composer: ''
+      composer: null
       editor: Ray Lovejoy
     aspect_ratio: 2.2
     publisher: Warner Bros. Entertainment Inc
@@ -22,7 +22,9 @@
       reason: null
       distributor: MGM Film Company
       alt_title: null
+      certificate: 22197
     genres:
+      - drama
       - science fiction
 
 akira:
@@ -45,6 +47,8 @@ akira:
     aspect_ratio: 1.85
     publisher: FUNimation
     discs: 2
+    mpaa:
+      rating: null
     genres:
       - action
       - science fiction
@@ -79,6 +83,7 @@ alien:
       reason: null
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+      certificate: 25541
     genres:
       - horror
       - science fiction
@@ -109,6 +114,7 @@ aliens:
       reason: null
       distributor: Twentieth Century Fox Film Corp.
       alt_title: Alien 2
+      certificate: 27850
     genres:
       - action
       - horror
@@ -137,6 +143,8 @@ alphaville:
     aspect_ratio: 1.37
     publisher: Kino Lorber Studio Classics
     discs: 2
+    mpaa:
+      rating: null
     genres:
       - mystery
       - science fiction
@@ -168,6 +176,7 @@ amelie:
         - Amelie From Montmartre
         - Amelie In Montmartre
         - Le Fabuleux Destin D'Amelie Poulain
+      certificate: 38604
     genres:
       - comedy
       - fantasy
@@ -197,7 +206,9 @@ the_american:
         - nudity
       distributor: Focus Features LLC
       alt_title: null
+      certificate: 46049
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -229,6 +240,7 @@ american_gangster:
         - sexuality
       distributor: Universal Studios
       alt_title: null
+      certificate: 43495
     genres:
       - action
       - crime
@@ -247,7 +259,7 @@ american_movie:
     runtime: 105
     director: Chris Smith
     crew:
-      writer: ''
+      writer: null
       cinematographer: Chris Smith
       composer: Mike Schank
       editor:
@@ -263,6 +275,7 @@ american_movie:
         - some drug content
       distributor: Sony Pictures Classics
       alt_title: null
+      certificate: 36811
     genres: []
 
 annihiliation:
@@ -293,6 +306,7 @@ annihiliation:
         - some sexuality
       distributor: Paramount Pictures Corporation
       alt_title: null
+      certificate: 51117
     genres:
       - action
       - horror
@@ -331,7 +345,9 @@ apollo_13:
         - emotional intensity
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 33862
     genres:
+      - drama
       - period
 
 army_of_shadows:
@@ -346,12 +362,15 @@ army_of_shadows:
     crew:
       writer: Joseph Kessel
       cinematographer: Pierre Lhomme
-      composer: ''
+      composer: Eric De Marsan
       editor: "Fran\xE7oise Bonnot"
     aspect_ratio: 1.85
     publisher: The Criterion Collection
     discs: 1
+    mpaa:
+      rating: null
     genres:
+      - drama
       - dark
       - period
 
@@ -385,7 +404,9 @@ the_batman:
         - some suggestive material
       distributor: Warner Bros. Pictures
       alt_title: null
+      certificate: 53494
     genres:
+      - drama
       - mystery
       - crime
       - noir
@@ -421,6 +442,7 @@ batman_begins:
         - some thematic elements
       distributor: Warner Bros. Pictures Inc.
       alt_title: null
+      certificate: 41702
     genres:
       - action
       - mystery
@@ -450,6 +472,7 @@ berry_gordys_the_last_dragon:
       reason: null
       distributor: Tri-Star Pictures
       alt_title: Last Dragon, The
+      certificate: 27555
     genres:
       - action
       - comedy
@@ -483,6 +506,7 @@ big_trouble_in_little_china:
       reason: null
       distributor: Twentieth Century Fox Film
       alt_title: null
+      certificate: 27922
     genres:
       - action
       - comedy
@@ -518,6 +542,7 @@ bill_&_teds_excellent_adventure:
       reason: null
       distributor: Orion Pictures Corp.
       alt_title: null
+      certificate: 29065
     genres:
       - comedy
       - science fiction
@@ -555,6 +580,7 @@ blackhat:
         - some language
       distributor: Universal Studios
       alt_title: null
+      certificate: 49378
     genres:
       - action
       - mystery
@@ -585,7 +611,9 @@ blade_runner:
       reason: null
       distributor: Ladd Company Thru Warner Bros.
       alt_title: null
+      certificate: 26573
     genres:
+      - drama
       - mystery
       - science fiction
       - noir
@@ -623,7 +651,9 @@ blade_runner_2049:
         - language
       distributor: Warner Bros. Pictures
       alt_title: null
+      certificate: 51152
     genres:
+      - drama
       - mystery
       - science fiction
       - noir
@@ -658,7 +688,9 @@ blood_simple:
       reason: null
       distributor: Circle Releasing Corp.
       alt_title: null
+      certificate: 27644
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -688,7 +720,9 @@ blue_velvet:
       reason: null
       distributor: De Laurentiis Entertainment Group
       alt_title: null
+      certificate: 28181
     genres:
+      - horror
       - mystery
       - crime
       - noir
@@ -719,10 +753,15 @@ bob_le_flambeur:
     aspect_ratio: 1.37
     publisher: Kino Lorber Studio Classics
     discs: 2
+    mpaa:
+      rating: null
     genres:
+      - action
       - crime
       - noir
       - heist
+      - dark
+      - gritty
 
 bottle_rocket:
   groups:
@@ -748,6 +787,7 @@ bottle_rocket:
       reason: language
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 33597
     genres:
       - comedy
       - crime
@@ -783,9 +823,12 @@ bound:
         - language
       distributor: Gramercy Pictures
       alt_title: null
+      certificate: 34259
     genres:
+      - drama
       - crime
       - noir
+      - heist
       - dark
       - gritty
       - violent
@@ -818,7 +861,9 @@ bram_stokers_dracula:
         - horror violence
       distributor: Columbia Pictures
       alt_title: Dracula, The Untold Story
+      certificate: 31381
     genres:
+      - fantasy
       - horror
       - dark
       - period
@@ -852,6 +897,7 @@ burn_after_reading:
         - violence
       distributor: Focus Features LLC
       alt_title: null
+      certificate: 44448
     genres:
       - comedy
       - dark
@@ -882,6 +928,7 @@ captain_america-the_first_avenger:
       reason: intense sequences of sci-fi violence and action
       distributor: Paramount Pictures Corporation
       alt_title: null
+      certificate: 46937
     genres:
       - action
       - fantasy
@@ -909,7 +956,10 @@ casablanca:
     aspect_ratio: 1.37
     publisher: Warner Bros. Entertainment Inc
     discs: 2
+    mpaa:
+      rating: null
     genres:
+      - drama
       - noir
       - dark
       - dystopian
@@ -943,6 +993,7 @@ casino_royale:
         - nudity
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 42012
     genres:
       - action
       - gritty
@@ -980,7 +1031,9 @@ children_of_men:
         - brief nudity
       distributor: Universal Studios
       alt_title: null
+      certificate: 42838
     genres:
+      - drama
       - science fiction
       - dark
       - gritty
@@ -1009,11 +1062,9 @@ citizen_kane:
     publisher: The Criterion Collection
     discs: 4
     mpaa:
-      rating: PG
-      reason: null
-      distributor: Paramount Pictures Corp.
-      alt_title: null
+      rating: null
     genres:
+      - drama
       - mystery
 
 close_encounters_of_the_third_kind:
@@ -1038,7 +1089,9 @@ close_encounters_of_the_third_kind:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: null
+      certificate: 25062
     genres:
+      - drama
       - science fiction
 
 colossus-the_forbin_project:
@@ -1058,6 +1111,8 @@ colossus-the_forbin_project:
     aspect_ratio: 2.35
     publisher: Shout! Factory LLC
     discs: 1
+    mpaa:
+      rating: null
     genres:
       - horror
       - science fiction
@@ -1087,8 +1142,11 @@ the_conversation:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 23756
     genres:
+      - drama
       - mystery
+      - crime
       - noir
       - dark
       - dystopian
@@ -1119,7 +1177,9 @@ the_counselor:
         - language
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+      certificate: 48360
     genres:
+      - drama
       - western
       - crime
       - noir
@@ -1148,6 +1208,7 @@ crimson_tide:
       reason: strong language
       distributor: Buena Vista Pictures Distribution, Inc.
       alt_title: null
+      certificate: 33747
     genres:
       - action
       - gritty
@@ -1181,6 +1242,7 @@ crouching_tiger,_hidden_dragon:
         - some sexuality
       distributor: Sony Pictures Classics
       alt_title: null
+      certificate: 37534
     genres:
       - action
       - fantasy
@@ -1215,6 +1277,7 @@ dark_city:
         - some sexuality
       distributor: New Line Cinema
       alt_title: null
+      certificate: 34966
     genres:
       - horror
       - mystery
@@ -1252,6 +1315,7 @@ the_dark_knight:
         - some menace
       distributor: Warner Bros. Pictures Inc.
       alt_title: "Rory's First Kiss\_"
+      certificate: 44427
     genres:
       - action
       - mystery
@@ -1285,7 +1349,9 @@ days_of_heaven:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 25199
     genres:
+      - drama
       - dark
       - period
 
@@ -1302,7 +1368,7 @@ dazed_and_confused:
     crew:
       writer: Richard Linklater
       cinematographer: Lee Daniel
-      composer: ''
+      composer: null
       editor: Sandra Adair
     aspect_ratio: 1.85
     publisher: The Criterion Collection
@@ -1314,6 +1380,7 @@ dazed_and_confused:
         - very strong language
       distributor: Gramercy Pictures
       alt_title: null
+      certificate: 32381
     genres:
       - comedy
       - period
@@ -1322,6 +1389,7 @@ deep_cover:
   groups:
     - blu-ray
     - boutique
+    - case_replacement
   data:
     title: Deep Cover
     year: 1992
@@ -1346,7 +1414,9 @@ deep_cover:
         - sensuality
       distributor: New Line Cinema
       alt_title: null
+      certificate: 31647
     genres:
+      - action
       - crime
       - noir
       - dark
@@ -1375,8 +1445,9 @@ do_the_right_thing:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 29691
     genres:
-      - comedy
+      - drama
       - gritty
 
 double_indemnity:
@@ -1400,7 +1471,10 @@ double_indemnity:
     aspect_ratio: 1.37
     publisher: The Criterion Collection
     discs: 3
+    mpaa:
+      rating: null
     genres:
+      - drama
       - mystery
       - crime
       - noir
@@ -1432,6 +1506,7 @@ drive:
         - some nudity
       distributor: FilmDistrict Distribution, LLC
       alt_title: null
+      certificate: 46543
     genres:
       - crime
       - noir
@@ -1468,6 +1543,7 @@ dune:
         - suggestive material
       distributor: Warner Bros. Pictures
       alt_title: null
+      certificate: 53003
     genres:
       - action
       - science fiction
@@ -1499,6 +1575,7 @@ dune-part_two:
         - brief strong language
       distributor: Legendary Features Productions US LLC & Warner Bros. Pictures
       alt_title: null
+      certificate: 54589
     genres:
       - action
       - science fiction
@@ -1527,6 +1604,7 @@ ed_wood:
       reason: some strong language
       distributor: Buena Vista Pictures Distribution, Inc.
       alt_title: null
+      certificate: 33300
     genres:
       - comedy
       - dark
@@ -1560,6 +1638,7 @@ election:
         - a scene of drug use
       distributor: Paramount Pictures Corporation
       alt_title: null
+      certificate: 36129
     genres:
       - comedy
       - dark
@@ -1589,6 +1668,7 @@ enter_the_dragon:
       reason: null
       distributor: Warner Bros. Inc.
       alt_title: Deadly Three, The
+      certificate: 23684
     genres:
       - action
       - crime
@@ -1624,6 +1704,7 @@ escape_from_new_york:
       reason: null
       distributor: Avco Embassy Pictures
       alt_title: null
+      certificate: 26282
     genres:
       - action
       - science fiction
@@ -1655,6 +1736,7 @@ e.t._the_extra-terrestrial:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 26717
     genres:
       - horror
       - science fiction
@@ -1688,6 +1770,7 @@ ex_machina:
         - some violence
       distributor: A24
       alt_title: Ex-Machina
+      certificate: 49152
     genres:
       - horror
       - science fiction
@@ -1724,6 +1807,7 @@ fargo:
         - sexuality
       distributor: Gramercy Pictures
       alt_title: null
+      certificate: 34206
     genres:
       - comedy
       - crime
@@ -1758,7 +1842,9 @@ ferrari:
         - language
       distributor: NEON
       alt_title: null
+      certificate: 54571
     genres:
+      - drama
       - period
       - violent
 
@@ -1790,6 +1876,7 @@ the_fifth_element:
         - brief nudity
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 34794
     genres:
       - action
       - comedy
@@ -1821,6 +1908,7 @@ forgetting_sarah_marshall:
         - some graphic nudity
       distributor: Universal Studios
       alt_title: null
+      certificate: 44109
     genres:
       - comedy
       - dark
@@ -1838,7 +1926,7 @@ friday_night_lights:
         - David Aaron Cohen
         - Peter Berg
       cinematographer: Tobias Schliessler
-      composer: ''
+      composer: null
       editor: David Rosenbloom
     aspect_ratio: 2.35
     publisher: Universal Studios
@@ -1853,7 +1941,9 @@ friday_night_lights:
         - rough sports action
       distributor: Universal Studios
       alt_title: null
+      certificate: 41170
     genres:
+      - drama
       - dark
       - gritty
       - period
@@ -1885,6 +1975,7 @@ funny_people:
         - some sexuality
       distributor: Universal Studios
       alt_title: null
+      certificate: 45381
     genres:
       - comedy
 
@@ -1917,6 +2008,7 @@ furiosa-a_mad_max_saga:
         - grisly images
       distributor: Warner Bros. Pictures
       alt_title: null
+      certificate: 54912
     genres:
       - action
       - science fiction
@@ -1951,6 +2043,7 @@ the_game:
         - some violence and sexuality
       distributor: Polygram Films
       alt_title: null
+      certificate: 35106
     genres:
       - horror
       - mystery
@@ -1984,6 +2077,7 @@ gattaca:
         - some sexuality
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 34793
     genres:
       - mystery
       - science fiction
@@ -2014,6 +2108,7 @@ ghost_dog-the_way_of_the_samurai:
         - language
       distributor: Artisan Pictures Inc.
       alt_title: Ghost Dog
+      certificate: 36695
     genres:
       - comedy
       - crime
@@ -2040,6 +2135,8 @@ ghost_in_the_shell:
     aspect_ratio: 1.85
     publisher: Lions Gate Entertainment Inc
     discs: 2
+    mpaa:
+      rating: null
     genres:
       - action
       - mystery
@@ -2077,7 +2174,9 @@ the_girl_with_the_dragon_tattoo:
         - language
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 46597
     genres:
+      - drama
       - mystery
       - crime
       - noir
@@ -2112,6 +2211,7 @@ gladiator:
       reason: intense graphic combat
       distributor: Dreamworks Distribution L.L.C.
       alt_title: null
+      certificate: 37084
     genres:
       - action
       - period
@@ -2141,8 +2241,9 @@ the_guyver:
     mpaa:
       rating: R
       reason: null
-      distributor: ''
+      distributor: New Line Home Video
       alt_title: null
+      certificate: 31052
     genres:
       - action
       - comedy
@@ -2177,6 +2278,7 @@ heat:
         - language
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
+      certificate: 34160
     genres:
       - action
       - crime
@@ -2213,6 +2315,7 @@ horizon-an_american_saga_chapter_1:
         - sexuality
       distributor: New Line Cinema
       alt_title: null
+      certificate: 54559
     genres:
       - western
       - period
@@ -2244,7 +2347,9 @@ in_the_mouth_of_madness:
         - language
       distributor: New Line Cinema
       alt_title: Horizon
+      certificate: 32596
     genres:
+      - fantasy
       - horror
       - mystery
       - dark
@@ -2271,6 +2376,7 @@ inception:
       reason: sequences of violence and action throughout
       distributor: Warner Bros. Pictures
       alt_title: Oliver's Arrow
+      certificate: 46101
     genres:
       - action
       - science fiction
@@ -2303,6 +2409,7 @@ indiana_jones_and_the_temple_of_doom:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 27401
     genres:
       - action
       - fantasy
@@ -2333,6 +2440,7 @@ invasion_of_the_body_snatchers:
       reason: null
       distributor: United Artists
       alt_title: null
+      certificate: 25194
     genres:
       - horror
       - mystery
@@ -2364,6 +2472,7 @@ jaws:
       reason: null
       distributor: Universal City Studios, Inc
       alt_title: null
+      certificate: 24175
     genres:
       - action
       - horror
@@ -2393,6 +2502,7 @@ jurassic_park:
       reason: intense science fiction terror
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 32451
     genres:
       - action
       - horror
@@ -2426,6 +2536,7 @@ the_kingdom:
       alt_title:
         - Kingdom
         - Top Dog
+      certificate: 43538
     genres:
       - action
       - gritty
@@ -2457,7 +2568,9 @@ l.a._confidential:
         - sexuality
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
+      certificate: 35218
     genres:
+      - drama
       - mystery
       - crime
       - noir
@@ -2492,6 +2605,7 @@ last_action_hero:
       reason: strong action sequences
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 32089
     genres:
       - action
       - comedy
@@ -2513,7 +2627,7 @@ the_last_picture_show:
         - Larry McMurtry
         - Peter Bogdanovich
       cinematographer: Robert Surtees
-      composer: ''
+      composer: null
       editor: Don Cambern
     aspect_ratio: 1.85
     publisher: The Criterion Collection
@@ -2523,7 +2637,9 @@ the_last_picture_show:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: null
+      certificate: 23025
     genres:
+      - drama
       - period
 
 the_lawnmower_man:
@@ -2554,6 +2670,7 @@ the_lawnmower_man:
         - a scene of violence
       distributor: New Line Cinema
       alt_title: null
+      certificate: 31632
     genres:
       - horror
       - science fiction
@@ -2573,18 +2690,22 @@ le_cercle_rouge:
     crew:
       writer: Jean-Pierre Melville
       cinematographer: Henri Decae
-      composer: Eric Demarsan
+      composer: Eric De Marsan
       editor: Marie-Sophie Dubus
     aspect_ratio: 1.85
     publisher: The Criterion Collection
     discs: 2
+    mpaa:
+      rating: null
     genres:
-      - action
+      - drama
       - crime
       - noir
       - heist
       - dark
       - gritty
+      - dystopian
+      - period
       - violent
 
 le_doulos:
@@ -2606,7 +2727,10 @@ le_doulos:
     aspect_ratio: 1.66
     publisher: Kino Lorber Studio Classics
     discs: 2
+    mpaa:
+      rating: null
     genres:
+      - drama
       - mystery
       - crime
       - noir
@@ -2635,7 +2759,10 @@ le_samourai:
     aspect_ratio: 1.85
     publisher: The Criterion Collection
     discs: 2
+    mpaa:
+      rating: null
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -2664,6 +2791,7 @@ legend:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 27735
     genres:
       - action
       - fantasy
@@ -2694,6 +2822,7 @@ licorice_pizza:
         - some drug use
       distributor: Metro-Goldwyn-Mayer Pictures Inc.
       alt_title: Untitled PTA
+      certificate: 53281
     genres:
       - comedy
       - period
@@ -2724,7 +2853,9 @@ lone_star:
         - violence
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 33996
     genres:
+      - drama
       - mystery
       - western
       - noir
@@ -2752,6 +2883,7 @@ the_long_good_friday:
       reason: null
       distributor: Avco Embassy Pictures
       alt_title: null
+      certificate: 26586
     genres:
       - action
       - crime
@@ -2786,7 +2918,9 @@ lost_highway:
         - strong langauge
       distributor: October Films
       alt_title: null
+      certificate: 34747
     genres:
+      - drama
       - horror
       - crime
       - noir
@@ -2822,6 +2956,7 @@ mad_max-the_road_warrior:
       reason: null
       distributor: Warner Bros. Inc.
       alt_title: Mad Max 2
+      certificate: 26605
     genres:
       - action
       - science fiction
@@ -2856,6 +2991,7 @@ mad_max-fury_road:
         - disturbing images
       distributor: Warner Bros. Pictures
       alt_title: null
+      certificate: 49693
     genres:
       - action
       - science fiction
@@ -2890,6 +3026,7 @@ mallrats:
         - drug content
       distributor: Gramercy Pictures
       alt_title: null
+      certificate: 34072
     genres:
       - comedy
       - dark
@@ -2913,7 +3050,10 @@ the_maltese_falcon:
     aspect_ratio: 1.37
     publisher: Warner Bros. Entertainment Inc
     discs: 2
+    mpaa:
+      rating: null
     genres:
+      - drama
       - mystery
       - crime
       - noir
@@ -2940,7 +3080,9 @@ margin_call:
       reason: language
       distributor: Roadside Attractions LLC
       alt_title: null
+      certificate: 46691
     genres:
+      - drama
       - dark
       - gritty
       - period
@@ -2973,6 +3115,7 @@ the_matrix:
         - brief language
       distributor: Warner Bros., A Division Of Time Warner Entertainment Company
       alt_title: null
+      certificate: 36569
     genres:
       - action
       - science fiction
@@ -3010,6 +3153,7 @@ the_matrix_reloaded:
         - some sexuality
       distributor: Warner Bros. Pictures An AOL Time Warner Company
       alt_title: Matrix 2
+      certificate: 39829
     genres:
       - action
       - science fiction
@@ -3047,6 +3191,7 @@ the_matrix_revolutions:
         - brief sexual content
       distributor: Warner Bros. Pictures Inc.
       alt_title: null
+      certificate: 40309
     genres:
       - action
       - science fiction
@@ -3071,7 +3216,7 @@ mean_streets:
         - Martin Scorsese
         - Mardik Martin
       cinematographer: Kent Wakeford
-      composer: ''
+      composer: null
       editor: Sidney Levin
     aspect_ratio: 1.85
     publisher: The Criterion Collection
@@ -3081,7 +3226,9 @@ mean_streets:
       reason: null
       distributor: Warner Bros. Inc.
       alt_title: null
+      certificate: 23765
     genres:
+      - drama
       - crime
       - gritty
       - violent
@@ -3113,6 +3260,7 @@ minority_report:
         - drug content
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+      certificate: 39066
     genres:
       - action
       - mystery
@@ -3146,6 +3294,7 @@ mission-impossible:
       reason: some intense action violence
       distributor: Paramount Pictures Corporation
       alt_title: null
+      certificate: 33988
     genres:
       - action
       - mystery
@@ -3177,7 +3326,9 @@ mona_lisa:
       reason: null
       distributor: Island Pictures
       alt_title: null
+      certificate: 28212
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -3210,7 +3361,9 @@ mulholland_drive:
         - some strong sexuality
       distributor: Universal Focus
       alt_title: null
+      certificate: 37982
     genres:
+      - drama
       - horror
       - mystery
       - crime
@@ -3244,7 +3397,9 @@ the_new_world:
       reason: some intense battle sequences
       distributor: New Line Cinema
       alt_title: null
+      certificate: 41705
     genres:
+      - drama
       - period
 
 no_country_for_old_men:
@@ -3274,6 +3429,7 @@ no_country_for_old_men:
         - some language
       distributor: Miramax Films
       alt_title: null
+      certificate: 43473
     genres:
       - western
       - crime
@@ -3301,6 +3457,8 @@ north_by_northwest:
     aspect_ratio: 1.85
     publisher: Warner Bros. Entertainment Inc
     discs: 1
+    mpaa:
+      rating: null
     genres:
       - action
       - comedy
@@ -3338,7 +3496,9 @@ one_false_move:
       alt_title:
         - Hurricane
         - Star City
+      certificate: 31182
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -3370,7 +3530,9 @@ oppenheimer:
         - language
       distributor: Universal Studios
       alt_title: null
+      certificate: 54143
     genres:
+      - drama
       - period
 
 paper_moon:
@@ -3386,7 +3548,7 @@ paper_moon:
     crew:
       writer: Alvin Sargent
       cinematographer: "L\xE1szl\xF3 Kov\xE1cs"
-      composer: ''
+      composer: null
       editor: Verna Fields
     aspect_ratio: 1.66
     publisher: The Criterion Collection
@@ -3396,6 +3558,7 @@ paper_moon:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 23558
     genres:
       - comedy
       - period
@@ -3426,6 +3589,7 @@ paprika:
       reason: violent and sexual images
       distributor: Sony Pictures Classics
       alt_title: null
+      certificate: 43113
     genres:
       - action
       - comedy
@@ -3456,7 +3620,10 @@ the_parallax_view:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 23909
     genres:
+      - drama
+      - horror
       - mystery
       - noir
       - dark
@@ -3482,6 +3649,8 @@ peeping_tom:
     aspect_ratio: 1.66
     publisher: The Criterion Collection
     discs: 2
+    mpaa:
+      rating: null
     genres:
       - horror
       - crime
@@ -3511,8 +3680,9 @@ the_phantom_thread:
       reason: language
       distributor: Focus Features LLC
       alt_title: Untitled PTA Project
+      certificate: 51134
     genres:
-      - comedy
+      - drama
       - dark
       - period
 
@@ -3543,6 +3713,7 @@ pineapple_express:
         - violence
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 43851
     genres:
       - action
       - comedy
@@ -3559,13 +3730,15 @@ planet_earth:
     runtime: 550
     director: Alastair Fothergill
     crew:
-      writer: ''
-      cinematographer: ''
+      writer: null
+      cinematographer: null
       composer: George Fenton
-      editor: ''
+      editor: null
     aspect_ratio: 1.78
     publisher: Warner Bros. Entertainment Inc
     discs: 4
+    mpaa:
+      rating: null
     genres: []
 
 premium_rush:
@@ -3594,6 +3767,7 @@ premium_rush:
         - language
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 46598
     genres:
       - action
       - violent
@@ -3623,6 +3797,7 @@ prince_of_darkness:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 28768
     genres:
       - horror
       - mystery
@@ -3658,6 +3833,7 @@ quantum_of_solace:
         - some sexual content
       distributor: Columbia Pictures
       alt_title: "Bond 22\_"
+      certificate: 44263
     genres:
       - action
       - gritty
@@ -3679,7 +3855,7 @@ raging_bull:
         - Paul Schrader
         - Mardik Martin
       cinematographer: Michael Chapman
-      composer: ''
+      composer: null
       editor: Thelma Schoonmaker
     aspect_ratio: 1.85
     publisher: The Criterion Collection
@@ -3689,7 +3865,9 @@ raging_bull:
       reason: null
       distributor: United Artists
       alt_title: null
+      certificate: 26171
     genres:
+      - drama
       - dark
       - gritty
       - period
@@ -3717,6 +3895,7 @@ raiders_of_the_lost_ark:
       reason: null
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 26345
     genres:
       - action
       - fantasy
@@ -3753,6 +3932,7 @@ rambo:
         - John Rambo
         - Rambo 4
         - Rambo To Hell And Back
+      certificate: 42629
     genres:
       - action
       - dark
@@ -3784,6 +3964,7 @@ real_genius:
       reason: null
       distributor: Tri-Star Pictures
       alt_title: null
+      certificate: 27560
     genres:
       - comedy
       - science fiction
@@ -3813,6 +3994,7 @@ repo_man:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 27271
     genres:
       - comedy
       - science fiction
@@ -3849,6 +4031,7 @@ ronin:
         - some language
       distributor: Metro-Goldwyn-Mayer Distribution Co.
       alt_title: null
+      certificate: 35655
     genres:
       - action
       - crime
@@ -3884,6 +4067,7 @@ the_royal_tenenbaums:
         - drug content
       distributor: Buena Vista Pictures Distribution
       alt_title: null
+      certificate: 38556
     genres:
       - comedy
 
@@ -3912,7 +4096,9 @@ rumble_fish:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 27047
     genres:
+      - drama
       - noir
       - dark
       - period
@@ -3943,6 +4129,7 @@ rushmore:
         - brief nudity
       distributor: Buena Vista Pictures Distribution
       alt_title: null
+      certificate: 36223
     genres:
       - comedy
 
@@ -3972,7 +4159,9 @@ schindlers_list:
         - actuality violence
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 32781
     genres:
+      - drama
       - dark
       - period
       - violent
@@ -3997,9 +4186,14 @@ seconds:
     aspect_ratio: 1.75
     publisher: The Criterion Collection
     discs: 1
+    mpaa:
+      rating: null
     genres:
+      - drama
+      - horror
       - science fiction
       - dark
+      - dystopian
 
 a_serious_man:
   groups:
@@ -4029,6 +4223,7 @@ a_serious_man:
         - brief violence
       distributor: Focus Features LLC
       alt_title: null
+      certificate: 45447
     genres:
       - comedy
       - dark
@@ -4061,7 +4256,9 @@ silent_running:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 23100
     genres:
+      - drama
       - science fiction
       - dystopian
 
@@ -4077,7 +4274,7 @@ slacker:
     crew:
       writer: Richard Linklater
       cinematographer: Lee Daniel
-      composer: ''
+      composer: null
       editor: Scott Rhodes
     aspect_ratio: 1.33
     publisher: The Criterion Collection
@@ -4087,6 +4284,7 @@ slacker:
       reason: language
       distributor: Orion Classics
       alt_title: null
+      certificate: 31218
     genres:
       - comedy
 
@@ -4118,7 +4316,9 @@ the_social_network:
         - language
       distributor: Columbia Pictures
       alt_title: Facebook
+      certificate: 45861
     genres:
+      - drama
       - dark
       - period
 
@@ -4146,6 +4346,7 @@ speed:
         - language
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+      certificate: 32945
     genres:
       - action
       - gritty
@@ -4182,6 +4383,7 @@ speed_racer:
         - brief smoking
       distributor: Warner Bros. Pictures Inc.
       alt_title: null
+      certificate: 44193
     genres:
       - action
       - fantasy
@@ -4211,6 +4413,7 @@ spider-man_3:
       reason: sequences of intense action violence
       distributor: Columbia Pictures
       alt_title: null
+      certificate: 41004
     genres:
       - action
       - comedy
@@ -4243,8 +4446,9 @@ stand_by_me:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: Body, The
+      certificate: 28071
     genres:
-      - comedy
+      - drama
       - dark
       - period
 
@@ -4279,6 +4483,7 @@ star_trek:
         - Corporate Headquarters
         - Star Trek XI
         - 'Star Trek: Corporate Headquarters'
+      certificate: 44847
     genres:
       - action
       - science fiction
@@ -4320,6 +4525,8 @@ star_wars-andor:
     aspect_ratio: 2.39
     publisher: Buena Vista Home Entertainment, Inc.
     discs: 3
+    mpaa:
+      rating: null
     genres:
       - action
       - fantasy
@@ -4355,7 +4562,9 @@ straight_outta_compton:
         - drug use
       distributor: Universal Studios
       alt_title: null
+      certificate: 49915
     genres:
+      - drama
       - dark
       - period
 
@@ -4386,6 +4595,7 @@ the_sugarland_express:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 23713
     genres:
       - comedy
       - western
@@ -4421,6 +4631,7 @@ super_8:
       alt_title:
         - Darlings
         - Project Wickham
+      certificate: 46736
     genres:
       - action
       - horror
@@ -4453,6 +4664,7 @@ the_taking_of_pelham_one_two_three:
       reason: null
       distributor: United Artists
       alt_title: null
+      certificate: 24080
     genres:
       - action
       - crime
@@ -4486,7 +4698,9 @@ taxi_driver:
       reason: null
       distributor: Columbia Pictures Industries
       alt_title: null
+      certificate: 24441
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -4514,7 +4728,9 @@ there_will_be_blood:
       reason: some violence
       distributor: Paramount Vantage, A Division Of Paramount Pictures Corporation
       alt_title: null
+      certificate: 43414
     genres:
+      - drama
       - dark
       - period
       - violent
@@ -4547,6 +4763,7 @@ they_live:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 29297
     genres:
       - action
       - comedy
@@ -4578,6 +4795,7 @@ thief:
       reason: null
       distributor: United Artists
       alt_title: Violent Streets
+      certificate: 26144
     genres:
       - crime
       - noir
@@ -4612,7 +4830,9 @@ the_thin_red_line:
         - language
       distributor: Twentieth Century Fox Film Corp.
       alt_title: null
+      certificate: 36486
     genres:
+      - drama
       - dark
       - period
       - violent
@@ -4638,6 +4858,7 @@ the_thing:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 26699
     genres:
       - horror
       - science fiction
@@ -4670,7 +4891,9 @@ traffic:
         - some sexuality
       distributor: USA Films
       alt_title: null
+      certificate: 37805
     genres:
+      - drama
       - crime
       - dark
       - gritty
@@ -4703,7 +4926,9 @@ the_tree_of_life:
       reason: some thematic material
       distributor: Fox Searchlight Pictures, Inc.
       alt_title: Edited for re-rating
+      certificate: 46031
     genres:
+      - drama
       - period
 
 tropic_thunder:
@@ -4733,6 +4958,7 @@ tropic_thunder:
         - drug material
       distributor: DreamWorks/Paramount Distribution
       alt_title: null
+      certificate: 44367
     genres:
       - action
       - comedy
@@ -4769,6 +4995,7 @@ twilight_of_the_warriors-walled_in:
         - some drug content
       distributor: Well Go USA, Inc.
       alt_title: Subtitled
+      certificate: 55079
     genres:
       - comedy
       - fantasy
@@ -4800,7 +5027,10 @@ twin_peaks-the_television_collection:
     aspect_ratio: 1.33
     publisher: Paramount Pictures
     discs: 16
+    mpaa:
+      rating: null
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -4834,7 +5064,9 @@ twin_peaks-fire_walk_with_me:
         - language
       distributor: New Line Cinema
       alt_title: null
+      certificate: 31718
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -4864,6 +5096,7 @@ unbreakable:
         - a sexual reference
       distributor: Buena Vista Pictures Distribution
       alt_title: null
+      certificate: 37802
     genres:
       - fantasy
       - science fiction
@@ -4904,7 +5137,9 @@ uncut_gems:
         - brief drug use
       distributor: A24
       alt_title: null
+      certificate: 52348
     genres:
+      - drama
       - crime
       - noir
       - dark
@@ -4937,6 +5172,7 @@ unforgiven:
         - a scene of sexuality
       distributor: Warner Bros. Inc.
       alt_title: William Munny Killings, The
+      certificate: 31757
     genres:
       - western
       - dark
@@ -4963,7 +5199,10 @@ vertigo:
     aspect_ratio: 1.85
     publisher: Universal Studios
     discs: 2
+    mpaa:
+      rating: null
     genres:
+      - drama
       - mystery
       - noir
       - dark
@@ -4991,6 +5230,7 @@ videodrome:
       reason: null
       distributor: Universal City Studios, Inc.
       alt_title: null
+      certificate: 26923
     genres:
       - horror
       - science fiction
@@ -5028,6 +5268,7 @@ walk_hard-the_dewey_cox_story:
         - language
       distributor: Columbia Pictures
       alt_title: Walk Hard
+      certificate: 43296
     genres:
       - comedy
       - period
@@ -5058,6 +5299,7 @@ war_of_the_worlds:
         - disturbing images
       distributor: Paramount Pictures Corporation
       alt_title: null
+      certificate: 41830
     genres:
       - action
       - horror
@@ -5092,6 +5334,7 @@ waynes_world:
       reason: sex related dialogue
       distributor: Paramount Pictures Corp.
       alt_title: null
+      certificate: 31308
     genres:
       - comedy
 
@@ -5117,6 +5360,7 @@ wild_at_heart:
       reason: null
       distributor: Samuel Goldwyn Company
       alt_title: null
+      certificate: 30558
     genres:
       - comedy
       - crime
@@ -5151,7 +5395,9 @@ zodiac:
       alt_title:
         - Chronicles
         - Chronicles Of The Zodiac
+      certificate: 42944
     genres:
+      - drama
       - horror
       - mystery
       - crime
