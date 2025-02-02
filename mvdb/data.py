@@ -35,13 +35,13 @@ def export_movies_yaml(yaml_blob: str, file_name: str):
         f.write(yaml_blob)
 
 
-def import_current_genres(file: str):
+def import_current_genres(file: str="archives/genres.ini"):
     """Reads genres.ini file via ConfigParser and imports data.
 
     Args:
       file(str):
         Name including the file path of the INI file for ConfigParser
-        to read and intepret.
+        to read and intepret. The default value is "archives/genres.ini".
 
     Returns:
       A list of currently supported genres, with each element
@@ -58,7 +58,7 @@ def import_current_genres(file: str):
     return genres
 
 
-def import_genres(csv_row: dict, movie_dict: dict):
+def import_genres(csv_row: dict, movie_dict: dict, valid_genres: list):
     """Appends genre and descriptor data for movie database.
     
     Args:
@@ -68,45 +68,16 @@ def import_genres(csv_row: dict, movie_dict: dict):
       movie_dict(dict):
         Transformed Python-native dict synthesized from csv_row data
         using the data.import_movies func.
+      valid_genres(list):
+        List of genres imported using the import_current_genres func.
     """
     genres = []
-    if csv_row["action"] == "TRUE":
-        genres.append("action")
-    if csv_row["comedy"] == "TRUE":
-        genres.append("comedy")
-    if csv_row["drama"] == "TRUE":
-        genres.append("drama")
-    if csv_row["fantasy"] == "TRUE":
-        genres.append("fantasy")
-    if csv_row["horror"] == "TRUE":
-        genres.append("horror")
-    if csv_row["mystery"] == "TRUE":
-        genres.append("mystery")
-    if csv_row["sciFi"] == "TRUE":
-        genres.append("science fiction")
-    if csv_row["western"] == "TRUE":
-        genres.append("western")
-    if csv_row["crime"] == "TRUE":
-        genres.append("crime")
-    if csv_row["noir"] == "TRUE":
-        genres.append("noir")
-    if csv_row["heist"] == "TRUE":
-        genres.append("heist")
-    if csv_row["martialArts"] == "TRUE":
-        genres.append("martial arts")
-    if csv_row["wuxia"] == "TRUE":
-        genres.append("wuxia")
-    if csv_row["dark"] == "TRUE":
-        genres.append("dark")
-    if csv_row["gritty"] == "TRUE":
-        genres.append("gritty")
-    if csv_row["dystopian"] == "TRUE":
-        genres.append("dystopian")
-    if csv_row["period"] == "TRUE":
-        genres.append("period")
-    if csv_row["violent"] == "TRUE":
-        genres.append("violent")
-
+    for genre in valid_genres:
+        try:
+            if csv_row[genre].lower() == "true":
+                genres.append(genre)
+        except KeyError:
+            pass
     for v in movie_dict.values():
         v["data"]["genres"] = genres
 
@@ -130,6 +101,7 @@ def import_movies(file: str):
         "The Criterion Collection",
         "Unearthed Films"
     ]
+    genres = import_current_genres()
     with open(file) as f:
         csvr = csv.DictReader(f)
         for i in csvr:
@@ -180,7 +152,7 @@ def import_movies(file: str):
                 }
             }
             import_mpaa_data(i, mv)
-            import_genres(i, mv)
+            import_genres(i, mv, genres)
             movies.append(mv)
     
     return movies

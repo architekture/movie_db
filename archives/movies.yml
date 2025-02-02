@@ -276,7 +276,8 @@ american_movie:
       distributor: Sony Pictures Classics
       alt_title: null
       certificate: 36811
-    genres: []
+    genres:
+      - documentary
 
 annihiliation:
   groups:
@@ -3739,7 +3740,8 @@ planet_earth:
     discs: 4
     mpaa:
       rating: null
-    genres: []
+    genres:
+      - documentary
 
 premium_rush:
   groups:
