@@ -61,7 +61,6 @@ alien:
   groups:
     - blu-ray
     - slipcover
-    - case_replacement
   data:
     title: Alien
     year: 1979
@@ -95,7 +94,6 @@ aliens:
   groups:
     - blu-ray
     - slipcover
-    - case_replacement
   data:
     title: Aliens
     year: 1986
@@ -1254,7 +1252,6 @@ crouching_tiger,_hidden_dragon:
 dark_city:
   groups:
     - blu-ray
-    - case_replacement
   data:
     title: Dark City
     year: 1998
@@ -2122,7 +2119,6 @@ ghost_in_the_shell:
     - 4k_uhd
     - animation
     - hdr10_dv
-    - case_replacement
   data:
     title: Ghost in the Shell
     year: 1995
