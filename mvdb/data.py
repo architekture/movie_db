@@ -191,9 +191,11 @@ def cell_sort(cell: str, delimiter: str=","):
     The function first checks whether the cell's string value is empty.
     If it is, the cell's value is replace with None.
 
-    Else, the function looks for compound values. If there's a comma
-    present in the cell value, the value is transformed into a list
-    using the built-in split method.
+    Else, the function looks for compound values. If the supplied
+    delimiter is present in the cell value, the value is transformed
+    into a list using the built-in split method using the delimiter
+    given. The default delimiter is "," but any string value can be
+    passed.
 
     If neither of these conditions are present, the value is left
     unmodified. The value is returned, regardless of transformation.
