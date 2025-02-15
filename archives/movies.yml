@@ -26,6 +26,7 @@
     genres:
       - drama
       - science fiction
+  sort_key: 2001-a_space_odyssey
 
 akira:
   groups:
@@ -56,6 +57,7 @@ akira:
       - gritty
       - dystopian
       - violent
+  sort_key: akira
 
 alien:
   groups:
@@ -89,6 +91,7 @@ alien:
       - dark
       - gritty
       - violent
+  sort_key: alien_1
 
 aliens:
   groups:
@@ -120,6 +123,7 @@ aliens:
       - dark
       - gritty
       - violent
+  sort_key: alien_2-aliens
 
 alphaville:
   groups:
@@ -148,6 +152,7 @@ alphaville:
       - science fiction
       - noir
       - dystopian
+  sort_key: alphaville
 
 amelie:
   groups:
@@ -179,6 +184,7 @@ amelie:
       - comedy
       - fantasy
       - period
+  sort_key: amelie
 
 the_american:
   groups:
@@ -212,6 +218,7 @@ the_american:
       - dark
       - gritty
       - violent
+  sort_key: american
 
 american_gangster:
   groups:
@@ -245,6 +252,7 @@ american_gangster:
       - gritty
       - period
       - violent
+  sort_key: american_gangster
 
 american_movie:
   groups:
@@ -276,6 +284,7 @@ american_movie:
       certificate: 36811
     genres:
       - documentary
+  sort_key: american_movie
 
 annihiliation:
   groups:
@@ -315,6 +324,7 @@ annihiliation:
       - gritty
       - dystopian
       - violent
+  sort_key: annihiliation
 
 apollo_13:
   groups:
@@ -348,6 +358,7 @@ apollo_13:
     genres:
       - drama
       - period
+  sort_key: apollo_13
 
 army_of_shadows:
   groups:
@@ -372,6 +383,7 @@ army_of_shadows:
       - drama
       - dark
       - period
+  sort_key: army_of_shadows
 
 the_batman:
   groups:
@@ -412,6 +424,7 @@ the_batman:
       - dark
       - gritty
       - dystopian
+  sort_key: batman
 
 batman_begins:
   groups:
@@ -447,6 +460,7 @@ batman_begins:
       - mystery
       - crime
       - gritty
+  sort_key: batman_begins
 
 berry_gordys_the_last_dragon:
   groups:
@@ -477,6 +491,7 @@ berry_gordys_the_last_dragon:
       - comedy
       - fantasy
       - martial arts
+  sort_key: berry_gordys_the_last_dragon
 
 big_trouble_in_little_china:
   groups:
@@ -513,6 +528,7 @@ big_trouble_in_little_china:
       - science fiction
       - martial arts
       - wuxia
+  sort_key: big_trouble_in_little_china
 
 bill_&_teds_excellent_adventure:
   groups:
@@ -546,6 +562,7 @@ bill_&_teds_excellent_adventure:
       - comedy
       - science fiction
       - period
+  sort_key: bill_&_teds_excellent_adventure
 
 blackhat:
   groups:
@@ -586,6 +603,7 @@ blackhat:
       - crime
       - gritty
       - violent
+  sort_key: blackhat
 
 blade_runner:
   groups:
@@ -619,6 +637,7 @@ blade_runner:
       - dark
       - dystopian
       - violent
+  sort_key: blade_runner
 
 blade_runner_2049:
   groups:
@@ -659,6 +678,7 @@ blade_runner_2049:
       - dark
       - dystopian
       - violent
+  sort_key: blade_runner_2049
 
 blood_simple:
   groups:
@@ -695,6 +715,7 @@ blood_simple:
       - dark
       - gritty
       - violent
+  sort_key: blood_simple
 
 blue_velvet:
   groups:
@@ -728,6 +749,7 @@ blue_velvet:
       - dark
       - gritty
       - violent
+  sort_key: blue_velvet
 
 bob_le_flambeur:
   groups:
@@ -761,6 +783,7 @@ bob_le_flambeur:
       - heist
       - dark
       - gritty
+  sort_key: bob_le_flambeur
 
 bottle_rocket:
   groups:
@@ -791,6 +814,7 @@ bottle_rocket:
       - comedy
       - crime
       - heist
+  sort_key: bottle_rocket
 
 bound:
   groups:
@@ -831,6 +855,7 @@ bound:
       - dark
       - gritty
       - violent
+  sort_key: bound
 
 bram_stokers_dracula:
   groups:
@@ -867,6 +892,7 @@ bram_stokers_dracula:
       - dark
       - period
       - violent
+  sort_key: bram_stokers_dracula
 
 burn_after_reading:
   groups:
@@ -901,6 +927,7 @@ burn_after_reading:
       - comedy
       - dark
       - violent
+  sort_key: burn_after_reading
 
 captain_america-the_first_avenger:
   groups:
@@ -933,6 +960,7 @@ captain_america-the_first_avenger:
       - fantasy
       - science fiction
       - period
+  sort_key: captain_america-the_first_avenger
 
 casablanca:
   groups:
@@ -962,6 +990,7 @@ casablanca:
       - noir
       - dark
       - dystopian
+  sort_key: casablanca
 
 casino_royale:
   groups:
@@ -997,6 +1026,7 @@ casino_royale:
       - action
       - gritty
       - violent
+  sort_key: casino_royale
 
 children_of_men:
   groups:
@@ -1038,6 +1068,7 @@ children_of_men:
       - gritty
       - dystopian
       - violent
+  sort_key: children_of_men
 
 citizen_kane:
   groups:
@@ -1065,6 +1096,7 @@ citizen_kane:
     genres:
       - drama
       - mystery
+  sort_key: citizen_kane
 
 close_encounters_of_the_third_kind:
   groups:
@@ -1092,6 +1124,7 @@ close_encounters_of_the_third_kind:
     genres:
       - drama
       - science fiction
+  sort_key: close_encounters_of_the_third_kind
 
 colossus-the_forbin_project:
   groups:
@@ -1117,6 +1150,7 @@ colossus-the_forbin_project:
       - science fiction
       - dark
       - dystopian
+  sort_key: colossus-the_forbin_project
 
 the_conversation:
   groups:
@@ -1149,6 +1183,7 @@ the_conversation:
       - noir
       - dark
       - dystopian
+  sort_key: conversation
 
 the_counselor:
   groups:
@@ -1185,6 +1220,7 @@ the_counselor:
       - dark
       - gritty
       - violent
+  sort_key: counselor
 
 crimson_tide:
   groups:
@@ -1212,6 +1248,7 @@ crimson_tide:
       - action
       - gritty
       - violent
+  sort_key: crimson_tide
 
 crouching_tiger,_hidden_dragon:
   groups:
@@ -1248,6 +1285,7 @@ crouching_tiger,_hidden_dragon:
       - martial arts
       - wuxia
       - period
+  sort_key: crouching_tiger,_hidden_dragon
 
 dark_city:
   groups:
@@ -1285,6 +1323,7 @@ dark_city:
       - gritty
       - dystopian
       - violent
+  sort_key: dark_city
 
 the_dark_knight:
   groups:
@@ -1323,6 +1362,7 @@ the_dark_knight:
       - dark
       - gritty
       - violent
+  sort_key: dark_knight
 
 days_of_heaven:
   groups:
@@ -1352,6 +1392,7 @@ days_of_heaven:
       - drama
       - dark
       - period
+  sort_key: days_of_heaven
 
 dazed_and_confused:
   groups:
@@ -1382,6 +1423,7 @@ dazed_and_confused:
     genres:
       - comedy
       - period
+  sort_key: dazed_and_confused
 
 deep_cover:
   groups:
@@ -1420,6 +1462,7 @@ deep_cover:
       - dark
       - gritty
       - violent
+  sort_key: deep_cover
 
 do_the_right_thing:
   groups:
@@ -1447,6 +1490,7 @@ do_the_right_thing:
     genres:
       - drama
       - gritty
+  sort_key: do_the_right_thing
 
 double_indemnity:
   groups:
@@ -1477,6 +1521,7 @@ double_indemnity:
       - crime
       - noir
       - dark
+  sort_key: double_indemnity
 
 drive:
   groups:
@@ -1512,6 +1557,7 @@ drive:
       - dark
       - gritty
       - violent
+  sort_key: drive
 
 dune:
   groups:
@@ -1545,6 +1591,7 @@ dune:
     genres:
       - action
       - science fiction
+  sort_key: dune
 
 dune-part_two:
   groups:
@@ -1577,6 +1624,7 @@ dune-part_two:
     genres:
       - action
       - science fiction
+  sort_key: dune-part_two
 
 ed_wood:
   groups:
@@ -1607,6 +1655,7 @@ ed_wood:
       - comedy
       - dark
       - period
+  sort_key: ed_wood
 
 election:
   groups:
@@ -1640,6 +1689,7 @@ election:
     genres:
       - comedy
       - dark
+  sort_key: election
 
 enter_the_dragon:
   groups:
@@ -1673,6 +1723,7 @@ enter_the_dragon:
       - martial arts
       - gritty
       - violent
+  sort_key: enter_the_dragon
 
 escape_from_new_york:
   groups:
@@ -1711,8 +1762,9 @@ escape_from_new_york:
       - gritty
       - dystopian
       - violent
+  sort_key: escape_from_new_york
 
-e.t._the_extra-terrestrial:
+et_the_extra-terrestrial:
   groups:
     - 4k_uhd
     - hdr10
@@ -1739,6 +1791,7 @@ e.t._the_extra-terrestrial:
       - horror
       - science fiction
       - dark
+  sort_key: et_the_extra-terrestrial
 
 ex_machina:
   groups:
@@ -1775,6 +1828,7 @@ ex_machina:
       - dark
       - dystopian
       - violent
+  sort_key: ex_machina
 
 fargo:
   groups:
@@ -1813,6 +1867,7 @@ fargo:
       - dark
       - period
       - violent
+  sort_key: fargo
 
 ferrari:
   groups:
@@ -1845,6 +1900,7 @@ ferrari:
       - drama
       - period
       - violent
+  sort_key: ferrari
 
 the_fifth_element:
   groups:
@@ -1881,6 +1937,7 @@ the_fifth_element:
       - fantasy
       - science fiction
       - violent
+  sort_key: fifth_element
 
 forgetting_sarah_marshall:
   groups:
@@ -1910,6 +1967,7 @@ forgetting_sarah_marshall:
     genres:
       - comedy
       - dark
+  sort_key: forgetting_sarah_marshall
 
 friday_night_lights:
   groups:
@@ -1945,6 +2003,7 @@ friday_night_lights:
       - dark
       - gritty
       - period
+  sort_key: friday_night_lights
 
 funny_people:
   groups:
@@ -1976,6 +2035,7 @@ funny_people:
       certificate: 45381
     genres:
       - comedy
+  sort_key: funny_people
 
 furiosa-a_mad_max_saga:
   groups:
@@ -2014,6 +2074,7 @@ furiosa-a_mad_max_saga:
       - gritty
       - dystopian
       - violent
+  sort_key: furiosa-a_mad_max_saga
 
 the_game:
   groups:
@@ -2048,6 +2109,7 @@ the_game:
       - noir
       - dark
       - violent
+  sort_key: game
 
 gattaca:
   groups:
@@ -2081,6 +2143,7 @@ gattaca:
       - science fiction
       - noir
       - dystopian
+  sort_key: gattaca
 
 ghost_dog-the_way_of_the_samurai:
   groups:
@@ -2113,6 +2176,7 @@ ghost_dog-the_way_of_the_samurai:
       - martial arts
       - dark
       - violent
+  sort_key: ghost_dog-the_way_of_the_samurai
 
 ghost_in_the_shell:
   groups:
@@ -2141,6 +2205,7 @@ ghost_in_the_shell:
       - noir
       - dystopian
       - violent
+  sort_key: ghost_in_the_shell
 
 the_girl_with_the_dragon_tattoo:
   groups:
@@ -2179,6 +2244,7 @@ the_girl_with_the_dragon_tattoo:
       - noir
       - dark
       - violent
+  sort_key: girl_with_the_dragon_tattoo
 
 gladiator:
   groups:
@@ -2213,6 +2279,7 @@ gladiator:
       - action
       - period
       - violent
+  sort_key: gladiator
 
 the_guyver:
   groups:
@@ -2249,6 +2316,7 @@ the_guyver:
       - martial arts
       - dark
       - violent
+  sort_key: guyver
 
 heat:
   groups:
@@ -2283,6 +2351,7 @@ heat:
       - heist
       - gritty
       - violent
+  sort_key: heat
 
 horizon-an_american_saga_chapter_1:
   groups:
@@ -2317,6 +2386,7 @@ horizon-an_american_saga_chapter_1:
       - western
       - period
       - violent
+  sort_key: horizon-an_american_saga_chapter_1
 
 in_the_mouth_of_madness:
   groups:
@@ -2351,6 +2421,7 @@ in_the_mouth_of_madness:
       - mystery
       - dark
       - violent
+  sort_key: in_the_mouth_of_madness
 
 inception:
   groups:
@@ -2380,6 +2451,7 @@ inception:
       - crime
       - heist
       - violent
+  sort_key: inception
 
 indiana_jones_and_the_temple_of_doom:
   groups:
@@ -2413,6 +2485,7 @@ indiana_jones_and_the_temple_of_doom:
       - dark
       - period
       - violent
+  sort_key: indiana_jones_and_the_temple_of_doom
 
 invasion_of_the_body_snatchers:
   groups:
@@ -2444,6 +2517,7 @@ invasion_of_the_body_snatchers:
       - science fiction
       - dark
       - violent
+  sort_key: invasion_of_the_body_snatchers
 
 jaws:
   groups:
@@ -2474,6 +2548,7 @@ jaws:
       - action
       - horror
       - violent
+  sort_key: jaws
 
 jurassic_park:
   groups:
@@ -2505,6 +2580,7 @@ jurassic_park:
       - horror
       - science fiction
       - violent
+  sort_key: jurassic_park
 
 the_kingdom:
   groups:
@@ -2538,8 +2614,9 @@ the_kingdom:
       - action
       - gritty
       - violent
+  sort_key: kingdom
 
-l.a._confidential:
+la_confidential:
   groups:
     - blu-ray
   data:
@@ -2574,6 +2651,7 @@ l.a._confidential:
       - dark
       - period
       - violent
+  sort_key: la_confidential
 
 last_action_hero:
   groups:
@@ -2607,6 +2685,7 @@ last_action_hero:
       - action
       - comedy
       - violent
+  sort_key: last_action_hero
 
 the_last_picture_show:
   groups:
@@ -2638,6 +2717,7 @@ the_last_picture_show:
     genres:
       - drama
       - period
+  sort_key: last_picture_show
 
 the_lawnmower_man:
   groups:
@@ -2673,6 +2753,7 @@ the_lawnmower_man:
       - science fiction
       - dark
       - violent
+  sort_key: lawnmower_man
 
 le_cercle_rouge:
   groups:
@@ -2704,6 +2785,7 @@ le_cercle_rouge:
       - dystopian
       - period
       - violent
+  sort_key: le_cercle_rouge
 
 le_doulos:
   groups:
@@ -2735,6 +2817,7 @@ le_doulos:
       - dark
       - gritty
       - violent
+  sort_key: le_doulos
 
 le_samourai:
   groups:
@@ -2765,6 +2848,7 @@ le_samourai:
       - dark
       - gritty
       - violent
+  sort_key: le_samourai
 
 legend:
   groups:
@@ -2794,6 +2878,7 @@ legend:
       - fantasy
       - dark
       - violent
+  sort_key: legend
 
 licorice_pizza:
   groups:
@@ -2823,6 +2908,7 @@ licorice_pizza:
     genres:
       - comedy
       - period
+  sort_key: licorice_pizza
 
 lone_star:
   groups:
@@ -2856,6 +2942,7 @@ lone_star:
       - mystery
       - western
       - noir
+  sort_key: lone_star
 
 the_long_good_friday:
   groups:
@@ -2887,6 +2974,7 @@ the_long_good_friday:
       - noir
       - gritty
       - violent
+  sort_key: long_good_friday
 
 lost_highway:
   groups:
@@ -2923,6 +3011,7 @@ lost_highway:
       - noir
       - dark
       - violent
+  sort_key: lost_highway
 
 mad_max-the_road_warrior:
   groups:
@@ -2960,6 +3049,7 @@ mad_max-the_road_warrior:
       - gritty
       - dystopian
       - violent
+  sort_key: mad_max_2-the_road_warrior
 
 mad_max-fury_road:
   groups:
@@ -2995,6 +3085,7 @@ mad_max-fury_road:
       - gritty
       - dystopian
       - violent
+  sort_key: mad_max_4-fury_road
 
 mallrats:
   groups:
@@ -3027,6 +3118,7 @@ mallrats:
     genres:
       - comedy
       - dark
+  sort_key: mallrats
 
 the_maltese_falcon:
   groups:
@@ -3055,6 +3147,7 @@ the_maltese_falcon:
       - crime
       - noir
       - dark
+  sort_key: maltese_falcon
 
 margin_call:
   groups:
@@ -3083,6 +3176,7 @@ margin_call:
       - dark
       - gritty
       - period
+  sort_key: margin_call
 
 the_matrix:
   groups:
@@ -3121,6 +3215,7 @@ the_matrix:
       - dark
       - dystopian
       - violent
+  sort_key: matrix_1
 
 the_matrix_reloaded:
   groups:
@@ -3159,6 +3254,7 @@ the_matrix_reloaded:
       - dark
       - dystopian
       - violent
+  sort_key: matrix_2-reloaded
 
 the_matrix_revolutions:
   groups:
@@ -3197,6 +3293,7 @@ the_matrix_revolutions:
       - dark
       - dystopian
       - violent
+  sort_key: matrix_3-revolutions
 
 mean_streets:
   groups:
@@ -3229,6 +3326,7 @@ mean_streets:
       - crime
       - gritty
       - violent
+  sort_key: mean_streets
 
 minority_report:
   groups:
@@ -3265,6 +3363,7 @@ minority_report:
       - dark
       - gritty
       - dystopian
+  sort_key: minority_report
 
 mission-impossible:
   groups:
@@ -3298,6 +3397,7 @@ mission-impossible:
       - noir
       - heist
       - dark
+  sort_key: mission-impossible
 
 mona_lisa:
   groups:
@@ -3331,6 +3431,7 @@ mona_lisa:
       - dark
       - gritty
       - violent
+  sort_key: mona_lisa
 
 mulholland_drive:
   groups:
@@ -3367,6 +3468,7 @@ mulholland_drive:
       - noir
       - dark
       - violent
+  sort_key: mulholland_drive
 
 the_new_world:
   groups:
@@ -3398,6 +3500,7 @@ the_new_world:
     genres:
       - drama
       - period
+  sort_key: new_world
 
 no_country_for_old_men:
   groups:
@@ -3435,6 +3538,7 @@ no_country_for_old_men:
       - gritty
       - period
       - violent
+  sort_key: no_country_for_old_men
 
 north_by_northwest:
   groups:
@@ -3461,6 +3565,7 @@ north_by_northwest:
       - comedy
       - mystery
       - crime
+  sort_key: north_by_northwest
 
 one_false_move:
   groups:
@@ -3501,6 +3606,7 @@ one_false_move:
       - dark
       - gritty
       - violent
+  sort_key: one_false_move
 
 oppenheimer:
   groups:
@@ -3531,6 +3637,7 @@ oppenheimer:
     genres:
       - drama
       - period
+  sort_key: oppenheimer
 
 paper_moon:
   groups:
@@ -3559,6 +3666,7 @@ paper_moon:
     genres:
       - comedy
       - period
+  sort_key: paper_moon
 
 paprika:
   groups:
@@ -3592,6 +3700,7 @@ paprika:
       - comedy
       - mystery
       - science fiction
+  sort_key: paprika
 
 the_parallax_view:
   groups:
@@ -3627,6 +3736,7 @@ the_parallax_view:
       - gritty
       - dystopian
       - violent
+  sort_key: parallax_view
 
 peeping_tom:
   groups:
@@ -3653,6 +3763,7 @@ peeping_tom:
       - crime
       - dark
       - violent
+  sort_key: peeping_tom
 
 the_phantom_thread:
   groups:
@@ -3682,6 +3793,7 @@ the_phantom_thread:
       - drama
       - dark
       - period
+  sort_key: phantom_thread
 
 pineapple_express:
   groups:
@@ -3717,6 +3829,7 @@ pineapple_express:
       - crime
       - dark
       - violent
+  sort_key: pineapple_express
 
 planet_earth:
   groups:
@@ -3738,6 +3851,7 @@ planet_earth:
       rating: null
     genres:
       - documentary
+  sort_key: planet_earth
 
 premium_rush:
   groups:
@@ -3769,6 +3883,7 @@ premium_rush:
     genres:
       - action
       - violent
+  sort_key: premium_rush
 
 prince_of_darkness:
   groups:
@@ -3802,6 +3917,7 @@ prince_of_darkness:
       - science fiction
       - dark
       - violent
+  sort_key: prince_of_darkness
 
 quantum_of_solace:
   groups:
@@ -3836,6 +3952,7 @@ quantum_of_solace:
       - action
       - gritty
       - violent
+  sort_key: quantum_of_solace
 
 raging_bull:
   groups:
@@ -3870,6 +3987,7 @@ raging_bull:
       - gritty
       - period
       - violent
+  sort_key: raging_bull
 
 raiders_of_the_lost_ark:
   groups:
@@ -3899,6 +4017,7 @@ raiders_of_the_lost_ark:
       - fantasy
       - period
       - violent
+  sort_key: raiders_of_the_lost_ark
 
 rambo:
   groups:
@@ -3936,6 +4055,7 @@ rambo:
       - dark
       - gritty
       - violent
+  sort_key: rambo
 
 real_genius:
   groups:
@@ -3966,6 +4086,7 @@ real_genius:
     genres:
       - comedy
       - science fiction
+  sort_key: real_genius
 
 repo_man:
   groups:
@@ -4001,6 +4122,7 @@ repo_man:
       - gritty
       - dystopian
       - violent
+  sort_key: repo_man
 
 ronin:
   groups:
@@ -4037,6 +4159,7 @@ ronin:
       - dark
       - gritty
       - violent
+  sort_key: ronin
 
 the_royal_tenenbaums:
   groups:
@@ -4068,6 +4191,7 @@ the_royal_tenenbaums:
       certificate: 38556
     genres:
       - comedy
+  sort_key: royal_tenenbaums
 
 rumble_fish:
   groups:
@@ -4100,6 +4224,7 @@ rumble_fish:
       - noir
       - dark
       - period
+  sort_key: rumble_fish
 
 rushmore:
   groups:
@@ -4130,6 +4255,7 @@ rushmore:
       certificate: 36223
     genres:
       - comedy
+  sort_key: rushmore
 
 schindlers_list:
   groups:
@@ -4163,6 +4289,7 @@ schindlers_list:
       - dark
       - period
       - violent
+  sort_key: schindlers_list
 
 seconds:
   groups:
@@ -4192,6 +4319,7 @@ seconds:
       - science fiction
       - dark
       - dystopian
+  sort_key: seconds
 
 a_serious_man:
   groups:
@@ -4226,6 +4354,7 @@ a_serious_man:
       - comedy
       - dark
       - period
+  sort_key: serious_man
 
 silent_running:
   groups:
@@ -4259,6 +4388,7 @@ silent_running:
       - drama
       - science fiction
       - dystopian
+  sort_key: silent_running
 
 slacker:
   groups:
@@ -4285,6 +4415,7 @@ slacker:
       certificate: 31218
     genres:
       - comedy
+  sort_key: slacker
 
 the_social_network:
   groups:
@@ -4319,6 +4450,7 @@ the_social_network:
       - drama
       - dark
       - period
+  sort_key: social_network
 
 speed:
   groups:
@@ -4349,6 +4481,7 @@ speed:
       - action
       - gritty
       - violent
+  sort_key: speed
 
 speed_racer:
   groups:
@@ -4386,6 +4519,7 @@ speed_racer:
       - action
       - fantasy
       - science fiction
+  sort_key: speed_racer
 
 spider-man_3:
   groups:
@@ -4418,6 +4552,7 @@ spider-man_3:
       - fantasy
       - science fiction
       - dark
+  sort_key: spider-man_3
 
 stand_by_me:
   groups:
@@ -4449,6 +4584,7 @@ stand_by_me:
       - drama
       - dark
       - period
+  sort_key: stand_by_me
 
 star_trek:
   groups:
@@ -4486,6 +4622,7 @@ star_trek:
       - action
       - science fiction
       - dark
+  sort_key: star_trek
 
 star_wars-andor:
   groups:
@@ -4531,6 +4668,7 @@ star_wars-andor:
       - science fiction
       - heist
       - dark
+  sort_key: star_wars-andor
 
 straight_outta_compton:
   groups:
@@ -4565,6 +4703,7 @@ straight_outta_compton:
       - drama
       - dark
       - period
+  sort_key: straight_outta_compton
 
 the_sugarland_express:
   groups:
@@ -4600,6 +4739,7 @@ the_sugarland_express:
       - crime
       - dark
       - period
+  sort_key: sugarland_express
 
 super_8:
   groups:
@@ -4636,6 +4776,7 @@ super_8:
       - science fiction
       - dark
       - period
+  sort_key: super_8
 
 the_taking_of_pelham_one_two_three:
   groups:
@@ -4670,6 +4811,7 @@ the_taking_of_pelham_one_two_three:
       - dark
       - gritty
       - violent
+  sort_key: taking_of_pelham_one_two_three
 
 taxi_driver:
   groups:
@@ -4704,6 +4846,7 @@ taxi_driver:
       - dark
       - gritty
       - violent
+  sort_key: taxi_driver
 
 there_will_be_blood:
   groups:
@@ -4732,6 +4875,7 @@ there_will_be_blood:
       - dark
       - period
       - violent
+  sort_key: there_will_be_blood
 
 they_live:
   groups:
@@ -4770,6 +4914,7 @@ they_live:
       - dark
       - dystopian
       - violent
+  sort_key: they_live
 
 thief:
   groups:
@@ -4801,6 +4946,7 @@ thief:
       - dark
       - gritty
       - violent
+  sort_key: thief
 
 the_thin_red_line:
   groups:
@@ -4834,6 +4980,7 @@ the_thin_red_line:
       - dark
       - period
       - violent
+  sort_key: thin_red_line
 
 the_thing:
   groups:
@@ -4862,6 +5009,7 @@ the_thing:
       - science fiction
       - dark
       - violent
+  sort_key: thing
 
 traffic:
   groups:
@@ -4896,6 +5044,7 @@ traffic:
       - dark
       - gritty
       - violent
+  sort_key: traffic
 
 the_tree_of_life:
   groups:
@@ -4928,6 +5077,7 @@ the_tree_of_life:
     genres:
       - drama
       - period
+  sort_key: tree_of_life
 
 tropic_thunder:
   groups:
@@ -4962,6 +5112,7 @@ tropic_thunder:
       - comedy
       - dark
       - violent
+  sort_key: tropic_thunder
 
 twilight_of_the_warriors-walled_in:
   groups:
@@ -5001,6 +5152,7 @@ twilight_of_the_warriors-walled_in:
       - martial arts
       - period
       - violent
+  sort_key: twilight_of_the_warriors-walled_in
 
 twin_peaks-the_television_collection:
   groups:
@@ -5033,6 +5185,7 @@ twin_peaks-the_television_collection:
       - noir
       - dark
       - violent
+  sort_key: twin_peaks_1-the_television_collection
 
 twin_peaks-fire_walk_with_me:
   groups:
@@ -5069,6 +5222,7 @@ twin_peaks-fire_walk_with_me:
       - noir
       - dark
       - violent
+  sort_key: twin_peaks_2-fire_walk_with_me
 
 unbreakable:
   groups:
@@ -5100,6 +5254,7 @@ unbreakable:
       - science fiction
       - dark
       - violent
+  sort_key: unbreakable
 
 uncut_gems:
   groups:
@@ -5144,6 +5299,7 @@ uncut_gems:
       - gritty
       - period
       - violent
+  sort_key: uncut_gems
 
 unforgiven:
   groups:
@@ -5177,6 +5333,7 @@ unforgiven:
       - gritty
       - period
       - violent
+  sort_key: unforgiven
 
 vertigo:
   groups:
@@ -5204,6 +5361,7 @@ vertigo:
       - mystery
       - noir
       - dark
+  sort_key: vertigo
 
 videodrome:
   groups:
@@ -5236,6 +5394,7 @@ videodrome:
       - gritty
       - dystopian
       - violent
+  sort_key: videodrome
 
 walk_hard-the_dewey_cox_story:
   groups:
@@ -5270,6 +5429,7 @@ walk_hard-the_dewey_cox_story:
     genres:
       - comedy
       - period
+  sort_key: walk_hard-the_dewey_cox_story
 
 war_of_the_worlds:
   groups:
@@ -5305,6 +5465,7 @@ war_of_the_worlds:
       - dark
       - gritty
       - violent
+  sort_key: war_of_the_worlds
 
 waynes_world:
   groups:
@@ -5335,6 +5496,7 @@ waynes_world:
       certificate: 31308
     genres:
       - comedy
+  sort_key: waynes_world
 
 wild_at_heart:
   groups:
@@ -5365,6 +5527,7 @@ wild_at_heart:
       - noir
       - dark
       - violent
+  sort_key: wild_at_heart
 
 zodiac:
   groups:
@@ -5403,3 +5566,4 @@ zodiac:
       - dark
       - period
       - violent
+  sort_key: zodiac

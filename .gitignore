@@ -1,6 +1,7 @@
+*/__pycache__
 archives/movies.csv.*
 archives/movies.yml.*
-mvdb/__pycache__
+dumpster/
 nornir.log
 
 #mac-tax

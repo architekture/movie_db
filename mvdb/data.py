@@ -1,6 +1,39 @@
-import configparser
+from configparser import ConfigParser
 import csv
 import yaml
+
+
+def cell_sort(cell: str, delimiter: str=","):
+    """Evaluates cell string and modifies the data type as needed.
+    
+    The function first checks whether the cell's string value is empty.
+    If it is, the cell's value is replace with None.
+
+    Else, the function looks for compound values. If the supplied
+    delimiter is present in the cell value, the value is transformed
+    into a list using the built-in split method using the delimiter
+    given. The default delimiter is "," but any string value can be
+    passed.
+
+    If neither of these conditions are present, the value is left
+    unmodified. The value is returned, regardless of transformation.
+
+    Args:
+      cell(str):
+        String value for a given field in the movies.csv spreadsheet.
+      delimiter(str):
+        The delimiting character used to separate compound values. The
+        default value is ",".
+    
+    Returns:
+      The modified or unmodified cell value.
+    """
+    if cell == "":
+        cell = None
+    elif delimiter in cell:
+        cell = cell.split(delimiter)
+    
+    return cell
 
 
 def dump_movies_yaml(movie_list: list):
@@ -15,8 +48,8 @@ def dump_movies_yaml(movie_list: list):
       for use with Nornir.
     """
     export ="---"
-    for i in movie_list:
-        ym_blob = yaml.dump(i, sort_keys=False).replace("- ", "  - ")
+    for mv in movie_list:
+        ym_blob = yaml.dump(mv, sort_keys=False).replace("- ", "  - ")
         export += f"\n{ym_blob}"
     
     return export
@@ -35,23 +68,94 @@ def export_movies_yaml(yaml_blob: str, file_name: str):
         f.write(yaml_blob)
 
 
-def import_current_genres(file: str="archives/genres.ini"):
-    """Reads genres.ini file via ConfigParser and imports data.
-
+def fetch_sortKeys(movie_list: list, key_header: str="sort_key"):
+    """Retrieves list of sortKeys from passed movie list.
+    
     Args:
-      file(str):
-        Name including the file path of the INI file for ConfigParser
-        to read and intepret. The default value is "archives/genres.ini".
+      movie_list(list):
+        List of movies stored as python dicts.
+      key_header(str):
+        Key for stored sortKey value. Defaults to "sort_key".
 
     Returns:
-      A list of currently supported genres, with each element
-      representing a genre, subgenre or descriptor.
+      List of sortKeys from passed movie list.
     """
-    parser = configparser.ConfigParser()
-    parser.read(file)
-    genres = parser["GENRES"]["genres"].split(",")
-    subgenres = parser["GENRES"]["subgenres"].split(",")
-    descriptors = parser["DESCRIPTORS"]["descriptors"].split(",")
+    key_list = []
+
+    for movie in movie_list:
+        for key in movie.keys():
+            key_list.append(movie[key][key_header])
+    
+    return key_list
+
+
+def gen_sort_key(title: str):
+    """Converts the title for use in alpha sorting the database.
+    
+    The film's title is first transformed using the transform_title
+    func before being evaluated to see if the the title starts with an
+    article. 
+
+    If the title starts with an article, it is removed using the
+    built-in replace func. Foreign language articles are not considered
+    (e.g. Le Cercle Rouge) and left in place.
+
+    Args:
+      title(str):
+        The film's official title.
+
+    Returns:
+      The formatted sort_key.
+    """
+    subs = {
+        "the_" : "",
+        "a_" : "",
+    }
+    sort_key = transform_title(title)
+    for k,v in subs.items():
+        if sort_key.startswith(k):
+            sort_key = sort_key.replace(k, v, 1)
+    
+    return sort_key
+
+
+def import_boutiques(parser: ConfigParser, data_header: str):
+    """Imports boutique label names from INI file.
+    
+    Args:
+      parser(ConfigParser):
+        ConfigParser object which has already read the INI file into
+        memory and stored in class instance using
+        ConfigParser.read(INIfile) method.
+      data_header(str):
+        Section header for boutique labels in INI file.
+
+    Returns:
+      List of boutique labels.
+    """
+    boutiqueLabels = parser.get(data_header, "labels").split(",")
+
+    return boutiqueLabels
+
+
+def import_current_genres(parser: ConfigParser, data_header: str):
+    """Imports current genres, subgenres & descriptors from INI file.
+
+    Args:
+      parser(ConfigParser):
+        ConfigParser object which has already read the INI file into
+        memory ans stored in class instance using
+        Config.Parser.read(INIfile) method.
+      data_header(str):
+        Section header for genres, subgenres & descriptors in INI file.
+
+    Returns:
+      A list of currently supported genres, subgenres & descriptors.
+    """
+    # parser = ConfigParser()
+    genres = parser.get(data_header, "genres").split(",")
+    subgenres = parser.get(data_header, "subgenres").split(",")
+    descriptors = parser.get(data_header, "descriptors").split(",")
     genres.extend(subgenres)
     genres.extend(descriptors)
 
@@ -82,33 +186,44 @@ def import_genres(csv_row: dict, movie_dict: dict, valid_genres: list):
         v["data"]["genres"] = genres
 
 
-def import_movies(file: str):
+def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
     """Converts movie .CSV file into structured Python data.
     
     Args:
       file(str):
         The file name of the movie DB in .CSV format.
+      ini_file(str):
+        Formatted INI file to be read & parsed for importing certain
+        attributes. Defaults to "archives/tech_specs.ini".
 
     Returns:
       A list wherein each element is a dict representing a single movie.
     """
+    parser = ConfigParser()
+    parser.read(ini_file)
+    
     movies = []
     # List of boutique publishers
-    boutiques = [
-        "Arrow Video",
-        "Kino Lorber Studio Classics",
-        "Shout! Factory LLC",
-        "The Criterion Collection",
-        "Unearthed Films"
-    ]
-    genres = import_current_genres()
+    boutiques = import_boutiques(
+        parser=parser,
+        data_header="boutiqueLabels"
+    )
+    genres = import_current_genres(
+        parser=parser,
+        data_header="summary"
+    )
+    sortKey_swaps = import_sort_overrides(
+        parser=parser,
+        data_header="sortKeys"
+    )
     with open(file) as f:
         csvr = csv.DictReader(f)
         for i in csvr:
             groups = []
-            name = i["title"].lower().replace(" ", "_")
-            name = name.replace(":_", "-")
-            name = name.replace("'", "")
+            name = transform_title(i["title"])
+            sort_key = gen_sort_key(i["title"])
+            if sort_key in sortKey_swaps.keys():
+                sort_key = sortKey_swaps[sort_key]
             director = cell_sort(i["director"])
             writer = cell_sort(i["writer"])
             dp = cell_sort(i["cinematographer"])
@@ -119,9 +234,9 @@ def import_movies(file: str):
                 groups.append("black_white")
             if i["animation"].lower() == "true":
                 groups.append("animation")
-            if i["hdr"] == "dolby vision":
+            if i["hdr"].lower() == "dolby vision":
                 groups.append("hdr10_dv")
-            elif i["hdr"] == "hdr10":
+            elif i["hdr"].lower() == "hdr10":
                 groups.append("hdr10")
             if i["publisher"] in boutiques:
                 groups.append("boutique")
@@ -148,7 +263,8 @@ def import_movies(file: str):
                         "aspect_ratio" : float(i["aspectRatio"]),
                         "publisher" : i["publisher"],
                         "discs" : int(i["discs"])
-                    }
+                    },
+                    "sort_key" : sort_key,
                 }
             }
             import_mpaa_data(i, mv)
@@ -185,34 +301,50 @@ def import_mpaa_data(csv_row: dict, movie_dict: dict):
         v["data"]["mpaa"] = mpaa
 
 
-def cell_sort(cell: str, delimiter: str=","):
-    """Evaluates cell string and modifies the data type as needed.
+def import_sort_overrides(parser: ConfigParser, data_header: str):
+    """TODO"""
+    overrides = {}
+    keys = parser.options(data_header)
+    for key in keys:
+        overrides[key] = parser.get(data_header, key)
     
-    The function first checks whether the cell's string value is empty.
-    If it is, the cell's value is replace with None.
+    return overrides
 
-    Else, the function looks for compound values. If the supplied
-    delimiter is present in the cell value, the value is transformed
-    into a list using the built-in split method using the delimiter
-    given. The default delimiter is "," but any string value can be
-    passed.
 
-    If neither of these conditions are present, the value is left
-    unmodified. The value is returned, regardless of transformation.
+def sort_catalog(movie_list: list, sortKey_list: list, data_header: str):
+    """TODO"""
+    sorted_list = []
+    for sortKey in sortKey_list:
+        for movie in movie_list:
+            for k in movie.keys():
+                if movie[k][data_header] == sortKey:
+                    sorted_list.append(movie)
+    
+    return sorted_list
+
+
+def transform_title(title: str):
+    """Formats the title to set as key value inside Nornir inventory.
+
+    The key/value pairs of dict "subs" are used to make punctuation
+    substitutions in the film's title before returning it in a
+    lowercase string.
 
     Args:
-      cell(str):
-        String value for a given field in the movies.csv spreadsheet.
-      delimiter(str):
-        The delimiting character used to separate compound values. The
-        default value is ",".
-    
+      title(str):
+        The film's official title.
+
     Returns:
-      The modified or unmodified cell value.
+      The newly formatted name.
     """
-    if cell == "":
-        cell = None
-    elif delimiter in cell:
-        cell = cell.split(delimiter)
+    subs = {
+        "'" : "",
+        "." : "",
+        ": " : "-",
+        " " : "_",
+    }
+
+    for k,v in subs.items():
+        title = title.replace(k, v)
     
-    return cell
+    return title.lower()
