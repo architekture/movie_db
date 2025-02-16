@@ -6,24 +6,36 @@ from nornir.core.filter import F as nf
 class MvDB:
     """TODO"""
     subdir = "archives/"
-    configFile = subdir + "config.yml"
-    defaultFile = subdir + "default.yml"
-    hostFile =  subdir + "movies.yml"
-    cfgINI = subdir + "tech_specs.ini"
+    cfg = subdir + "config.yml"
+    defaults = subdir + "default.yml"
+    hosts =  subdir + "movies.yml"
+    ini = subdir + "tech_specs.ini"
 
     def __init__(
         self,
-        cf: str=configFile,
-        df: str=defaultFile,
-        hf: str=hostFile,
-        ini: str=cfgINI
+        cfgFile: str=cfg,
+        defaultFile: str=defaults,
+        hostFile: str=hosts,
+        iniFile: str=ini
     ):
-        """TODO"""
-        self.nr = InitNornir(cf)
+        """Initializes MvDB Nr instance using specified inventory files.
+        
+        Args:
+          cfgFile(str):
+            Nornir config file. Defaults to "archives/config.yml".
+          defaultFile(str):
+            Nornir defaults file. Defaults to "archives/defaults.yml".
+          hostFile(str):
+            Nornir host file. Defaults to "archives/movies.yml".
+          iniFile(str):
+            ConfigParser INI file. Defaults to
+            "archives/tech_specs.ini".
+        """
+        self.nr = InitNornir(cfgFile)
         self.inventory = self.nr.inventory
         self.parser = ConfigParser()
 
-        self.parser.read(ini)
+        self.parser.read(iniFile)
 
         self.genres = self.fetch_ini_data("summary", "genres", ",")
         self.subgenres = self.fetch_ini_data("summary", "subgenres", ",")
