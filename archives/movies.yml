@@ -2782,7 +2782,6 @@ le_cercle_rouge:
       - heist
       - dark
       - gritty
-      - dystopian
       - period
       - violent
   sort_key: le_cercle_rouge
@@ -4735,7 +4734,6 @@ the_sugarland_express:
       certificate: 23713
     genres:
       - comedy
-      - western
       - crime
       - dark
       - period
@@ -5181,6 +5179,7 @@ twin_peaks-the_television_collection:
       rating: null
     genres:
       - drama
+      - mystery
       - crime
       - noir
       - dark
@@ -5218,6 +5217,8 @@ twin_peaks-fire_walk_with_me:
       certificate: 31718
     genres:
       - drama
+      - horror
+      - mystery
       - crime
       - noir
       - dark

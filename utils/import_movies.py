@@ -23,6 +23,9 @@ output = subdir + "movies.yml"
 
 if __name__ == "__main__":
     movies = mvdb.data.import_movies(file)
+    sortKeys = mvdb.data.fetch_sortKeys(movies)
+    list.sort(sortKeys)
+    movies = mvdb.data.sort_catalog(movies, sortKeys, "sort_key")
     moviesYML = mvdb.data.dump_movies_yaml(movies)
 
     mvdb.data.export_movies_yaml(moviesYML, output)
