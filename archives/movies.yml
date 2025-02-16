@@ -2318,6 +2318,41 @@ the_guyver:
       - violent
   sort_key: guyver
 
+hackers:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - steelbook
+  data:
+    title: Hackers
+    year: 1995
+    runtime: 105
+    director: Iain Softley
+    crew:
+      writer: Rafael Moreu
+      cinematographer: Andrzej Sekula
+      composer: Simon Boswell
+      editor:
+        - Christopher Blunden
+        - Martin Walsh
+    aspect_ratio: 2.39
+    publisher: Shout! Factory LLC
+    discs: 2
+    mpaa:
+      rating: PG-13
+      reason:
+        - some sexuality
+        - brief strong language
+      distributor: MGM/UA Distribution Co
+      alt_title: null
+      certificate: 33564
+    genres:
+      - comedy
+      - crime
+      - heist
+  sort_key: hackers
+
 heat:
   groups:
     - blu-ray
@@ -2549,6 +2584,43 @@ jaws:
       - horror
       - violent
   sort_key: jaws
+
+jfk:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+  data:
+    title: JFK
+    year: 1992
+    runtime: 205
+    director: Oliver Stone
+    crew:
+      writer:
+        - Oliver Stone
+        - Zachary Sklar
+      cinematographer: Robert Richardson
+      composer: John Williams
+      editor:
+        - Joe Hutshing
+        - Pietro Scalia
+    aspect_ratio: 2.39
+    publisher: Shout! Factory LLC
+    discs: 4
+    mpaa:
+      rating: R
+      reason: language
+      distributor: Warner Bros. Inc.
+      alt_title: null
+      certificate: 32254
+    genres:
+      - drama
+      - mystery
+      - crime
+      - dark
+      - gritty
+      - period
+  sort_key: jfk
 
 jurassic_park:
   groups:
@@ -3851,6 +3923,46 @@ planet_earth:
     genres:
       - documentary
   sort_key: planet_earth
+
+point_break:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - boutique
+    - steelbook
+  data:
+    title: Point Break
+    year: 1992
+    runtime: 122
+    director: Kathryn Bigelow
+    crew:
+      writer: W. Peter Iliff
+      cinematographer: Donald Peterman
+      composer: Mark Isham
+      editor: Howard Smith
+    aspect_ratio: 2.39
+    publisher: Shout! Factory LLC
+    discs: 2
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - language
+        - brief nudity
+      distributor: Twentieth Century Fox Film Corp
+      alt_title:
+        - Johnny Utah
+        - Riders On The Storm
+        - Untitled Kathryn Bigelow Film
+      certificate: 31102
+    genres:
+      - action
+      - crime
+      - noir
+      - heist
+      - gritty
+      - violent
+  sort_key: point_break
 
 premium_rush:
   groups:
