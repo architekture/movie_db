@@ -145,7 +145,7 @@ def import_current_genres(parser: ConfigParser, data_header: str):
       parser(ConfigParser):
         ConfigParser object which has already read the INI file into
         memory ans stored in class instance using
-        Config.Parser.read(INIfile) method.
+        ConfigParser.read(INIfile) method.
       data_header(str):
         Section header for genres, subgenres & descriptors in INI file.
 
@@ -302,7 +302,33 @@ def import_mpaa_data(csv_row: dict, movie_dict: dict):
 
 
 def import_sort_overrides(parser: ConfigParser, data_header: str):
-    """TODO"""
+    """Imports sortKey overrides from INI file.
+    
+    To prevent Python from producing an undesirable alpha sort of the
+    catalog data, certain manual overrides are stored via INI file and
+    read into memory by ConfigParser. These overrides are then
+    substituted in place by the import_movies func.
+
+    This override data is stored and returned as key/value pairs in a
+    dict using the following format:
+
+        {
+            "matrix" : "martix_1",
+            "matrix_reloaded" : "matrix_2-reloaded",
+            "matrix_revolutions" : "matrix_3-revolutions"
+        }
+
+    Args:
+      parser(ConfigParser):
+        ConfigParser object which has already read the INI file into
+        memory and stored in class instance using
+        ConfigParser.read(INIfile) method.
+      data_header(str):
+        Section header for sortKey override pairs in INI file.
+
+    Returns:
+      A dict of override substitution pairs.
+    """
     overrides = {}
     keys = parser.options(data_header)
     for key in keys:
@@ -312,7 +338,27 @@ def import_sort_overrides(parser: ConfigParser, data_header: str):
 
 
 def sort_catalog(movie_list: list, sortKey_list: list, data_header: str):
-    """TODO"""
+    """Sorts movie list into desired order.
+
+    The list of movie dicts is reordered using the sortKey_list as a
+    sequence guide. The sortKey_list should already have been sorted
+    into the desired order prior to being passed to sort_catalog func
+    as it is not transformed.
+
+    This reordered list is returned and can subsequently be exported
+    for use with Nornir.
+    
+    Args:
+      movie_list(list):
+        List of movies stored as python dicts.
+      sortKey_list(list):
+        List of sortKeys. Should already be in desired sort order.
+      data_header(str):
+        Key used to access sortKey value inside the movie dicts.
+
+    Returns:
+      Sorted list of movie dicts ready for export.
+    """
     sorted_list = []
     for sortKey in sortKey_list:
         for movie in movie_list:
