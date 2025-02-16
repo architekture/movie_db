@@ -12,23 +12,29 @@ class MvDB:
     cfgINI = subdir + "tech_specs.ini"
 
     def __init__(
-            self,
-            cf: str=configFile,
-            df: str=defaultFile,
-            hf: str=hostFile,
-            ini: str=cfgINI
-        ):
+        self,
+        cf: str=configFile,
+        df: str=defaultFile,
+        hf: str=hostFile,
+        ini: str=cfgINI
+    ):
         """TODO"""
         self.nr = InitNornir(cf)
-        self.cf = ConfigParser()
+        self.inventory = self.nr.inventory
+        self.parser = ConfigParser()
 
-        self.cf.read(ini)
-        self.genres = self.cf["summary"]["genres"].split(",")
-        self.subgenres = self.cf["summary"]["subgenres"].split(",")
-        self.descriptors = self.cf["summary"]["descriptors"].split(",")
+        self.parser.read(ini)
 
-        self.aspectRatios = self.cf["summary"]["aspect_ratios"].split(",")
-        self.mpaaRatings = self.cf["summary"]["mpaa_ratings"].split(",")
+        self.genres = self.fetch_ini_data("summary", "genres", ",")
+        self.subgenres = self.fetch_ini_data("summary", "subgenres", ",")
+        self.descriptors = self.fetch_ini_data("summary","descriptors", ",")
+
+        self.aspectRatios = self.fetch_ini_data("summary",
+          "aspect_ratios", ",")
+        self.mpaaRatings = self.fetch_ini_data("summary", "mpaa_ratings", ",")
+
+        self.boutiqueLabels = self.fetch_ini_data("boutiqueLabels", "labels",
+          ",")
 
         self.uhd = self.filter_group("4k_uhd")
         self.dv = self.filter_group("hdr10_dv")
@@ -41,7 +47,7 @@ class MvDB:
         self.monochrome = self.filter_group("black_white")
 
     def filter_group(self, group: str):
-        """Creates filtered Nornir inventory object via parent group.
+        """Creates filtered Nornir object via parent group.
         
         Args:
           group(str):
@@ -49,8 +55,19 @@ class MvDB:
             the movie library.
 
         Returns:
-          Nornir inventory object.
+          Nornir object (e.g. MvDB.nr.filter()). This is done prior to
+          the inventory phase to enable tasks to work against the filter
+          (i.e. using MvDB.nr.run(task=task) to act against the entire
+          or filtered inventory).
         """
-        groupFilter = self.nr.inventory.filter(nf(has_parent_group=group))
+        groupFilter = self.nr.filter(nf(has_parent_group=group))
 
         return groupFilter
+
+    def fetch_ini_data(self, section: str, option: str, delimiter: str=None):
+        """TODO"""
+        data = self.parser.get(section, option)
+        if delimiter is not None:
+            data = data.split(delimiter)
+
+        return data
