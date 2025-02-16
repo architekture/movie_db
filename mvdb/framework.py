@@ -65,7 +65,23 @@ class MvDB:
         return groupFilter
 
     def fetch_ini_data(self, section: str, option: str, delimiter: str=None):
-        """TODO"""
+        """Fetches specified INI option.
+        
+        Can optionally split fetched data if it's a concatenated string
+        by providing a delimiter.
+
+        Args:
+          section(str):
+            The section header found in the INI file.
+          option(str):
+            The option to be retrieved.
+          delimiter(str):
+            Character used to optionally separate a concatenated string.
+            Defaults to None.
+
+        Returns:
+          Data retrieved from the specified INI option.
+        """
         data = self.parser.get(section, option)
         if delimiter is not None:
             data = data.split(delimiter)
