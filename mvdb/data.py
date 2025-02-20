@@ -36,57 +36,58 @@ def cell_sort(cell: str, delimiter: str=","):
     return cell
 
 
-def dump_movies_yaml(movie_list: list):
-    """Transforms Python-native list of movies into YAML for Nornir.
+def dump_movies_yaml(movieDict: dict):
+    """Transforms Python-native dict of movies into YAML for Nornir.
 
     Args:
-      movie_list(list):
-        List of movies returned via data.import_movies func.
+      movieDict(dict):
+        Dict of movies returned via data.import_movies func.
 
     Returns:
       A string value of the imported movie list transformed into YAML
       for use with Nornir.
     """
     export ="---"
-    for mv in movie_list:
+    for mv in movieDict.keys():
+        mv = {mv : movieDict[mv]}
         ym_blob = yaml.dump(mv, sort_keys=False).replace("- ", "  - ")
         export += f"\n{ym_blob}"
     
     return export
 
 
-def export_movies_yaml(yaml_blob: str, file_name: str):
+def export_movies_yaml(yamlBlob: str, fileName: str):
     """Writes YAML file of the movie database for use with Nornir.
 
     Args:
-      yaml_blob(str):
+      yamlBlob(str):
         The str blob returned via data.dump_movies_yaml func.
-      file_name(str):
+      fileName(str):
         The file name for the resulting YAML document.
     """
-    with open(file_name, "w") as f:
-        f.write(yaml_blob)
+    with open(fileName, "w") as f:
+        f.write(yamlBlob)
 
 
-def fetch_sortKeys(movie_list: list, key_header: str="sort_key"):
+def fetch_sortKeys(movieDict: dict, keyHeader: str="sort_key"):
     """Retrieves list of sortKeys from passed movie list.
     
     Args:
-      movie_list(list):
-        List of movies stored as python dicts.
-      key_header(str):
+      movieDict(dict):
+        Python dict with root keys representing each title in the
+        catalog.
+      keyHeader(str):
         Key for stored sortKey value. Defaults to "sort_key".
 
     Returns:
       List of sortKeys from passed movie list.
     """
-    key_list = []
+    keyList = []
 
-    for movie in movie_list:
-        for key in movie.keys():
-            key_list.append(movie[key][key_header])
+    for movie in movieDict.keys():
+        keyList.append(movieDict[movie][keyHeader])
     
-    return key_list
+    return keyList
 
 
 def gen_sort_key(title: str):
@@ -162,28 +163,27 @@ def import_current_genres(parser: ConfigParser, data_header: str):
     return genres
 
 
-def import_genres(csv_row: dict, movie_dict: dict, valid_genres: list):
+def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
     """Appends genre and descriptor data for movie database.
     
     Args:
-      csv_row(dict):
+      csvRow(dict):
         An individual row read into mem using the data.import_movies
         func.
-      movie_dict(dict):
+      movieDict(dict):
         Transformed Python-native dict synthesized from csv_row data
         using the data.import_movies func.
-      valid_genres(list):
+      validGenres(list):
         List of genres imported using the import_current_genres func.
     """
     genres = []
-    for genre in valid_genres:
+    for genre in validGenres:
         try:
-            if csv_row[genre].lower() == "true":
+            if csvRow[genre].lower() == "true":
                 genres.append(genre)
         except KeyError:
             pass
-    for v in movie_dict.values():
-        v["data"]["genres"] = genres
+    movieDict["data"]["genres"] = genres
 
 
 def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
@@ -202,8 +202,7 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
     parser = ConfigParser()
     parser.read(ini_file)
     
-    movies = []
-    # List of boutique publishers
+    movies = {}
     boutiques = import_boutiques(
         parser=parser,
         data_header="boutiqueLabels"
@@ -247,58 +246,54 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
             if i["caseReplacement"].lower() == "true":
                 groups.append("case_replacement")
             mv = {
-                name : {
-                    "groups" : groups,
-                    "data" : {
-                        "title" : i["title"],
-                        "year" : int(i["releaseYear"]),
-                        "runtime" : int(i["runtime"]),
-                        "director" : director,
-                        "crew" : {
-                            "writer" : writer,
-                            "cinematographer" : dp,
-                            "composer" : composer,
-                            "editor" : editor
-                        },
-                        "aspect_ratio" : float(i["aspectRatio"]),
-                        "publisher" : i["publisher"],
-                        "discs" : int(i["discs"])
+                "groups" : groups,
+                "data" : {
+                    "title" : i["title"],
+                    "year" : int(i["releaseYear"]),
+                    "runtime" : int(i["runtime"]),
+                    "director" : director,
+                    "crew" : {
+                        "writer" : writer,
+                        "cinematographer" : dp,
+                        "composer" : composer,
+                        "editor" : editor
                     },
-                    "sort_key" : sort_key,
-                }
+                    "aspect_ratio" : float(i["aspectRatio"]),
+                    "publisher" : i["publisher"],
+                    "discs" : int(i["discs"])
+                },
+                "sort_key" : sort_key,
             }
             import_mpaa_data(i, mv)
             import_genres(i, mv, genres)
-            movies.append(mv)
+            movies[name] = mv
     
     return movies
 
 
-def import_mpaa_data(csv_row: dict, movie_dict: dict):
+def import_mpaa_data(csvRow: dict, movieDict: dict):
     """Appends MPAA ratings data for eligible pictures.
     
     Args:
-      csv_row(dict):
+      csvRow(dict):
         An individual row read into mem using the data.import_movies
         func.
-      movie_dict(dict):
+      movieDict(dict):
         Transformed Python-native dict synthesized from csv_row data
         using the data.import_movies func.
     """
-    rating = cell_sort(csv_row["mpaa"])
+    rating = cell_sort(csvRow["mpaa"])
     if isinstance(rating, str):
         rating = rating.upper()
-    reason = cell_sort(csv_row["mpaa_reason"])
-    # distro = cell_sort(csv_row["distributor"])
-    alt_title = cell_sort(csv_row["alt_title"], "; ")
+    reason = cell_sort(csvRow["mpaa_reason"])
+    alt_title = cell_sort(csvRow["alt_title"], "; ")
     mpaa = {"rating" : rating}
     if rating is not None:
         mpaa["reason"] = reason
-        mpaa["distributor"] = csv_row["distributor"]
+        mpaa["distributor"] = csvRow["distributor"]
         mpaa["alt_title"] = alt_title
-        mpaa["certificate"] = int(csv_row["mpaa_cert"])
-    for v in movie_dict.values():
-        v["data"]["mpaa"] = mpaa
+        mpaa["certificate"] = int(csvRow["mpaa_cert"])
+    movieDict["data"]["mpaa"] = mpaa
 
 
 def import_sort_overrides(parser: ConfigParser, data_header: str):
@@ -337,36 +332,35 @@ def import_sort_overrides(parser: ConfigParser, data_header: str):
     return overrides
 
 
-def sort_catalog(movie_list: list, sortKey_list: list, data_header: str):
+def sort_catalog(movieDict: dict, sortKey_list: list, dataHeader: str):
     """Sorts movie list into desired order.
 
-    The list of movie dicts is reordered using the sortKey_list as a
+    The entire movie DB dict is reordered using the sortKey_list as a
     sequence guide. The sortKey_list should already have been sorted
     into the desired order prior to being passed to sort_catalog func
     as it is not transformed.
 
-    This reordered list is returned and can subsequently be exported
+    This reordered dict is returned and can subsequently be exported
     for use with Nornir.
     
     Args:
-      movie_list(list):
-        List of movies stored as python dicts.
+      movieDict(dict):
+        Comprehensive dict of movies, created via CSV or YML import.
       sortKey_list(list):
         List of sortKeys. Should already be in desired sort order.
-      data_header(str):
+      dataHeader(str):
         Key used to access sortKey value inside the movie dicts.
 
     Returns:
-      Sorted list of movie dicts ready for export.
+      Sorted comprehensive dict ready for export.
     """
-    sorted_list = []
+    sortedDict = {}
     for sortKey in sortKey_list:
-        for movie in movie_list:
-            for k in movie.keys():
-                if movie[k][data_header] == sortKey:
-                    sorted_list.append(movie)
+        for movie in movieDict.keys():
+            if movieDict[movie][dataHeader] == sortKey:
+                sortedDict[movie] = movieDict[movie]
     
-    return sorted_list
+    return sortedDict
 
 
 def transform_title(title: str):

@@ -27,21 +27,18 @@ importCSV = "user_input/movie_import_template.csv"
 
 
 if __name__ == "__main__":
-    movieList = []
     with open(movieFile) as f:
         yaml_blob = f.read()
-    movieDict = yaml.safe_load(yaml_blob)
-    for key,val in movieDict.items():
-        movie = {key : val}
-        movieList.append(movie)
+    movies = yaml.safe_load(yaml_blob)
     newMovies = mvdb.data.import_movies(importCSV)
-    movieList.extend(newMovies)
-    sortKeys = mvdb.data.fetch_sortKeys(movieList)
+    for movie in newMovies.keys():
+        movies[movie] = newMovies[movie]
+    sortKeys = mvdb.data.fetch_sortKeys(movies)
     list.sort(sortKeys)
     movies = mvdb.data.sort_catalog(
-        movie_list=movieList,
+        movieDict=movies,
         sortKey_list=sortKeys,
-        data_header="sort_key"
+        dataHeader="sort_key"
     )
     movies_yml = mvdb.data.dump_movies_yaml(movies)
 
