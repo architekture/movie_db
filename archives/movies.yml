@@ -3710,6 +3710,46 @@ oppenheimer:
       - period
   sort_key: oppenheimer
 
+panic_room:
+  groups:
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Panic Room
+    year: 2002
+    runtime: 112
+    director: David Fincher
+    crew:
+      writer: David Koepp
+      cinematographer:
+        - Conrad W. Hall
+        - Darius Khondji
+      composer: Howard Shore
+      editor:
+        - James Haygood
+        - Angus Wall
+    aspect_ratio: 2.39
+    publisher: Sony Pictures Home Entertainment
+    discs: 3
+    mpaa:
+      rating: R
+      reason:
+        - violence
+        - language
+      distributor: Columbia Pictures
+      alt_title: null
+      certificate: 37630
+    genres:
+      - horror
+      - crime
+      - noir
+      - heist
+      - dark
+      - gritty
+      - violent
+  sort_key: panic_room
+
 paper_moon:
   groups:
     - 4k_uhd
@@ -4530,7 +4570,9 @@ slacker:
 
 the_social_network:
   groups:
-    - blu-ray
+    - 4k_uhd
+    - hdr10_dv
+    - steelbook
   data:
     title: The Social Network
     year: 2010
@@ -4547,7 +4589,7 @@ the_social_network:
         - Kirk Baxter
     aspect_ratio: 2.4
     publisher: Sony Pictures Home Entertainment
-    discs: 2
+    discs: 3
     mpaa:
       rating: PG-13
       reason:
