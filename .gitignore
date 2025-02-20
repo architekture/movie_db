@@ -2,7 +2,11 @@
 archives/movies.csv.*
 archives/movies.yml.*
 dumpster/
+user_input/*
 nornir.log
 
-#mac-tax
+# mac-tax
 *.DS_Store
+
+# exclusions
+!user_input/mv_import_template.csv
