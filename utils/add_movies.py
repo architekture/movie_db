@@ -31,8 +31,7 @@ if __name__ == "__main__":
         yaml_blob = f.read()
     movies = yaml.safe_load(yaml_blob)
     newMovies = mvdb.data.import_movies(importCSV)
-    for movie in newMovies.keys():
-        movies[movie] = newMovies[movie]
+    mvdb.data.add_movies(movies, newMovies)
     sortKeys = mvdb.data.fetch_sortKeys(movies)
     list.sort(sortKeys)
     movies = mvdb.data.sort_catalog(

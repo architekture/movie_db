@@ -3,9 +3,45 @@ import csv
 import yaml
 
 
+def add_movies(currentMovies: dict, newMovies: dict):
+    """Adds new movies to catalog in place if keys are unique.
+
+    The key for each movie in newMovies is checked against
+    currentMovies.keys to verify new titles are unique. If a match is
+    found, the current movie is skipped and the next import is
+    attempted. An informational warning is printed to terminal if this
+    condition is triggered.
+
+    If the movie's key is unique, it is added to the currentMovies
+    dict. This addition happens in place and the function itself returns
+    a None value when import is complete.
+
+    Args:
+      currentMovies(dict):
+        The entire movie catalog imported using the yaml.safe_load func.
+      newMovies(dict):
+        New films to be added to the catalog imported using the
+        mvdb.import_movies func.
+
+    Returns:
+      None
+    """
+    for movie in newMovies.keys():
+        if movie in currentMovies.keys():
+            print(
+                f"{newMovies[movie]['data']['title']} already in catalog! "
+                  "Skipping..."
+            )
+            pass
+        else:
+            currentMovies[movie] = newMovies[movie]
+
+    return None
+
+
 def cell_sort(cell: str, delimiter: str=","):
     """Evaluates cell string and modifies the data type as needed.
-    
+
     The function first checks whether the cell's string value is empty.
     If it is, the cell's value is replace with None.
 
@@ -24,7 +60,7 @@ def cell_sort(cell: str, delimiter: str=","):
       delimiter(str):
         The delimiting character used to separate compound values. The
         default value is ",".
-    
+
     Returns:
       The modified or unmodified cell value.
     """
@@ -70,8 +106,8 @@ def export_movies_yaml(yamlBlob: str, fileName: str):
 
 
 def fetch_sortKeys(movieDict: dict, keyHeader: str="sort_key"):
-    """Retrieves list of sortKeys from passed movie list.
-    
+    """Retrieves list of sortKeys from passed movie dict.
+
     Args:
       movieDict(dict):
         Python dict with root keys representing each title in the
@@ -80,7 +116,7 @@ def fetch_sortKeys(movieDict: dict, keyHeader: str="sort_key"):
         Key for stored sortKey value. Defaults to "sort_key".
 
     Returns:
-      List of sortKeys from passed movie list.
+      List of sortKeys from passed movie dict.
     """
     keyList = []
 
@@ -92,7 +128,7 @@ def fetch_sortKeys(movieDict: dict, keyHeader: str="sort_key"):
 
 def gen_sort_key(title: str):
     """Converts the title for use in alpha sorting the database.
-    
+
     The film's title is first transformed using the transform_title
     func before being evaluated to see if the the title starts with an
     article. 
@@ -122,7 +158,7 @@ def gen_sort_key(title: str):
 
 def import_boutiques(parser: ConfigParser, data_header: str):
     """Imports boutique label names from INI file.
-    
+
     Args:
       parser(ConfigParser):
         ConfigParser object which has already read the INI file into
@@ -165,7 +201,7 @@ def import_current_genres(parser: ConfigParser, data_header: str):
 
 def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
     """Appends genre and descriptor data for movie database.
-    
+
     Args:
       csvRow(dict):
         An individual row read into mem using the data.import_movies
@@ -188,7 +224,7 @@ def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
 
 def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
     """Converts movie .CSV file into structured Python data.
-    
+
     Args:
       file(str):
         The file name of the movie DB in .CSV format.
@@ -273,7 +309,7 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
 
 def import_mpaa_data(csvRow: dict, movieDict: dict):
     """Appends MPAA ratings data for eligible pictures.
-    
+
     Args:
       csvRow(dict):
         An individual row read into mem using the data.import_movies
@@ -298,7 +334,7 @@ def import_mpaa_data(csvRow: dict, movieDict: dict):
 
 def import_sort_overrides(parser: ConfigParser, data_header: str):
     """Imports sortKey overrides from INI file.
-    
+
     To prevent Python from producing an undesirable alpha sort of the
     catalog data, certain manual overrides are stored via INI file and
     read into memory by ConfigParser. These overrides are then
@@ -342,7 +378,7 @@ def sort_catalog(movieDict: dict, sortKey_list: list, dataHeader: str):
 
     This reordered dict is returned and can subsequently be exported
     for use with Nornir.
-    
+
     Args:
       movieDict(dict):
         Comprehensive dict of movies, created via CSV or YML import.
