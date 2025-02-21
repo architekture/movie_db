@@ -3,7 +3,11 @@ import csv
 import yaml
 
 
-def add_movies(currentMovies: dict, newMovies: dict):
+header = (79 * "-")
+
+
+def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
+  header: str=header):
     """Adds new movies to catalog in place if keys are unique.
 
     The key for each movie in newMovies is checked against
@@ -22,20 +26,35 @@ def add_movies(currentMovies: dict, newMovies: dict):
       newMovies(dict):
         New films to be added to the catalog imported using the
         mvdb.import_movies func.
+      overwrite(bool):
+        Boolean which defines how to handle duplicate imports. Defaults
+        to False.
 
     Returns:
       None
     """
+    print(
+        f"\n{header}\n"
+        "\nImporting movies...\n"
+    )
     for movie in newMovies.keys():
         if movie in currentMovies.keys():
-            print(
-                f"{newMovies[movie]['data']['title']} already in catalog! "
-                  "Skipping..."
-            )
-            pass
+            if overwrite:
+                currentMovies.pop(movie)
+                currentMovies[movie] = newMovies[movie]
+            else:
+                print(
+                    f"{newMovies[movie]['data']['title']} already in catalog! "
+                    "Skipping..."
+                )
+                pass
         else:
             currentMovies[movie] = newMovies[movie]
 
+    print(
+        "\n--Import complete.\n"
+          f"\n{header}"
+    )
     return None
 
 
@@ -222,7 +241,8 @@ def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
     movieDict["data"]["genres"] = genres
 
 
-def import_movies(file: str, ini_file: str="archives/tech_specs.ini"):
+def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
+  header: str=header):
     """Converts movie .CSV file into structured Python data.
 
     Args:
