@@ -43,7 +43,7 @@ def select_file(dir: str=importDir, default: str=importCSV,
       default(str):
         The optional default value. Defaults to importCSV.
       header(str):
-        Header string, defaults to mvdb.data.header.
+        Section break header, defaults to mvdb.data.header.
 
       Returns:
         The target file name to import.
@@ -116,3 +116,8 @@ if __name__ == "__main__":
     movies_yml = mvdb.data.dump_movies_yaml(movies)
 
     mvdb.data.export_movies_yaml(movies_yml, exportYML)
+
+    print(
+        f'\nExport written to file as "{exportYML}". Compare to "{movieFile}" '
+          'before renaming the release candidate.\n'
+    )

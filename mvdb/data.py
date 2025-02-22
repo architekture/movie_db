@@ -8,13 +8,16 @@ header = (79 * "-")
 
 def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
   header: str=header):
-    """Adds new movies to catalog in place if keys are unique.
+    """Adds new movies to catalog in place.
 
     The key for each movie in newMovies is checked against
     currentMovies.keys to verify new titles are unique. If a match is
     found, the current movie is skipped and the next import is
     attempted. An informational warning is printed to terminal if this
     condition is triggered.
+
+    This default behavior can be modified and matched titles can be
+    overwritten if the overwrite boolean is set to True.
 
     If the movie's key is unique, it is added to the currentMovies
     dict. This addition happens in place and the function itself returns
@@ -29,13 +32,15 @@ def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
       overwrite(bool):
         Boolean which defines how to handle duplicate imports. Defaults
         to False.
+      header(str):
+        Section break header.
 
     Returns:
       None
     """
     print(
         f"\n{header}\n"
-        "\nImporting movies...\n"
+        "\Adding new movies...\n"
     )
     for movie in newMovies.keys():
         if movie in currentMovies.keys():
