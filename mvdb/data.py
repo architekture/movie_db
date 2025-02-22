@@ -40,7 +40,7 @@ def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
     """
     print(
         f"\n{header}\n"
-        "\Adding new movies...\n"
+        "\nAdding new movies..."
     )
     for movie in newMovies.keys():
         if movie in currentMovies.keys():
@@ -56,10 +56,8 @@ def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
         else:
             currentMovies[movie] = newMovies[movie]
 
-    print(
-        "\n--Import complete.\n"
-          f"\n{header}"
-    )
+    print("\n--Import complete.")
+
     return None
 
 
@@ -256,10 +254,16 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
       ini_file(str):
         Formatted INI file to be read & parsed for importing certain
         attributes. Defaults to "archives/tech_specs.ini".
+      header(str):
+        Section break header.
 
     Returns:
       A list wherein each element is a dict representing a single movie.
     """
+    print(
+        f"\n{header}\n"
+        "\nImporting movies from file..."
+    )
     parser = ConfigParser()
     parser.read(ini_file)
     
@@ -328,6 +332,7 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
             import_mpaa_data(i, mv)
             import_genres(i, mv, genres)
             movies[name] = mv
+    print("\n--Import complete.")
     
     return movies
 
