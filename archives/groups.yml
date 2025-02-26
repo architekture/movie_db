@@ -9,6 +9,18 @@ blu-ray:
     format: Blu-Ray
     resolution: 1080
 
+hdr10:
+  groups:
+    - 4k_uhd
+  data:
+    hdr: HDR10
+
+hdr10_dv:
+  groups:
+    - 4k_uhd
+  data:
+    hdr: Dolby Vision
+
 black_white:
   data:
     color: false
@@ -16,18 +28,6 @@ black_white:
 animation:
   data:
     animation: true
-
-hdr10:
-  data:
-    hdr: HDR10
-
-hdr10_dv:
-  data:
-    hdr: Dolby Vision
-
-commentary:
-  data:
-    commentary: true
 
 boutique:
   data:
@@ -40,6 +40,10 @@ slipcover:
 steelbook:
   data:
     steelbook: true
+
+commentary:
+  data:
+    commentary: true
 
 case_replacement:
   data:
