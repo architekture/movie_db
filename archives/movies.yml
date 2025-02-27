@@ -4350,6 +4350,42 @@ rambo:
       - violent
   sort_key: rambo
 
+ran:
+  groups:
+    - hdr10_dv
+  data:
+    title: Ran
+    year: 1985
+    runtime: 161
+    director: Akira Kurosawa
+    crew:
+      writer:
+        - Akira Kurosawa
+        - Hideo Oguni
+        - Masato Ide
+      cinematographer:
+        - Takao Saito
+        - Shoji Ueda
+      composer: Toru Takemitsu
+      editor: Akira Kurosawa
+    release:
+      publisher: Studiocanal Limited
+      upc: 5055201847393
+      discs: 3
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 28030
+      rating: R
+      reason: null
+      distributor: Orion Classics
+      alt_title: null
+    genres:
+      - drama
+      - dark
+      - period
+      - violent
+  sort_key: ran
+
 real_genius:
   groups:
     - hdr10_dv
@@ -4660,6 +4696,44 @@ a_serious_man:
       - dark
       - period
   sort_key: serious_man
+
+seven:
+  groups:
+    - hdr10
+    - steelbook
+  data:
+    title: Seven
+    year: 1995
+    runtime: 127
+    director: David Fincher
+    crew:
+      writer: Andrew Kevin Walker
+      cinematographer: Darius Khondji
+      composer: Howard Shore
+      editor: Richard Francis-Bruce
+    release:
+      publisher: Warner Bros. Entertainment Inc
+      upc: 5051892251945
+      discs: 2
+      aspect_ratio: 2.4
+    mpaa:
+      certificate: 33601
+      rating: R
+      reason:
+        - grisly afterviews of horrific and bizarre killings
+        - strong language
+      distributor: New Line Cinema
+      alt_title: null
+    genres:
+      - drama
+      - horror
+      - mystery
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+  sort_key: seven
 
 silent_running:
   groups:
