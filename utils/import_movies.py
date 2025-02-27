@@ -22,7 +22,7 @@ output = subdir + "movies.yml"
 
 
 if __name__ == "__main__":
-    movies = mvdb.data.import_movies(file)
+    movies = mvdb.data.import_movies_csv(file)
     sortKeys = mvdb.data.fetch_sortKeys(movies)
     list.sort(sortKeys)
     movies = mvdb.data.sort_catalog(movies, sortKeys, "sort_key")

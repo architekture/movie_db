@@ -103,7 +103,7 @@ if __name__ == "__main__":
         yaml_blob = f.read()
     movies = yaml.safe_load(yaml_blob)
     importFile = select_file()
-    newMovies = mvdb.data.import_movies(importFile)
+    newMovies = mvdb.data.import_movies_csv(importFile)
     overwrite = overwrite_select()
     mvdb.data.add_movies(movies, newMovies, overwrite=overwrite)
     sortKeys = mvdb.data.fetch_sortKeys(movies)
@@ -118,6 +118,7 @@ if __name__ == "__main__":
     mvdb.data.export_movies_yaml(movies_yml, exportYML)
 
     print(
+        f"\n{header}\n"
         f'\nExport written to file as "{exportYML}". Compare to "{movieFile}" '
           'before renaming the release candidate.\n'
     )

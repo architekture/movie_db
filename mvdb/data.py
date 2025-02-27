@@ -1,13 +1,19 @@
-from configparser import ConfigParser
+from configparser import ConfigParser, NoOptionError, NoSectionError
 import csv
 import yaml
+
+from mvdb import mvdbBaseException, DuplicateMovieError
 
 
 header = (79 * "-")
 
 
-def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
-  header: str=header):
+def add_movies(
+    currentMovies: dict,
+    newMovies: dict,
+    overwrite: bool=False,
+    header: str=header
+):
     """Adds new movies to catalog in place.
 
     The key for each movie in newMovies is checked against
@@ -28,7 +34,7 @@ def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
         The entire movie catalog imported using the yaml.safe_load func.
       newMovies(dict):
         New films to be added to the catalog imported using the
-        mvdb.import_movies func.
+        mvdb.import_movies_csv func.
       overwrite(bool):
         Boolean which defines how to handle duplicate imports. Defaults
         to False.
@@ -40,21 +46,22 @@ def add_movies(currentMovies: dict, newMovies: dict, overwrite: bool=False,
     """
     print(
         f"\n{header}\n"
-        "\nAdding new movies..."
+        "\nAdding new movies...\n"
     )
     for movie in newMovies.keys():
-        if movie in currentMovies.keys():
-            if overwrite:
-                currentMovies.pop(movie)
-                currentMovies[movie] = newMovies[movie]
+        title = newMovies[movie]["data"]["title"]
+        if not overwrite:
+            try:
+                detect_duplicates(currentMovies, movie)
+            except mvdbBaseException:
+                # title = currentMovies[movie]["data"]["title"]
+                print(f'"{title}" already in catalog! Skipping...')
             else:
-                print(
-                    f"{newMovies[movie]['data']['title']} already in catalog! "
-                    "Skipping..."
-                )
-                pass
+                currentMovies[movie] = newMovies[movie]
+                print(f'"{title}" added to catalog.')
         else:
             currentMovies[movie] = newMovies[movie]
+            print(f'"{title}" added to catalog.')
 
     print("\n--Import complete.")
 
@@ -94,12 +101,29 @@ def cell_sort(cell: str, delimiter: str=","):
     return cell
 
 
+def detect_duplicates(movieDict: dict, movieKey: str):
+    """Checks if movie key is unique, else raises an exception.
+
+    Args:
+      movieDict(dict):
+        Dict of movies returned via data.import_movies_csv func.
+      movieKey(str):
+        Top-level key for a single movie dict inside movieDict.
+
+    Returns:
+      None.
+    """
+    if movieKey in movieDict.keys():
+        title = movieDict[movieKey]["data"]["title"]
+        raise DuplicateMovieError(f'"{title}" already in movie catalog!')
+
+
 def dump_movies_yaml(movieDict: dict):
     """Transforms Python-native dict of movies into YAML for Nornir.
 
     Args:
       movieDict(dict):
-        Dict of movies returned via data.import_movies func.
+        Dict of movies returned via data.import_movies_csv func.
 
     Returns:
       A string value of the imported movie list transformed into YAML
@@ -178,7 +202,7 @@ def gen_sort_key(title: str):
     return sort_key
 
 
-def import_boutiques(parser: ConfigParser, data_header: str):
+def import_boutiques(parser: ConfigParser, dataHeader: str):
     """Imports boutique label names from INI file.
 
     Args:
@@ -192,18 +216,18 @@ def import_boutiques(parser: ConfigParser, data_header: str):
     Returns:
       List of boutique labels.
     """
-    boutiqueLabels = parser.get(data_header, "labels").split(",")
+    boutiqueLabels = parser.get(dataHeader, "labels").split(",")
 
     return boutiqueLabels
 
 
-def import_current_genres(parser: ConfigParser, data_header: str):
+def import_current_genres(parser: ConfigParser, dataHeader: str):
     """Imports current genres, subgenres & descriptors from INI file.
 
     Args:
       parser(ConfigParser):
         ConfigParser object which has already read the INI file into
-        memory ans stored in class instance using
+        memory and stored in class instance using
         ConfigParser.read(INIfile) method.
       data_header(str):
         Section header for genres, subgenres & descriptors in INI file.
@@ -212,9 +236,9 @@ def import_current_genres(parser: ConfigParser, data_header: str):
       A list of currently supported genres, subgenres & descriptors.
     """
     # parser = ConfigParser()
-    genres = parser.get(data_header, "genres").split(",")
-    subgenres = parser.get(data_header, "subgenres").split(",")
-    descriptors = parser.get(data_header, "descriptors").split(",")
+    genres = parser.get(dataHeader, "genres").split(",")
+    subgenres = parser.get(dataHeader, "subgenres").split(",")
+    descriptors = parser.get(dataHeader, "descriptors").split(",")
     genres.extend(subgenres)
     genres.extend(descriptors)
 
@@ -226,11 +250,11 @@ def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
 
     Args:
       csvRow(dict):
-        An individual row read into mem using the data.import_movies
+        An individual row read into mem using the data.import_movies_csv
         func.
       movieDict(dict):
         Transformed Python-native dict synthesized from csv_row data
-        using the data.import_movies func.
+        using the data.import_movies_csv func.
       validGenres(list):
         List of genres imported using the import_current_genres func.
     """
@@ -244,8 +268,8 @@ def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
     movieDict["data"]["genres"] = genres
 
 
-def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
-  header: str=header):
+def import_movies_csv(file: str, iniFile: str="archives/tech_specs.ini",
+  upcs: str = "archives/barcodes.ini", header: str=header):
     """Converts movie .CSV file into structured Python data.
 
     Args:
@@ -262,27 +286,30 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
     """
     print(
         f"\n{header}\n"
-        "\nImporting movies from file..."
+        "\nImporting movies from file...\n"
     )
     parser = ConfigParser()
-    parser.read(ini_file)
+    parser.read(iniFile)
+    bcParser = ConfigParser()
+    bcParser.read(upcs)
     
     movies = {}
     boutiques = import_boutiques(
         parser=parser,
-        data_header="boutiqueLabels"
+        dataHeader="boutiqueLabels"
     )
     genres = import_current_genres(
         parser=parser,
-        data_header="summary"
+        dataHeader="summary"
     )
     sortKey_swaps = import_sort_overrides(
         parser=parser,
-        data_header="sortKeys"
+        dataHeader="sortKeys"
     )
     with open(file) as f:
         csvr = csv.DictReader(f)
         for i in csvr:
+            print(f'"{i["title"]}" imported.')
             groups = []
             name = transform_title(i["title"])
             sort_key = gen_sort_key(i["title"])
@@ -293,15 +320,16 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
             dp = cell_sort(i["cinematographer"])
             composer = cell_sort(i["composer"])
             editor = cell_sort(i["editor"])
-            groups.append(i["format"].lower())
-            if i["color"].lower() == "false":
-                groups.append("black_white")
-            if i["animation"].lower() == "true":
-                groups.append("animation")
             if i["hdr"].lower() == "dolby vision":
                 groups.append("hdr10_dv")
             elif i["hdr"].lower() == "hdr10":
                 groups.append("hdr10")
+            else:
+                groups.append(i["format"].lower())
+            if i["color"].lower() == "false":
+                groups.append("black_white")
+            if i["animation"].lower() == "true":
+                groups.append("animation")
             if i["publisher"] in boutiques:
                 groups.append("boutique")
             if i["steelbook"].lower() == "true":
@@ -323,12 +351,10 @@ def import_movies(file: str, ini_file: str="archives/tech_specs.ini",
                         "composer" : composer,
                         "editor" : editor
                     },
-                    "aspect_ratio" : float(i["aspectRatio"]),
-                    "publisher" : i["publisher"],
-                    "discs" : int(i["discs"])
                 },
                 "sort_key" : sort_key,
             }
+            import_release_data(i, mv, bcParser, name)
             import_mpaa_data(i, mv)
             import_genres(i, mv, genres)
             movies[name] = mv
@@ -342,33 +368,86 @@ def import_mpaa_data(csvRow: dict, movieDict: dict):
 
     Args:
       csvRow(dict):
-        An individual row read into mem using the data.import_movies
+        An individual row read into mem using the data.import_movies_csv
         func.
       movieDict(dict):
         Transformed Python-native dict synthesized from csv_row data
-        using the data.import_movies func.
+        using the data.import_movies_csv func.
     """
     rating = cell_sort(csvRow["mpaa"])
     if isinstance(rating, str):
         rating = rating.upper()
     reason = cell_sort(csvRow["mpaa_reason"])
     alt_title = cell_sort(csvRow["alt_title"], "; ")
-    mpaa = {"rating" : rating}
     if rating is not None:
-        mpaa["reason"] = reason
-        mpaa["distributor"] = csvRow["distributor"]
-        mpaa["alt_title"] = alt_title
-        mpaa["certificate"] = int(csvRow["mpaa_cert"])
-    movieDict["data"]["mpaa"] = mpaa
+        mpaa = {
+            "certificate" : int(csvRow["mpaa_cert"]),
+            "rating" : rating,
+            "reason" : reason,
+            "distributor" : csvRow["distributor"],
+            "alt_title" : alt_title,
+        }
+        movieDict["data"]["mpaa"] = mpaa
 
 
-def import_sort_overrides(parser: ConfigParser, data_header: str):
+def import_release_data(
+    csvRow: dict,
+    movieDict: dict,
+    parser: ConfigParser,
+    mvName: str,
+    dataHeader: str="barcodes"
+):
+    """Imports details specific to the release for each movie in DB.
+
+    Adds the publisher info, number of discs, and aspect ratio details
+    for each movie. Func also attempts to add the UPC data from the CSV
+    file. If it is not found there, it checks the barcodes.ini file in
+    archives. If the UPC value still is not present, the value is set to
+    None.
+
+    The import is handled in place with no value returned by the func.
+
+    Args:
+      csvRow(dict):
+        An individual row read into mem using the data.import_movies_csv
+      movieDict(dict):
+        Dict of movies returned via data.import_movies_csv func.
+      parser(ConfigParser):
+        ConfigParser object which has already read the INI file into
+        memory and stored in class instance using
+        ConfigParser.read(INIfile) method.
+        func.
+      mvName(str):
+        Top-level key for a single movie dict inside movieDict.
+      dataHeader(str):
+        Section header for barcode data in INI file.
+
+    Returns:
+      None
+    """
+    release = {
+        "publisher" : csvRow["publisher"],
+        "upc" : None,
+        "discs" : int(csvRow["discs"]),
+        "aspect_ratio" : float(csvRow["aspectRatio"])
+    }
+    try:
+        release["upc"] = int(csvRow["upc"])
+    except KeyError:
+        try:
+            release["upc"] = int(parser.get(dataHeader, mvName))
+        except NoOptionError:
+            pass
+    movieDict["data"]["release"] = release
+
+
+def import_sort_overrides(parser: ConfigParser, dataHeader: str):
     """Imports sortKey overrides from INI file.
 
     To prevent Python from producing an undesirable alpha sort of the
     catalog data, certain manual overrides are stored via INI file and
     read into memory by ConfigParser. These overrides are then
-    substituted in place by the import_movies func.
+    substituted in place by the import_movies_csv func.
 
     This override data is stored and returned as key/value pairs in a
     dict using the following format:
@@ -391,9 +470,9 @@ def import_sort_overrides(parser: ConfigParser, data_header: str):
       A dict of override substitution pairs.
     """
     overrides = {}
-    keys = parser.options(data_header)
+    keys = parser.options(dataHeader)
     for key in keys:
-        overrides[key] = parser.get(data_header, key)
+        overrides[key] = parser.get(dataHeader, key)
     
     return overrides
 
