@@ -12,13 +12,13 @@ inv = nr.filter(
 
 for i in inv.inventory.hosts:
     dvc = inv.inventory.hosts[i]
-    if dvc["discs"] == 1:
-        discs = f"{dvc['discs']} Disc"
-    elif dvc["discs"] > 1:
-        discs = f"{dvc['discs']} Discs"
+    if dvc["release"]["discs"] == 1:
+        discs = f"{dvc['release']['discs']} Disc"
+    elif dvc["release"]["discs"] > 1:
+        discs = f"{dvc['release']['discs']} Discs"
     if isinstance(dvc["director"], list):
         dvc["director"] = " & ".join(dvc["director"])
-    data = f"{dvc['title']} ({dvc['year']}/{dvc['runtime']} min/{dvc['aspect_ratio']}:1/dir. {dvc['director']}) - [{dvc['format']}|{dvc['resolution']}p|{dvc['publisher']} ({discs})] "
+    data = f"{dvc['title']} ({dvc['year']}/{dvc['runtime']} min/{dvc['release']['aspect_ratio']}:1/dir. {dvc['director']}) - [{dvc['format']}|{dvc['resolution']}p|{dvc['release']['publisher']} ({discs})] "
     if dvc["steelbook"]:
         data += "*"
     elif dvc["slipcover"]:
