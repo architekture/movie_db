@@ -26,6 +26,7 @@ if __name__ == "__main__":
     sortKeys = mvdb.data.fetch_sortKeys(movies)
     list.sort(sortKeys)
     movies = mvdb.data.sort_catalog(movies, sortKeys, "sort_key")
+    mvdb.data.write_barcodes(movies)
     moviesYML = mvdb.data.dump_movies_yaml(movies)
 
     mvdb.data.export_movies_yaml(moviesYML, output)

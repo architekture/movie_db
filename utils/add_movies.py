@@ -113,6 +113,7 @@ if __name__ == "__main__":
         sortKey_list=sortKeys,
         dataHeader="sort_key"
     )
+    mvdb.data.write_barcodes(movies, "archives/barcodes.ini.rc")
     movies_yml = mvdb.data.dump_movies_yaml(movies)
 
     mvdb.data.export_movies_yaml(movies_yml, exportYML)

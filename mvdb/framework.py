@@ -59,8 +59,6 @@ class MvDB:
         self.animation = self.filter_group("animation")
         self.monochrome = self.filter_group("black_white")
 
-        del self.parser
-
     def filter_group(self, group: str):
         """Creates filtered Nornir object via parent group.
         
@@ -102,39 +100,3 @@ class MvDB:
             data = data.split(delimiter)
 
         return data
-
-    def write_barcodes(
-        self,
-        iniFile: str="archives/barcodes.ini",
-        dataHeader: str="barcodes"
-    ):
-        """Exports the current inventory's UPCs to INI file.
-
-        Generates dict 'barcodes' with the inventory's movie keys & UPC
-        values stored as KV pairs.
-
-        The method then instantiates a ConfigParser instance using the
-        dataHeader value as the default section. Dict 'barcodes' is
-        written by ConfigParser to specified 'iniFile' before the
-        ConfigParser instance is deleted.
-
-        Args:
-          iniFile(str):
-            The name of the ini file written by this method. Defaults
-            to 'archives.barcodes.ini'.
-          dataHeader(str):
-            Section header for barcode data in resulting INI file.
-
-        Returns:
-          None
-        """
-        barcodes = {}
-        for movie in self.movies.keys():
-            barcodes[movie] = self.movies[movie].data["release"]["upc"]
-        parser = ConfigParser(default_section=dataHeader)
-        parser[dataHeader] = barcodes
-
-        with open(iniFile, "w") as f:
-            parser.write(f)
-
-        del parser

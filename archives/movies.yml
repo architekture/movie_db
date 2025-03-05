@@ -2074,6 +2074,45 @@ friday_night_lights:
       - period
   sort_key: friday_night_lights
 
+the_fugitive:
+  groups:
+    - hdr10
+  data:
+    title: The Fugitive
+    year: 1993
+    runtime: 130
+    director: Andrew Davis
+    crew:
+      writer:
+        - Jeb Stuart
+        - David Twohy
+      cinematographer: Michael Chapman
+      composer: James Newton Howard
+      editor:
+        - Dennis Virkler
+        - David Finfer
+    release:
+      publisher: Warner Bros. Entertainment Inc
+      upc: 883929813889
+      discs: 1
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 32575
+      rating: PG-13
+      reason:
+        - a murder
+        - other action sequences in an adventure setting
+      distributor: Warner Bros., A Division Of Time Warner Entertainment Company,
+        L.P
+      alt_title: null
+    genres:
+      - action
+      - mystery
+      - crime
+      - noir
+      - gritty
+  sort_key: fugitive
+
 funny_people:
   groups:
     - blu-ray
@@ -4004,6 +4043,35 @@ peeping_tom:
       - dark
       - violent
   sort_key: peeping_tom
+
+perfect_blue:
+  groups:
+    - blu-ray
+    - animation
+    - boutique
+    - steelbook
+  data:
+    title: Perfect Blue
+    year: 1997
+    runtime: 82
+    director: Satoshi Kon
+    crew:
+      writer: Sadayuki Murai
+      cinematographer: Hisao Shirai
+      composer: Masahiro Ikumi
+      editor: Harutoshi Ogata
+    release:
+      publisher: Shout! Factory LLC
+      upc: 826663219425
+      discs: 2
+      aspect_ratio: 1.85
+    genres:
+      - drama
+      - horror
+      - noir
+      - dark
+      - gritty
+  sort_key: perfect_blue
 
 the_phantom_thread:
   groups:

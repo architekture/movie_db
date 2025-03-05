@@ -533,3 +533,40 @@ def transform_title(title: str):
         title = title.replace(k, v)
     
     return title.lower()
+
+
+def write_barcodes(
+    movieDict: dict,
+    iniFile: str="archives/barcodes.ini",
+    dataHeader: str="barcodes"
+):
+    """Exports the current inventory's UPCs to INI file.
+
+    Generates dict of barcodes with the inventory's movie keys & UPC
+    values stored as KV pairs.
+
+    The function then instantiates a ConfigParser instance using the
+    dataHeader value as the default section. The barcodes are
+    written by ConfigParser to the specified INI file.
+
+    Args:
+      movieDict(dict):
+        Python dict with root keys representing each title in the
+        catalog.
+      iniFile(str):
+        The name of the ini file written by this method. Defaults
+        to 'archives.barcodes.ini'.
+      dataHeader(str):
+        Section header for barcode data in resulting INI file.
+
+    Returns:
+      None
+    """
+    barcodes = {}
+    for movie in movieDict.keys():
+        barcodes[movie] = movieDict[movie]["data"]["release"]["upc"]
+    parser = ConfigParser(default_section=dataHeader)
+    parser[dataHeader] = barcodes
+
+    with open(iniFile, "w") as f:
+        parser.write(f)
