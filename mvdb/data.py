@@ -433,7 +433,7 @@ def import_release_data(
     }
     try:
         release["upc"] = int(csvRow["upc"])
-    except KeyError:
+    except(KeyError, ValueError):
         try:
             release["upc"] = int(parser.get(dataHeader, mvName))
         except NoOptionError:
