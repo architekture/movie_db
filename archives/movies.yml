@@ -1107,6 +1107,40 @@ children_of_men:
       - violent
   sort_key: children_of_men
 
+chinatown:
+  groups:
+    - hdr10_dv
+    - slipcover
+  data:
+    title: Chinatown
+    year: 1974
+    runtime: 130
+    director: Roman Polanski
+    crew:
+      writer: Robert Towne
+      cinematographer: John A. Alonzo
+      composer: Jerry Goldsmith
+      editor: Sam O'Steen
+    release:
+      publisher: Paramount Pictures
+      upc: 191329273685
+      discs: 1
+      aspect_ratio: 2.35
+    mpaa:
+      certificate: 23916
+      rating: R
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+    genres:
+      - drama
+      - mystery
+      - crime
+      - noir
+      - gritty
+      - period
+  sort_key: chinatown
+
 citizen_kane:
   groups:
     - hdr10_dv
@@ -3195,6 +3229,46 @@ the_long_good_friday:
       - violent
   sort_key: long_good_friday
 
+looper:
+  groups:
+    - hdr10_dv
+  data:
+    title: Looper
+    year: 2012
+    runtime: 119
+    director: Rian Johnson
+    crew:
+      writer: Rian Johnson
+      cinematographer: Steve Yedlin
+      composer: Nathan Johnson
+      editor: Bob Ducsay
+    release:
+      publisher: Sony Pictures Home Entertainment
+      upc: 43396570665
+      discs: 2
+      aspect_ratio: 2.39
+    mpaa:
+      certificate: 47130
+      rating: R
+      reason:
+        - strong violence
+        - language
+        - some sexuality/nudity
+        - drug content
+      distributor: TriStar Pictures
+      alt_title: null
+    genres:
+      - drama
+      - mystery
+      - science fiction
+      - crime
+      - noir
+      - dark
+      - gritty
+      - dystopian
+      - violent
+  sort_key: looper
+
 lost_highway:
   groups:
     - hdr10_dv
@@ -4277,6 +4351,43 @@ prince_of_darkness:
       - dark
       - violent
   sort_key: prince_of_darkness
+
+pulp_fiction:
+  groups:
+    - hdr10_dv
+    - slipcover
+  data:
+    title: Pulp Fiction
+    year: 1994
+    runtime: 154
+    director: Quentin Tarantino
+    crew:
+      writer: Quentin Tarantino
+      cinematographer: Andrzej Sekula
+      composer: null
+      editor: Sally Menke
+    release:
+      publisher: Paramount Pictures
+      upc: 32429348265
+      discs: 2
+      aspect_ratio: 2.35
+    mpaa:
+      certificate: 33107
+      rating: R
+      reason:
+        - strong graphic violence and drug use
+        - pervasive strong language
+        - some sexuality
+      distributor: Miramax Films
+      alt_title: null
+    genres:
+      - comedy
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+  sort_key: pulp_fiction
 
 quantum_of_solace:
   groups:
