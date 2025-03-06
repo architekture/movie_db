@@ -21,19 +21,21 @@ for use with Nornir.
 
 import yaml
 
+from mvdb import HEADER
 import mvdb.data
 
 
 subdir = "archives/"
+barcodes = subdir + "barcodes.ini"
+barcodesRC = barcodes + ".rc"
 movieFile = subdir + "movies.yml"
-exportYML = subdir + "movies.yml.rc"
+movieRC = movieFile + ".rc"
 importDir = "user_input/"
 importCSV = "movie_import_template.csv"
-header = mvdb.data.header
 
 
 def select_file(dir: str=importDir, default: str=importCSV,
-  header: str=header):
+  header: str=HEADER):
     """Prompts user to specify the import file name.
 
     Args:
@@ -64,7 +66,7 @@ def select_file(dir: str=importDir, default: str=importCSV,
     return fileName
 
 
-def overwrite_select(header: str=header):
+def overwrite_select(header: str=HEADER):
     """Prompts user to choose how to handle potential duplicate imports.
 
     Args:
@@ -98,6 +100,28 @@ def overwrite_select(header: str=header):
     return overwrite
 
 
+def summarize(rcFile: str, ogFile: str, header: str=HEADER):
+    """Summarizes task and prints summary to terminal.
+
+    Args:
+      rcFile(str):
+        The release candidate file.
+      ogFile(str):
+        The original file to be compared against before overwriting
+        with the release candidate.
+      header(str):
+        Section break header.
+
+    Returns:
+      None
+    """
+    print(
+        f"\n{header}\n"
+        f'\nExport written to file as "{rcFile}". Compare to "{ogFile}" '
+          "before renaming the release candidate."
+    )
+
+
 if __name__ == "__main__":
     with open(movieFile) as f:
         yaml_blob = f.read()
@@ -113,13 +137,11 @@ if __name__ == "__main__":
         sortKey_list=sortKeys,
         dataHeader="sort_key"
     )
-    mvdb.data.write_barcodes(movies, "archives/barcodes.ini.rc")
+    mvdb.data.write_barcodes(movies, barcodesRC)
     movies_yml = mvdb.data.dump_movies_yaml(movies)
 
-    mvdb.data.export_movies_yaml(movies_yml, exportYML)
+    mvdb.data.export_movies_yaml(movies_yml, movieRC)
 
-    print(
-        f"\n{header}\n"
-        f'\nExport written to file as "{exportYML}". Compare to "{movieFile}" '
-          'before renaming the release candidate.\n'
-    )
+    summarize(rcFile=barcodesRC, ogFile=barcodes)
+    summarize(rcFile=movieRC, ogFile=movieFile)
+    print(f"\n{HEADER}")

@@ -1,6 +1,9 @@
 from datetime import datetime
 
 
+HEADER = ("-" * 79)
+
+
 def start_timer():
     """datetime.now float value to mark the start of a task.
     

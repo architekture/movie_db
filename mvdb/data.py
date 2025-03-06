@@ -2,17 +2,14 @@ from configparser import ConfigParser, NoOptionError, NoSectionError
 import csv
 import yaml
 
-from mvdb import mvdbBaseException, DuplicateMovieError
-
-
-header = (79 * "-")
+from mvdb import mvdbBaseException, DuplicateMovieError, HEADER
 
 
 def add_movies(
     currentMovies: dict,
     newMovies: dict,
     overwrite: bool=False,
-    header: str=header
+    header: str=HEADER
 ):
     """Adds new movies to catalog in place.
 
@@ -54,7 +51,6 @@ def add_movies(
             try:
                 detect_duplicates(currentMovies, movie)
             except mvdbBaseException:
-                # title = currentMovies[movie]["data"]["title"]
                 print(f'"{title}" already in catalog! Skipping...')
             else:
                 currentMovies[movie] = newMovies[movie]
@@ -235,7 +231,6 @@ def import_current_genres(parser: ConfigParser, dataHeader: str):
     Returns:
       A list of currently supported genres, subgenres & descriptors.
     """
-    # parser = ConfigParser()
     genres = parser.get(dataHeader, "genres").split(",")
     subgenres = parser.get(dataHeader, "subgenres").split(",")
     descriptors = parser.get(dataHeader, "descriptors").split(",")
@@ -269,7 +264,7 @@ def import_genres(csvRow: dict, movieDict: dict, validGenres: list):
 
 
 def import_movies_csv(file: str, iniFile: str="archives/tech_specs.ini",
-  upcs: str = "archives/barcodes.ini", header: str=header):
+  upcs: str = "archives/barcodes.ini", header: str=HEADER):
     """Converts movie .CSV file into structured Python data.
 
     Args:
