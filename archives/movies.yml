@@ -582,7 +582,41 @@ bill_&_teds_excellent_adventure:
       - comedy
       - science fiction
       - period
-  sort_key: bill_&_teds_excellent_adventure
+  sort_key: bill_&_ted_1-excellent_adventure
+
+bill_&_teds_bogus_journey:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Bill & Ted's Bogus Journey
+    year: 1991
+    runtime: 94
+    director: Peter Hewitt
+    crew:
+      writer:
+        - Chris Matheson
+        - Ed Solomon
+      cinematographer: Oliver Wood
+      composer: David Newman
+      editor: David Finfer
+    release:
+      publisher: Shout! Factory LLC
+      upc: 826663246698
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 31166
+      rating: PG
+      reason: null
+      distributor: Orion Pictures Corp.
+      alt_title:
+        - Bill & Ted Go To Hell
+        - Bill & Ted's Excellent Adventure II
+    genres:
+      - comedy
+      - science fiction
+  sort_key: bill_&_ted_2-bogus_journey
 
 blackhat:
   groups:
@@ -1927,8 +1961,9 @@ ex_machina:
 
 fargo:
   groups:
-    - blu-ray
-    - case_replacement
+    - hdr10_dv
+    - boutique
+    - slipcover
   data:
     title: Fargo
     year: 1996
@@ -1944,8 +1979,8 @@ fargo:
       composer: Carter Burwell
       editor: Roderick Jaynes
     release:
-      publisher: Twentieth Century Fox Home Entertainment LLC
-      upc: 883904220343
+      publisher: Shout! Factory LLC
+      upc: 826663223750
       discs: 2
       aspect_ratio: 1.85
     mpaa:
@@ -4637,6 +4672,42 @@ repo_man:
       - dystopian
       - violent
   sort_key: repo_man
+
+rolling_thunder:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Rolling Thunder
+    year: 1977
+    runtime: 100
+    director: John Flynn
+    crew:
+      writer:
+        - Paul Schrader
+        - Heywood Gould
+      cinematographer: Jordan Cronenweth
+      composer: Barry DeVorzon
+      editor: Frank P. Keller
+    release:
+      publisher: Shout! Factory LLC
+      upc: 826663245479
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 24604
+      rating: R
+      reason: null
+      distributor: American International Picture
+      alt_title: null
+    genres:
+      - drama
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+  sort_key: rolling_thunder
 
 ronin:
   groups:
