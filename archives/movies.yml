@@ -4673,6 +4673,32 @@ repo_man:
       - violent
   sort_key: repo_man
 
+rio_bravo:
+  groups:
+    - hdr10
+  data:
+    title: Rio Bravo
+    year: 1959
+    runtime: 141
+    director: Howard Hawks
+    crew:
+      writer:
+        - Jules Furthman
+        - Leigh Brackett
+      cinematographer: Russell Harlan
+      composer: Dimitri Tiomkin
+      editor: Folmar Blangsted
+    release:
+      publisher: Warner Bros. Entertainment Inc.
+      upc: 883929808366
+      discs: 1
+      aspect_ratio: 1.85
+    genres:
+      - drama
+      - western
+      - period
+  sort_key: rio_bravo
+
 rolling_thunder:
   groups:
     - hdr10_dv
