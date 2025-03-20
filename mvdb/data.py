@@ -2,7 +2,8 @@ from configparser import ConfigParser, NoOptionError, NoSectionError
 import csv
 import yaml
 
-from mvdb import mvdbBaseException, DuplicateMovieError, HEADER
+from mvdb.exceptions import mvdbBaseException, DuplicateMovieError
+from mvdb.tools import HEADER
 
 
 def add_movies(
