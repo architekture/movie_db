@@ -2472,6 +2472,83 @@ gladiator:
       - violent
   sort_key: gladiator
 
+the_godfather:
+  groups:
+    - hdr10_dv
+    - slipcover
+  data:
+    title: The Godfather
+    year: 1972
+    runtime: 175
+    director: Francis Ford Coppola
+    crew:
+      writer:
+        - Mario Puzo
+        - Francis Ford Coppola
+      cinematographer: Gordon WIllis
+      composer: Nino Rota
+      editor:
+        - William Reynolds
+        - Peter Zinner
+    release:
+      publisher: Paramount Pictures
+      upc: 191329232002
+      discs: 1
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 23101
+      rating: R
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+    genres:
+      - drama
+      - crime
+      - dark
+      - gritty
+      - period
+      - violent
+  sort_key: godfather_1
+
+the_godfather_part_ii:
+  groups:
+    - hdr10_dv
+    - slipcover
+  data:
+    title: The Godfather Part II
+    year: 1974
+    runtime: 200
+    director: Francis Ford Coppola
+    crew:
+      writer:
+        - Francis Ford Coppola
+        - Mario Puzo
+      cinematographer: Gordon WIllis
+      composer: Nino Rota
+      editor:
+        - Peter Zinner
+        - Barry Malkin
+        - Richard Marks
+    release:
+      publisher: Paramount Pictures
+      upc: 191329232125
+      discs: 1
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 24038
+      rating: R
+      reason: null
+      distributor: Paramount Pictures Corp.
+      alt_title: null
+    genres:
+      - drama
+      - crime
+      - dark
+      - gritty
+      - period
+      - violent
+  sort_key: godfather_2
+
 the_guyver:
   groups:
     - hdr10
@@ -4875,6 +4952,39 @@ rushmore:
       - comedy
   sort_key: rushmore
 
+saving_private_ryan:
+  groups:
+    - hdr10_dv
+  data:
+    title: Saving Private Ryan
+    year: 1998
+    runtime: 169
+    director: Steven Spielberg
+    crew:
+      writer: Robert Rodat
+      cinematographer: Janusz Kaminski
+      composer: John Williams
+      editor: Michael Kahn
+    release:
+      publisher: Paramount Pictures
+      upc: 32429207715
+      discs: 3
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 35942
+      rating: R
+      reason:
+        - intense prolonged realitically graphic sequences of war violence
+        - language
+      distributor: Dreamworks Distribution L.L.C.
+      alt_title: null
+    genres:
+      - drama
+      - gritty
+      - period
+      - violent
+  sort_key: saving_private_ryan
+
 schindlers_list:
   groups:
     - hdr10_dv
@@ -5805,6 +5915,39 @@ tropic_thunder:
       - dark
       - violent
   sort_key: tropic_thunder
+
+the_truman_show:
+  groups:
+    - hdr10_dv
+  data:
+    title: The Truman Show
+    year: 1998
+    runtime: 102
+    director: Peter Weir
+    crew:
+      writer: Andrew Niccol
+      cinematographer: Peter Biziou
+      composer: Burkhard Dallwitz
+      editor:
+        - William Anderson
+        - Lee Smith
+    release:
+      publisher: Paramount Pictures
+      upc: 191329249208
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 34959
+      rating: PG
+      reason:
+        - thematic elements
+        - mild language
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+    genres:
+      - comedy
+      - dystopian
+  sort_key: truman_show
 
 twilight_of_the_warriors-walled_in:
   groups:
