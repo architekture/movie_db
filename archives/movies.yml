@@ -1712,7 +1712,7 @@ dune:
     genres:
       - action
       - science fiction
-  sort_key: dune
+  sort_key: dune_1
 
 dune-part_two:
   groups:
@@ -1746,7 +1746,7 @@ dune-part_two:
     genres:
       - action
       - science fiction
-  sort_key: dune-part_two
+  sort_key: dune_2
 
 ed_wood:
   groups:
