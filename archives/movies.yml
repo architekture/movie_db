@@ -4294,6 +4294,32 @@ the_phantom_thread:
       - period
   sort_key: phantom_thread
 
+picnic_at_hanging_rock:
+  groups:
+    - hdr10
+    - boutique
+  data:
+    title: Picnic at Hanging Rock
+    year: 1975
+    runtime: 107
+    director: Peter Weir
+    crew:
+      writer: Cliff Green
+      cinematographer: Russell Boyd
+      composer: Bruce Smeaton
+      editor: Max Lemon
+    release:
+      publisher: The Criterion Collection
+      upc: 715515294614
+      discs: 2
+      aspect_ratio: 1.66
+    genres:
+      - drama
+      - mystery
+      - dark
+      - period
+  sort_key: picnic_at_hanging_rock
+
 pineapple_express:
   groups:
     - blu-ray
@@ -4952,6 +4978,38 @@ rushmore:
       - comedy
   sort_key: rushmore
 
+sanjuro:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+  data:
+    title: Sanjuro
+    year: 1962
+    runtime: 95
+    director: Akira Kurosawa
+    crew:
+      writer:
+        - Ryuzo Kikushima
+        - Hideo Oguni
+        - Akira Kurosawa
+      cinematographer:
+        - Fukuzo Koizumi
+        - Takao Saito
+      composer: Masaru Sato
+      editor: Akira Kurosawa
+    release:
+      publisher: The Criterion Collection
+      upc: 715515306614
+      discs: 2
+      aspect_ratio: 2.39
+    genres:
+      - action
+      - drama
+      - period
+      - violent
+  sort_key: sanjuro
+
 saving_private_ryan:
   groups:
     - hdr10_dv
@@ -5124,6 +5182,36 @@ seven:
       - gritty
       - violent
   sort_key: seven
+
+seven_samurai:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+  data:
+    title: Seven Samurai
+    year: 1954
+    runtime: 207
+    director: Akira Kurosawa
+    crew:
+      writer:
+        - Akira Kurosawa
+        - Shinobu Hashimoto
+        - Hideo Oguni
+      cinematographer: Asakazu Nakai
+      composer: Fumio Hayasaka
+      editor: Akira Kurosawa
+    release:
+      publisher: The Criterion Collection
+      upc: 715515305211
+      discs: 3
+      aspect_ratio: 1.37
+    genres:
+      - drama
+      - dark
+      - period
+      - violent
+  sort_key: seven_samurai
 
 silent_running:
   groups:
@@ -5807,6 +5895,39 @@ the_thing:
       - violent
   sort_key: thing
 
+to_die_for:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: To Die For
+    year: 1995
+    runtime: 106
+    director: Gus Van Sant
+    crew:
+      writer: Buck Henry
+      cinematographer: Eric Alan Edwards
+      composer: Danny Elfman
+      editor: Curtiss Clayton
+    release:
+      publisher: The Criterion Collection
+      upc: 715515293914
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 33451
+      rating: R
+      reason:
+        - strong sexual content
+        - language
+      distributor: Columbia Pictures
+      alt_title: null
+    genres:
+      - comedy
+      - crime
+      - dark
+  sort_key: to_die_for
+
 traffic:
   groups:
     - blu-ray
@@ -6379,6 +6500,37 @@ wild_at_heart:
       - dark
       - violent
   sort_key: wild_at_heart
+
+yojimbo:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+  data:
+    title: Yojimbo
+    year: 1961
+    runtime: 110
+    director: Akira Kurosawa
+    crew:
+      writer:
+        - Ryuzo Kikushima
+        - Akira Kurosawa
+      cinematographer: Kazuo Miyagawa
+      composer: Masaru Sato
+      editor: Akira Kurosawa
+    release:
+      publisher: The Criterion Collection
+      upc: 715515306614
+      discs: 2
+      aspect_ratio: 2.39
+    genres:
+      - action
+      - comedy
+      - crime
+      - dark
+      - period
+      - violent
+  sort_key: yojimbo
 
 zodiac:
   groups:
