@@ -314,6 +314,10 @@ def import_movies_csv(file: str, iniFile: str="archives/tech_specs.ini",
             director = cell_sort(i["director"])
             writer = cell_sort(i["writer"])
             dp = cell_sort(i["cinematographer"])
+            try:
+                prodDesigner = cell_sort(i["productionDesigner"])
+            except KeyError:
+                prodDesigner = None
             composer = cell_sort(i["composer"])
             editor = cell_sort(i["editor"])
             if i["hdr"].lower() == "dolby vision":
@@ -344,6 +348,7 @@ def import_movies_csv(file: str, iniFile: str="archives/tech_specs.ini",
                     "crew" : {
                         "writer" : writer,
                         "cinematographer" : dp,
+                        "prod_designer" : prodDesigner,
                         "composer" : composer,
                         "editor" : editor
                     },
