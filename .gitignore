@@ -3,7 +3,8 @@ __pycache__
 archives/movies.csv.*
 archives/movies.yml.*
 dumpster/
-user_input/*
+poc/
+user_input/
 *.rc
 nornir.log
 
