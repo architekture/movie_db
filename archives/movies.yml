@@ -1712,7 +1712,7 @@ dune:
     genres:
       - action
       - science fiction
-  sort_key: dune
+  sort_key: dune_1
 
 dune-part_two:
   groups:
@@ -1746,7 +1746,7 @@ dune-part_two:
     genres:
       - action
       - science fiction
-  sort_key: dune-part_two
+  sort_key: dune_2
 
 ed_wood:
   groups:
@@ -2486,6 +2486,7 @@ the_godfather:
         - Mario Puzo
         - Francis Ford Coppola
       cinematographer: Gordon WIllis
+      prod_designer: Dean Tavoularis
       composer: Nino Rota
       editor:
         - William Reynolds
@@ -2524,6 +2525,7 @@ the_godfather_part_ii:
         - Francis Ford Coppola
         - Mario Puzo
       cinematographer: Gordon WIllis
+      prod_designer: Dean Tavoularis
       composer: Nino Rota
       editor:
         - Peter Zinner
@@ -4306,6 +4308,7 @@ picnic_at_hanging_rock:
     crew:
       writer: Cliff Green
       cinematographer: Russell Boyd
+      prod_designer: null
       composer: Bruce Smeaton
       editor: Max Lemon
     release:
@@ -4996,6 +4999,7 @@ sanjuro:
       cinematographer:
         - Fukuzo Koizumi
         - Takao Saito
+      prod_designer: Yoshiro Muraki
       composer: Masaru Sato
       editor: Akira Kurosawa
     release:
@@ -5021,6 +5025,7 @@ saving_private_ryan:
     crew:
       writer: Robert Rodat
       cinematographer: Janusz Kaminski
+      prod_designer: Tom Sanders
       composer: John Williams
       editor: Michael Kahn
     release:
@@ -5199,6 +5204,7 @@ seven_samurai:
         - Shinobu Hashimoto
         - Hideo Oguni
       cinematographer: Asakazu Nakai
+      prod_designer: Takashi Matsuyama
       composer: Fumio Hayasaka
       editor: Akira Kurosawa
     release:
@@ -5907,6 +5913,7 @@ to_die_for:
     crew:
       writer: Buck Henry
       cinematographer: Eric Alan Edwards
+      prod_designer: Missy Stewart
       composer: Danny Elfman
       editor: Curtiss Clayton
     release:
@@ -6048,6 +6055,7 @@ the_truman_show:
     crew:
       writer: Andrew Niccol
       cinematographer: Peter Biziou
+      prod_designer: Dennis Gassner
       composer: Burkhard Dallwitz
       editor:
         - William Anderson
@@ -6516,6 +6524,7 @@ yojimbo:
         - Ryuzo Kikushima
         - Akira Kurosawa
       cinematographer: Kazuo Miyagawa
+      prod_designer: Yoshiro Muraki
       composer: Masaru Sato
       editor: Akira Kurosawa
     release:
