@@ -1,7 +1,7 @@
 ---
 2001-a_space_odyssey:
   groups:
-    - blu-ray
+    - hdr10_dv
   data:
     title: '2001: A Space Odyssey'
     year: 1968
@@ -12,12 +12,16 @@
         - Stanley Kubrick
         - Arthur C. Clarke
       cinematographer: Geoffrey Unsworth
+      prod_designer:
+        - Tony Masters
+        - Harry Lange
+        - Ernest Archer
       composer: null
       editor: Ray Lovejoy
     release:
       publisher: Warner Bros. Entertainment Inc
-      upc: 12569798380
-      discs: 1
+      upc: 883929671526
+      discs: 2
       aspect_ratio: 2.2
     mpaa:
       certificate: 22197
@@ -1959,6 +1963,45 @@ ex_machina:
       - violent
   sort_key: ex_machina
 
+the_fabelmans:
+  groups:
+    - hdr10_dv
+    - case_replacement
+  data:
+    title: The Fabelmans
+    year: 2022
+    runtime: 151
+    director: Steven Spielberg
+    crew:
+      writer:
+        - Steven Spielberg
+        - Tony Kushner
+      cinematographer: Janusz Kaminski
+      prod_designer: Rick Carter
+      composer: John Williams
+      editor:
+        - Michael Kahn
+        - Sarah Broshar
+    release:
+      publisher: Universal Studios
+      upc: 191329238653
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 53875
+      rating: PG-13
+      reason:
+        - strong language
+        - thematic elements
+        - brief violence
+        - drug use
+      distributor: Universal Studios
+      alt_title: null
+    genres:
+      - drama
+      - period
+  sort_key: fabelmans
+
 fargo:
   groups:
     - hdr10_dv
@@ -2550,6 +2593,42 @@ the_godfather_part_ii:
       - period
       - violent
   sort_key: godfather_2
+
+the_grifters:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: The Grifters
+    year: 1990
+    runtime: 110
+    director: Stephen Frears
+    crew:
+      writer: Donald E. Westlake
+      cinematographer: Oliver Stapleton
+      prod_designer: Dennis Gassner
+      composer: Elmer Bernstein
+      editor: Mick Audsley
+    release:
+      publisher: The Criterion Collection
+      upc: 715515307819
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 30355
+      rating: R
+      reason: null
+      distributor: Miramax Films
+      alt_title: null
+    genres:
+      - drama
+      - mystery
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+  sort_key: grifters
 
 the_guyver:
   groups:
@@ -3710,6 +3789,53 @@ the_matrix_revolutions:
       - violent
   sort_key: matrix_3-revolutions
 
+the_matrix_resurrections:
+  groups:
+    - hdr10_dv
+    - slipcover
+  data:
+    title: The Matrix Resurrections
+    year: 2021
+    runtime: 148
+    director: Lana Wachowski
+    crew:
+      writer:
+        - Lana Wachowski
+        - David Mitchell
+        - Aleksandar Hemon
+      cinematographer:
+        - Danielle Massaccesi
+        - John Toll
+      prod_designer:
+        - Hugh Bateup
+        - Peter Walpole
+      composer:
+        - Johnny Klimek
+        - Tom Tykwer
+      editor: Joseph Jett Sally
+    release:
+      publisher: Warner Bros. Entertainment Inc
+      upc: 883929741304
+      discs: 2
+      aspect_ratio: 2.39
+    mpaa:
+      certificate: 53296
+      rating: R
+      reason:
+        - violence
+        - some language
+      distributor: Warner Bros. Pictures
+      alt_title: 'MATRIX: RESURRECTION'
+    genres:
+      - action
+      - science fiction
+      - martial arts
+      - wuxia
+      - dark
+      - dystopian
+      - violent
+  sort_key: matrix_4-resurrections
+
 mean_streets:
   groups:
     - hdr10_dv
@@ -3743,6 +3869,34 @@ mean_streets:
       - gritty
       - violent
   sort_key: mean_streets
+
+mildred_pierce:
+  groups:
+    - hdr10
+    - black_white
+    - boutique
+  data:
+    title: Mildred Pierce
+    year: 1945
+    runtime: 111
+    director: Michael Curtiz
+    crew:
+      writer: Ranald MacDougall
+      cinematographer: Ernest Haller
+      prod_designer: null
+      composer: Max Steiner
+      editor: David Weisbart
+    release:
+      publisher: The Criterion Collection
+      upc: 715515282413
+      discs: 2
+      aspect_ratio: 1.37
+    genres:
+      - drama
+      - mystery
+      - noir
+      - dark
+  sort_key: mildred_pierce
 
 minority_report:
   groups:
@@ -4210,6 +4364,31 @@ the_parallax_view:
       - violent
   sort_key: parallax_view
 
+paris,_texas:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Paris, Texas
+    year: 1984
+    runtime: 145
+    director: Wim Wenders
+    crew:
+      writer: Sam Shepard
+      cinematographer: "Robby M\xFCller"
+      prod_designer: null
+      composer: Ry Cooder
+      editor: Peter Przygodda
+    release:
+      publisher: The Criterion Collection
+      upc: 715515306010
+      discs: 2
+      aspect_ratio: 1.66
+    genres:
+      - drama
+      - dark
+  sort_key: paris,_texas
+
 peeping_tom:
   groups:
     - hdr10_dv
@@ -4493,6 +4672,34 @@ prince_of_darkness:
       - violent
   sort_key: prince_of_darkness
 
+psycho:
+  groups:
+    - hdr10
+    - black_white
+    - case_replacement
+  data:
+    title: Psycho
+    year: 1960
+    runtime: 109
+    director: Alfred Hitchcock
+    crew:
+      writer: Joseph Steffano
+      cinematographer: John L. Russell
+      prod_designer: null
+      composer: Bernard Herrmann
+      editor: George Tomasini
+    release:
+      publisher: Universal Studios
+      upc: 191329162217
+      discs: 2
+      aspect_ratio: 1.85
+    genres:
+      - horror
+      - crime
+      - dark
+      - violent
+  sort_key: psycho
+
 pulp_fiction:
   groups:
     - hdr10_dv
@@ -4741,6 +4948,54 @@ real_genius:
       - comedy
       - science fiction
   sort_key: real_genius
+
+rear_window:
+  groups:
+    - hdr10
+  data:
+    title: Rear Window
+    year: 1954
+    runtime: 115
+    director: Alfred Hitchcock
+    crew:
+      writer: John Michael Hayes
+      cinematographer: Robert Burks
+      prod_designer: null
+      composer: Franz Waxman
+      editor: George Tomasini
+    release:
+      publisher: Universal Studios
+      upc: 191329161555
+      discs: 2
+      aspect_ratio: 1.66
+    genres:
+      - drama
+      - mystery
+  sort_key: rear_window
+
+rebel_without_a_cause:
+  groups:
+    - hdr10
+  data:
+    title: Rebel Without a Cause
+    year: 1955
+    runtime: 111
+    director: Nicholas Ray
+    crew:
+      writer: Stewart Stern
+      cinematographer: Ernest Haller
+      prod_designer: null
+      composer: Leonard Rosenman
+      editor: William Ziegler
+    release:
+      publisher: Warner Bros. Entertainment Inc
+      upc: 883929792320
+      discs: 2
+      aspect_ratio: 2.55
+    genres:
+      - drama
+      - dark
+  sort_key: rebel_without_a_cause
 
 repo_man:
   groups:
@@ -5934,6 +6189,78 @@ to_die_for:
       - crime
       - dark
   sort_key: to_die_for
+
+tombstone:
+  groups:
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Tombstone
+    year: 1993
+    runtime: 130
+    director: George P. Cosmatos
+    crew:
+      writer: Kevin Jarre
+      cinematographer: William A. Fraker
+      prod_designer: Catherine Hardwicke
+      composer: Bruce Broughton
+      editor:
+        - Frank J. Urioste
+        - Roberto Silvi
+        - Harvey Rosenstock
+    release:
+      publisher: Sony Pictures Home Entertainment
+      upc: 43396642003
+      discs: 2
+      aspect_ratio: 2.35
+    mpaa:
+      certificate: 32851
+      rating: R
+      reason: strong western violence
+      distributor: Buena Vista Pictures Distribution, Inc.
+      alt_title: null
+    genres:
+      - drama
+      - western
+      - gritty
+      - period
+      - violent
+  sort_key: tombstone
+
+tommy_boy:
+  groups:
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Tommy Boy
+    year: 1995
+    runtime: 97
+    director: Peter Segal
+    crew:
+      writer:
+        - Bonnie Turner
+        - Terry Turner
+      cinematographer: Victor J. Kemper
+      prod_designer: Stephen J. Lineweaver
+      composer: David Newman
+      editor: William Kerr
+    release:
+      publisher: Paramount Pictures
+      upc: 191329275351
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 33487
+      rating: PG-13
+      reason:
+        - sex-related humor
+        - some drug content
+        - nudity
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+    genres:
+      - comedy
+  sort_key: tommy_boy
 
 traffic:
   groups:
