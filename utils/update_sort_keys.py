@@ -41,8 +41,9 @@ if __name__ == "__main__":
         dataHeader="sortKeys"
     )
     for movie in movies:
-        if movie in overrides.keys():
-            movies[movie]["sort_key"] = overrides[movie]
+        sortKey = movies[movie]["sort_key"]
+        if sortKey in overrides.keys():
+            movies[movie]["sort_key"] = overrides[sortKey]
 
     sortKeys = mvdb.data.fetch_sortKeys(movies)
     list.sort(sortKeys)
