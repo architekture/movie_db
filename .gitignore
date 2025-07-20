@@ -3,7 +3,6 @@ __pycache__
 .vscode/
 archives/movies.csv.*
 archives/movies.yml.*
-dumpster/
 poc/
 prev_uploads/
 user_input/
