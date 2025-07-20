@@ -7,7 +7,7 @@ poc/
 prev_uploads/
 user_input/
 *.rc
-nornir.log
+mvdb.log
 
 # mac-tax
 *.DS_Store

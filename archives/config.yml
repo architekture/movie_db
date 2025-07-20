@@ -5,6 +5,8 @@ inventory:
     host_file: "archives/movies.yml"
     group_file: "archives/groups.yml"
     defaults_file: "archives/defaults.yml"
+logging:
+  log_file: "mvdb.log"
 runner:
   plugin: threaded
   options:
