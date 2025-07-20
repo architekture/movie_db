@@ -402,6 +402,38 @@ army_of_shadows:
       - period
   sort_key: army_of_shadows
 
+barry_lyndon:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Barry Lyndon
+    year: 1975
+    runtime: 185
+    director: Stanley Kubrick
+    crew:
+      writer: Stanley Kubrick
+      cinematographer: John Alcott
+      prod_designer: Ken Adam
+      composer: Leonard Rosenman
+      editor: Tony Lawsom
+    release:
+      publisher: The Criterion Collection
+      upc: 715515315517
+      discs: 3
+      aspect_ratio: 1.66
+    mpaa:
+      certificate: 24077
+      rating: PG
+      reason: null
+      distributor: Warner Bros. Inc.
+      alt_title: null
+    genres:
+      - comedy
+      - dark
+      - period
+  sort_key: barry_lyndon
+
 the_batman:
   groups:
     - hdr10_dv
@@ -513,6 +545,30 @@ berry_gordys_the_last_dragon:
       - fantasy
       - martial arts
   sort_key: berry_gordys_the_last_dragon
+
+the_big_heat:
+  groups:
+    - hdr10_dv
+    - black_white
+    - boutique
+  data:
+    title: The Big Heat
+    year: 1953
+    runtime: 89
+    director: Fritz Lang
+    crew:
+      writer: Sydney Boehm
+      cinematographer: null
+      prod_designer: null
+      composer: null
+      editor: null
+    release:
+      publisher: The Criterion Collection
+      upc: 715515315616
+      discs: 2
+      aspect_ratio: 1.37
+    genres: []
+  sort_key: big_heat
 
 big_trouble_in_little_china:
   groups:
@@ -741,6 +797,43 @@ blade_runner_2049:
       - dystopian
       - violent
   sort_key: blade_runner_2049
+
+the_blair_witch_project:
+  groups:
+    - blu-ray
+  data:
+    title: The Blair Witch Project
+    year: 1999
+    runtime: 81
+    director:
+      - Daniel Myrick
+      - Eduardo Sanchez
+    crew:
+      writer:
+        - Daniel Myrick
+        - Eduardo Sanchez
+      cinematographer: Neal Fredericks
+      prod_designer: Ben Rock
+      composer: Antonio Cora
+      editor:
+        - Daniel Myrick
+        - Eduardo Sanchez
+    release:
+      publisher: Second Sight Films
+      upc: 5028836042341
+      discs: 2
+      aspect_ratio: 1.33
+    mpaa:
+      certificate: 36716
+      rating: R
+      reason: language
+      distributor: Artisan Pictures Inc.
+      alt_title: null
+    genres:
+      - horror
+      - dark
+      - period
+  sort_key: blair_witch_project
 
 blood_simple:
   groups:
@@ -1404,11 +1497,12 @@ crouching_tiger,_hidden_dragon:
 
 dark_city:
   groups:
-    - blu-ray
+    - hdr10_dv
+    - slipcover
   data:
     title: Dark City
     year: 1998
-    runtime: 111
+    runtime: 100
     director: Alex Proyas
     crew:
       writer:
@@ -1416,13 +1510,14 @@ dark_city:
         - Lem Dobbs
         - David S. Goyer
       cinematographer: Dariusz Wolski
+      prod_designer: George Liddle
       composer: Trevor Jones
       editor: Dov Hoenig
     release:
-      publisher: New Line Cinema
-      upc: 794043122927
-      discs: 1
-      aspect_ratio: 2.35
+      publisher: Arrow Films
+      upc: 760137175766
+      discs: 2
+      aspect_ratio: 2.39
     mpaa:
       certificate: 34966
       rating: R
@@ -1432,7 +1527,6 @@ dark_city:
       distributor: New Line Cinema
       alt_title: null
     genres:
-      - horror
       - mystery
       - science fiction
       - noir
@@ -3053,6 +3147,41 @@ the_kingdom:
       - violent
   sort_key: kingdom
 
+kingdom_of_heaven:
+  groups:
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Kingdom of Heaven
+    year: 2005
+    runtime: 190
+    director: Ridley Scott
+    crew:
+      writer: William Monahan
+      cinematographer: John Mathieson
+      prod_designer: Arthur Max
+      composer: Harry Gregson-Williams
+      editor: Dody Dorn
+    release:
+      publisher: Sony Pictures Home Entertainment
+      upc: 43396642263
+      discs: 3
+      aspect_ratio: 2.39
+    mpaa:
+      certificate: 41537
+      rating: R
+      reason:
+        - strong violence
+        - epic warfare
+      distributor: Twentieth Century Fox Film Corp.
+      alt_title: Crusades, The
+    genres:
+      - drama
+      - gritty
+      - period
+      - violent
+  sort_key: kingdom_of_heaven
+
 la_confidential:
   groups:
     - blu-ray
@@ -3870,6 +3999,45 @@ mean_streets:
       - violent
   sort_key: mean_streets
 
+megalopolis:
+  groups:
+    - 4k_uhd
+  data:
+    title: Megalopolis
+    year: 2024
+    runtime: 139
+    director: Francis Ford Coppola
+    crew:
+      writer: Francis Ford Coppola
+      cinematographer: Mihai Malaimare Jr.
+      prod_designer:
+        - Bradley Rubin
+        - Beth Mickle
+      composer: Osvaldo Golijov
+      editor:
+        - Cam McLauchlin
+        - Glen Scantlebury
+    release:
+      publisher: Entertainment in Video
+      upc: 5017239153273
+      discs: 2
+      aspect_ratio: 2.0
+    mpaa:
+      certificate: 55056
+      rating: R
+      reason:
+        - sexual content
+        - nudity
+        - drug use
+        - language
+        - some violence
+      distributor: Lionsgate
+      alt_title: null
+    genres:
+      - drama
+      - fantasy
+  sort_key: megalopolis
+
 mildred_pierce:
   groups:
     - hdr10
@@ -4080,9 +4248,44 @@ the_new_world:
       - period
   sort_key: new_world
 
+night_moves:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Night Moves
+    year: 1975
+    runtime: 100
+    director: Arthur Penn
+    crew:
+      writer: Alan Sharp
+      cinematographer: Bruce Surtees
+      prod_designer: George Jenkins
+      composer: Michael Small
+      editor: Dede Allen
+    release:
+      publisher: The Criterion Collection
+      upc: 715515311212
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 23808
+      rating: R
+      reason: null
+      distributor: Warner Bros. Inc.
+      alt_title: Dark Tower, The
+    genres:
+      - drama
+      - mystery
+      - noir
+      - dark
+      - violent
+  sort_key: night_moves
+
 no_country_for_old_men:
   groups:
-    - blu-ray
+    - hdr10_dv
+    - boutique
   data:
     title: No Country for Old Men
     year: 2007
@@ -4095,12 +4298,13 @@ no_country_for_old_men:
         - Joel Coen
         - Ethan Coen
       cinematographer: Roger A. Deakins
+      prod_designer: Jess Gonchor
       composer: Carter Burwell
       editor: Roderick Jaynes
     release:
-      publisher: Buena Vista Home Entertainment, Inc.
-      upc: 786936750034
-      discs: 1
+      publisher: The Criterion Collection
+      upc: 715515306416
+      discs: 2
       aspect_ratio: 2.35
     mpaa:
       certificate: 43473
@@ -5801,6 +6005,39 @@ star_wars-andor:
       - dark
   sort_key: star_wars-andor
 
+starman:
+  groups:
+    - hdr10_dv
+    - steelbook
+  data:
+    title: Starman
+    year: 1984
+    runtime: 115
+    director: John Carpenter
+    crew:
+      writer:
+        - Bruce A. Evans
+        - Raynold Gideon
+      cinematographer: null
+      prod_designer: null
+      composer: Jack Nitzsche
+      editor: null
+    release:
+      publisher: Sony Pictures Home Entertainment
+      upc: 43396642508
+      discs: 2
+      aspect_ratio: 2.39
+    mpaa:
+      certificate: 27562
+      rating: PG
+      reason: null
+      distributor: Columbia Pictures Industries
+      alt_title: null
+    genres:
+      - drama
+      - science fiction
+  sort_key: starman
+
 straight_outta_compton:
   groups:
     - hdr10
@@ -6697,6 +6934,45 @@ videodrome:
       - violent
   sort_key: videodrome
 
+virtuosity:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Virtuosity
+    year: 1995
+    runtime: 106
+    director: Brett Leonard
+    crew:
+      writer: Eric Bernt
+      cinematographer: Gale Tattersall
+      prod_designer: Nilo Rodis
+      composer: Christopher Young
+      editor:
+        - B.J. Sears
+        - Rob Kobrin
+    release:
+      publisher: Vinegar Syndrome
+      upc: 810161482047
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 33489
+      rating: R
+      reason:
+        - strong futuristic violence
+        - brutal beatings
+        - some language
+      distributor: Paramount Pictures Corporation
+      alt_title: null
+    genres:
+      - action
+      - science fiction
+      - dark
+      - dystopian
+      - violent
+  sort_key: virtuosity
+
 walk_hard-the_dewey_cox_story:
   groups:
     - blu-ray
@@ -6835,6 +7111,35 @@ wild_at_heart:
       - dark
       - violent
   sort_key: wild_at_heart
+
+winchester_73:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+  data:
+    title: Winchester '73
+    year: 1950
+    runtime: 92
+    director: Anthony Mann
+    crew:
+      writer:
+        - Robert L. Richards
+        - Borden Chase
+      cinematographer: William H. Daniels
+      prod_designer: null
+      composer: Joseph Gershenson
+      editor: Edward Curtiss
+    release:
+      publisher: The Criterion Collection
+      upc: 715515308410
+      discs: 2
+      aspect_ratio: 1.35
+    genres:
+      - drama
+      - western
+      - period
+  sort_key: winchester_73
 
 yojimbo:
   groups:
