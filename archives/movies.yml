@@ -162,6 +162,39 @@ alphaville:
       - dystopian
   sort_key: alphaville
 
+altered_states:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Altered States
+    year: 1980
+    runtime: 103
+    director: Ken Russell
+    crew:
+      writer: Sidney Aaron
+      cinematographer: Jordan Cronenweth
+      prod_designer: Richard McDonald
+      composer: John Corigliano
+      editor: Eric Jenkins
+    release:
+      publisher: The Criterion Collection
+      upc: 715515321112
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 26085
+      rating: R
+      reason: null
+      distributor: Warner Bros. Inc.
+      alt_title: null
+    genres:
+      - horror
+      - science fiction
+      - dark
+      - violent
+  sort_key: altered_states
+
 amelie:
   groups:
     - blu-ray
@@ -835,6 +868,38 @@ the_blair_witch_project:
       - period
   sort_key: blair_witch_project
 
+blast_of_silence:
+  groups:
+    - blu-ray
+    - black_white
+    - boutique
+  data:
+    title: Blast of Silence
+    year: 1961
+    runtime: 77
+    director: Allen Baron
+    crew:
+      writer:
+        - Allen Baron
+        - Mel Davenport
+      cinematographer: Merrill Brody
+      prod_designer: null
+      composer: Meyer Kupferman
+      editor: Peggy Lawson
+    release:
+      publisher: The Criterion Collection
+      upc: 715515290517
+      discs: 1
+      aspect_ratio: 1.85
+    genres:
+      - drama
+      - crime
+      - noir
+      - dark
+      - gritty
+      - violent
+  sort_key: blast_of_silence
+
 blood_simple:
   groups:
     - hdr10_dv
@@ -1054,6 +1119,43 @@ bram_stokers_dracula:
       - period
       - violent
   sort_key: bram_stokers_dracula
+
+brazil:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Brazil
+    year: 1985
+    runtime: 143
+    director: Terry Gilliam
+    crew:
+      writer:
+        - Terry Gilliam
+        - Tom Stoppard
+        - Charles McKeown
+      cinematographer: Roger Pratt
+      prod_designer: Norman Garwood
+      composer: Michael Kamen
+      editor: Julian Doyle
+    release:
+      publisher: The Criterion Collection
+      upc: 715515314114
+      discs: 3
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 27531
+      rating: R
+      reason: null
+      distributor: Universal City Studios, Inc.
+      alt_title: null
+    genres:
+      - comedy
+      - horror
+      - science fiction
+      - dark
+      - dystopian
+  sort_key: brazil
 
 burn_after_reading:
   groups:
@@ -2834,6 +2936,79 @@ heat:
       - gritty
       - violent
   sort_key: heat
+
+high_and_low:
+  groups:
+    - 4k_uhd
+    - black_white
+    - boutique
+  data:
+    title: High and Low
+    year: 1963
+    runtime: 143
+    director: Akira Kurosawa
+    crew:
+      writer:
+        - Hideo Oguni
+        - Eijiro Hisaita
+        - Ryuzo Kikushima
+        - Akira Kurosawa
+      cinematographer:
+        - Asakazu Nakai
+        - Takao Saito
+      prod_designer: Yohsiro Muraki
+      composer: Masaru Sato
+      editor: Akira Kurosawa
+    release:
+      publisher: The Criterion Collection
+      upc: 715515318914
+      discs: 2
+      aspect_ratio: 2.39
+    genres:
+      - drama
+      - mystery
+      - crime
+      - noir
+      - dark
+  sort_key: high_and_low
+
+a_history_of_violence:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: A History of Violence
+    year: 2005
+    runtime: 96
+    director: David Cronenberg
+    crew:
+      writer: Josh Olson
+      cinematographer: Peter Suschitzky
+      prod_designer: Carol Spier
+      composer: Howard Shore
+      editor: Ronald Sanders
+    release:
+      publisher: The Criterion Collection
+      upc: 715515320818
+      discs: 2
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 41604
+      rating: R
+      reason:
+        - strong brutal violence
+        - graphic sexuality
+        - nudity
+        - language
+        - some drug use
+      distributor: New Line Cinema
+      alt_title: null
+    genres:
+      - drama
+      - crime
+      - dark
+      - violent
+  sort_key: history_of_violence
 
 horizon-an_american_saga_chapter_1:
   groups:
@@ -5264,6 +5439,36 @@ rio_bravo:
       - period
   sort_key: rio_bravo
 
+the_roaring_twenties:
+  groups:
+    - hdr10_dv
+    - black_white
+    - boutique
+  data:
+    title: The Roaring Twenties
+    year: 1939
+    runtime: 106
+    director: Raoul Walsh
+    crew:
+      writer:
+        - Jerry Wald
+        - Richard Macaulay
+      cinematographer: Ernie Haller
+      prod_designer: null
+      composer: null
+      editor: Jack Killifer
+    release:
+      publisher: The Criterion Collection
+      upc: 715515292610
+      discs: 2
+      aspect_ratio: 1.37
+    genres:
+      - drama
+      - crime
+      - dark
+      - period
+  sort_key: roaring_twenties
+
 rolling_thunder:
   groups:
     - hdr10_dv
@@ -5779,6 +5984,42 @@ the_social_network:
       - dark
       - period
   sort_key: social_network
+
+sorcerer:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: Sorcerer
+    year: 1977
+    runtime: 121
+    director: William Friedkin
+    crew:
+      writer: Walon Green
+      cinematographer:
+        - John M. Stephens
+        - Dick Bush
+      prod_designer: John Box
+      composer: Tangerine Dream
+      editor: Bud Smith
+    release:
+      publisher: The Criterion Collection
+      upc: 715515314619
+      discs: 3
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 24844
+      rating: PG
+      reason: null
+      distributor:
+        - Paramount Pictures Corp.
+        - Universal City Studios, Inc.
+      alt_title: null
+    genres:
+      - drama
+      - dark
+      - gritty
+  sort_key: sorcerer
 
 speed:
   groups:
@@ -6392,6 +6633,47 @@ the_thing:
       - dark
       - violent
   sort_key: thing
+
+this_is_spinal_tap:
+  groups:
+    - hdr10_dv
+    - boutique
+  data:
+    title: This is Spinal Tap
+    year: 1984
+    runtime: 82
+    director: Rob Reiner
+    crew:
+      writer:
+        - Rob Reiner
+        - Christopher Guest
+        - Michael McKean
+        - Harry Shearer
+      cinematographer: Peter Smokler
+      prod_designer: null
+      composer:
+        - Christopher Guest
+        - Michael McKean
+        - Harry Shearer
+        - Rob Reiner
+      editor:
+        - Robert Leighton
+        - Kent Byda
+        - Kim Secrist
+    release:
+      publisher: The Criterion Collection
+      upc: 715515319010
+      discs: 3
+      aspect_ratio: 1.85
+    mpaa:
+      certificate: 27121
+      rating: R
+      reason: null
+      distributor: Embassy Communications
+      alt_title: null
+    genres:
+      - comedy
+  sort_key: this_is_spinal_tap
 
 to_die_for:
   groups:

@@ -378,6 +378,7 @@ def import_mpaa_data(csvRow: dict, movieDict: dict):
     rating = cell_sort(csvRow["mpaa"])
     if isinstance(rating, str):
         rating = rating.upper()
+    distributor = cell_sort(csvRow["distributor"], "|")
     reason = cell_sort(csvRow["mpaa_reason"])
     alt_title = cell_sort(csvRow["alt_title"], "; ")
     if rating is not None:
@@ -385,7 +386,7 @@ def import_mpaa_data(csvRow: dict, movieDict: dict):
             "certificate" : int(csvRow["mpaa_cert"]),
             "rating" : rating,
             "reason" : reason,
-            "distributor" : csvRow["distributor"],
+            "distributor" : distributor,
             "alt_title" : alt_title,
         }
         movieDict["data"]["mpaa"] = mpaa
